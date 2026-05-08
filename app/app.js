@@ -328,7 +328,15 @@ async function loadData() {
 }
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js');
+  navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' });
+
+  // When a new SW takes control (after skipWaiting), reload to get fresh files
+  let refreshing = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (refreshing) return;
+    refreshing = true;
+    window.location.reload();
+  });
 }
 
 loadData();

@@ -22,5 +22,10 @@ if [ "$confirm" != "yes" ]; then
   exit 1
 fi
 
+# Bump SW cache version to current timestamp so installed PWAs pick up changes
+STAMP=$(date +%Y%m%d%H%M%S)
+sed -i '' "s/const CACHE = 'hours-[^']*'/const CACHE = 'hours-${STAMP}'/" app/sw.js
+echo "SW cache version: hours-${STAMP}"
+
 rsync -azP --delete app/ "$DEPLOY_PATH"
 echo "Deploy complete!"
