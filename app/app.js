@@ -203,10 +203,10 @@ function applyFilters() {
 document.querySelectorAll('.filter-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     const f = btn.dataset.filter;
-    if (activeFilters.has(f)) {
-      activeFilters.delete(f);
-      btn.classList.remove('active');
-    } else {
+    const wasActive = activeFilters.has(f);
+    activeFilters.clear();
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    if (!wasActive) {
       activeFilters.add(f);
       btn.classList.add('active');
     }
