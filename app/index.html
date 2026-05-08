@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)">
+  <title>Hours</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icon-192.png">
+</head>
+<body>
+  <div id="filter-bar">
+    <button class="filter-btn" data-filter="books">Books</button>
+    <button class="filter-btn" data-filter="restaurant">Restaurants</button>
+    <button class="filter-btn" data-filter="shop">Shops</button>
+    <button id="clear-btn">Clear</button>
+  </div>
+  <ul id="business-list"></ul>
+  <p id="updated-label"></p>
+  <script src="app.js" type="module"></script>
+</body>
+</html>

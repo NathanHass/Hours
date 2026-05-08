@@ -147,9 +147,9 @@ async function main() {
     await new Promise(r => setTimeout(r, 200));
   }
 
-  const outPath = join(ROOT, 'hours.json');
+  const outPath = join(ROOT, 'app', 'hours.json');
   writeFileSync(outPath, JSON.stringify(results, null, 2) + '\n');
-  console.log(`\nWrote ${results.length} businesses to hours.json`);
+  console.log(`\nWrote ${results.length} businesses to app/hours.json`);
 }
 
 main().catch(err => {

@@ -1,5 +1,12 @@
 [
-  { "id": "robbins-library", "name": "Robbins Library", "category": "library", "placeId": "ChIJ0Sp5DFB244kRSFAVtDem4bM" },
-  { "id": "fox-library", "name": "Fox Library", "category": "library", "placeId": "ChIJtwszNP5244kRMrl0wQ8VL9k" },
-  { "id": "capitol-theatre", "name": "Capitol Theatre", "category": "shop", "placeId": "ChIJoV9xuP9244kRT8loiM-PpUQ" }
+  { "id": "robbins-library", "name": "Robbins Library", "category": "books", "placeId": "ChIJ0Sp5DFB244kRSFAVtDem4bM" },
+  { "id": "fox-library", "name": "Fox Library", "category": "books", "placeId": "ChIJtwszNP5244kRMrl0wQ8VL9k" },
+  { "id": "capitol-theatre", "name": "Capitol Theatre", "category": "shop", "placeId": "ChIJoV9xuP9244kRT8loiM-PpUQ" },
+  { "id": "book-rack", "name": "The Book Rack", "category": "books", "placeId": "ChIJL9AAU1d244kR56zUS6nALTA" },
+  { "id": "tryst", "name": "Tryst", "category": "restaurant", "placeId": "ChIJu73f0E9244kR6oIizVqJej4" },
+  { "id": "kickstand", "name": "Kickstand Café", "category": "restaurant", "placeId": "ChIJM4NGlFB244kR4uaSl6T7qQ4" },
+  { "id": "maxima", "name": "Maxima", "category": "shop", "placeId": "ChIJF9TpuP9244kRFKBVhuX6RWM" },
+  { "id": "lavictoria", "name": "La Victoria", "category": "shop", "placeId": "ChIJJ8xirVB244kRRvtF0kgbPuE" },
+  { "id": "breadboard", "name": "Breadboard Bakery", "category": "shop", "placeId": "ChIJ3bV-DEt344kRwtpOV13Sazs" }
 ]
+

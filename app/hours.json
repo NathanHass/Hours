@@ -1,0 +1,212 @@
+[
+  {
+    "id": "robbins-library",
+    "name": "Robbins Library",
+    "category": "books",
+    "placeId": "ChIJ0Sp5DFB244kRSFAVtDem4bM",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "14:00",
+          "close": "17:00"
+        },
+        "mon": {
+          "open": "09:00",
+          "close": "21:00"
+        },
+        "tue": {
+          "open": "09:00",
+          "close": "21:00"
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "21:00"
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "21:00"
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "17:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-05-08T19:12:21.191Z"
+  },
+  {
+    "id": "fox-library",
+    "name": "Edith M Fox Library",
+    "category": "books",
+    "placeId": "ChIJtwszNP5244kRMrl0wQ8VL9k",
+    "hours": {
+      "regular": {
+        "sun": null,
+        "mon": null,
+        "tue": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "wed": {
+          "open": "12:00",
+          "close": "20:00"
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "17:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-05-08T19:12:21.487Z"
+  },
+  {
+    "id": "capitol-theatre",
+    "name": "Capitol Theatre",
+    "category": "shop",
+    "placeId": "ChIJoV9xuP9244kRT8loiM-PpUQ",
+    "hours": {
+      "regular": {
+        "sun": null,
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-05-08T19:12:21.790Z"
+  },
+  {
+    "id": "book-rack",
+    "name": "The Book Rack",
+    "category": "books",
+    "placeId": "ChIJL9AAU1d244kR56zUS6nALTA",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "mon": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "tue": {
+          "open": "13:00",
+          "close": "17:00"
+        },
+        "wed": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "thu": {
+          "open": "10:00",
+          "close": "19:00"
+        },
+        "fri": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "sat": {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-05-08T19:12:22.062Z"
+  },
+  {
+    "id": "tryst",
+    "name": "Tryst",
+    "category": "restaurant",
+    "placeId": "ChIJu73f0E9244kR6oIizVqJej4",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "17:00",
+          "close": "21:00"
+        },
+        "mon": {
+          "open": "17:00",
+          "close": "21:00"
+        },
+        "tue": {
+          "open": "17:00",
+          "close": "21:00"
+        },
+        "wed": {
+          "open": "17:00",
+          "close": "21:00"
+        },
+        "thu": {
+          "open": "17:00",
+          "close": "21:00"
+        },
+        "fri": {
+          "open": "17:00",
+          "close": "21:00"
+        },
+        "sat": {
+          "open": "17:00",
+          "close": "21:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-05-08T19:12:22.360Z"
+  },
+  {
+    "id": "kickstand",
+    "name": "Kickstand Cafe",
+    "category": "restaurant",
+    "placeId": "ChIJM4NGlFB244kR4uaSl6T7qQ4",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "08:00",
+          "close": "15:00"
+        },
+        "mon": null,
+        "tue": {
+          "open": "08:00",
+          "close": "15:00"
+        },
+        "wed": {
+          "open": "08:00",
+          "close": "15:00"
+        },
+        "thu": {
+          "open": "08:00",
+          "close": "15:00"
+        },
+        "fri": {
+          "open": "08:00",
+          "close": "15:00"
+        },
+        "sat": {
+          "open": "08:00",
+          "close": "15:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-05-08T19:12:22.652Z"
+  }
+]
