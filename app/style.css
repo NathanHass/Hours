@@ -168,6 +168,27 @@ html, body {
   color: var(--closed);
 }
 
+/* Weekly schedule */
+.biz-schedule {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0 10px;
+  margin-top: 5px;
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+.schedule-override-rule {
+  grid-column: 1 / -1;
+  border-top: 1px solid var(--separator);
+  margin: 2px 0;
+}
+
+.schedule-override {
+  font-style: italic;
+}
+
 /* Tomorrow panel (revealed on swipe) */
 .biz-tomorrow {
   position: absolute;

@@ -61,6 +61,62 @@ function getStatus(business, now) {
   return { label: `<span class="closed">Closed today</span>`, isOpen: false };
 }
 
+function buildScheduleHTML(business) {
+  const DAY_KEYS   = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+  const DAY_LABELS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+  const reg = business.hours.regular;
+
+  // Group consecutive days with identical hours
+  const groups = [];
+  let i = 0;
+  while (i < 7) {
+    const h = reg[DAY_KEYS[i]] ?? null;
+    const hKey = h ? `${h.open}|${h.close}` : 'null';
+    let j = i + 1;
+    while (j < 7) {
+      const nh = reg[DAY_KEYS[j]] ?? null;
+      if ((nh ? `${nh.open}|${nh.close}` : 'null') !== hKey) break;
+      j++;
+    }
+    groups.push({ start: i, end: j - 1, hours: h });
+    i = j;
+  }
+
+  let html = '<div class="biz-schedule">';
+
+  for (const g of groups) {
+    const dayLabel = g.start === g.end
+      ? DAY_LABELS[g.start]
+      : `${DAY_LABELS[g.start]}–${DAY_LABELS[g.end]}`;
+    const hoursStr = g.hours
+      ? `${formatHour(g.hours.open)}–${formatHour(g.hours.close)}`
+      : 'Closed';
+    html += `<span class="schedule-day">${dayLabel}</span><span class="schedule-hours">${hoursStr}</span>`;
+  }
+
+  // Upcoming overrides only
+  const todayStr = new Date().toISOString().slice(0, 10);
+  const upcoming = (business.hours.overrides || [])
+    .filter(o => o.date >= todayStr)
+    .sort((a, b) => a.date.localeCompare(b.date));
+
+  if (upcoming.length > 0) {
+    html += '<span class="schedule-override-rule"></span><span></span>';
+    for (const o of upcoming) {
+      const [y, mo, d] = o.date.split('-').map(Number);
+      const dateLabel = new Date(y, mo - 1, d).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+      const label = o.reason ? `${dateLabel} (${o.reason})` : dateLabel;
+      const hoursStr = o.hours
+        ? `${formatHour(o.hours.open)}–${formatHour(o.hours.close)}`
+        : 'Closed';
+      html += `<span class="schedule-day schedule-override">${label}</span><span class="schedule-hours">${hoursStr}</span>`;
+    }
+  }
+
+  html += '</div>';
+  return html;
+}
+
 function getTomorrowLabel(business, now) {
   const tomorrow = new Date(now);
   tomorrow.setDate(now.getDate() + 1);
@@ -82,6 +138,7 @@ let currentBusinesses = [];
 function buildRow(business, now) {
   const { label } = getStatus(business, now);
   const tomorrowText = getTomorrowLabel(business, now);
+  const scheduleHTML = buildScheduleHTML(business);
 
   const li = document.createElement('li');
   li.className = 'biz-row';
@@ -91,6 +148,7 @@ function buildRow(business, now) {
     <div class="biz-main">
       <div class="biz-name">${business.name}</div>
       <div class="biz-status">${label}</div>
+      ${scheduleHTML}
     </div>`;
 
   attachSwipe(li);
