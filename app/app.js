@@ -128,7 +128,7 @@ let currentBusinesses = [];
 function buildRow(business, now) {
   const { label } = getStatus(business, now);
   const scheduleHTML = buildScheduleHTML(business);
-  const callBtn = business.phone
+  const phoneHTML = business.phone
     ? `<a class="biz-call" href="tel:${business.phone}">${business.phone}</a>`
     : '';
 
@@ -137,11 +137,15 @@ function buildRow(business, now) {
   li.dataset.category = business.category;
   li.innerHTML = `
     <div class="biz-main">
-      <div class="biz-name">${business.name}</div>
-      <div class="biz-status">${label}</div>
-      ${scheduleHTML}
-    </div>
-    ${callBtn}`;
+      <div class="biz-header">
+        <div class="biz-name">${business.name}</div>
+        <div class="biz-status">${label}</div>
+      </div>
+      <div class="biz-accordion">
+        ${scheduleHTML}
+        ${phoneHTML}
+      </div>
+    </div>`;
 
   return li;
 }
@@ -233,6 +237,12 @@ document.getElementById('clear-btn').addEventListener('click', () => {
   activeFilters.clear();
   document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
   applyFilters();
+});
+
+document.getElementById('business-list').addEventListener('click', e => {
+  if (e.target.closest('a')) return;
+  const row = e.target.closest('.biz-row');
+  if (row) row.classList.toggle('expanded');
 });
 
 // --- Timestamp ---
