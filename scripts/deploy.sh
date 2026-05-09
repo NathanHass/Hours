@@ -27,5 +27,5 @@ STAMP=$(date +%Y%m%d%H%M%S)
 sed -i '' "s/const CACHE = ['\"]hours-[^'\"]*['\"]/const CACHE = 'hours-${STAMP}'/" app/sw.js
 echo "SW cache version: hours-${STAMP}"
 
-rsync -azPc --delete app/ "$DEPLOY_PATH"
+rsync -azP --delete app/ "$DEPLOY_PATH"
 echo "Deploy complete!"
