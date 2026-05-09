@@ -38,11 +38,11 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T13:28:49.103Z"
+    "lastUpdated": "2026-05-09T13:32:22.851Z"
   },
   {
     "id": "fox-library",
-    "name": "Edith M Fox Library",
+    "name": "Fox Library",
     "category": "books",
     "placeId": "ChIJtwszNP5244kRMrl0wQ8VL9k",
     "phone": "(781) 316-3198",
@@ -73,7 +73,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T13:28:49.416Z"
+    "lastUpdated": "2026-05-09T13:32:23.144Z"
   },
   {
     "id": "capitol-theatre",
@@ -93,7 +93,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T13:28:49.719Z"
+    "lastUpdated": "2026-05-09T13:32:23.430Z"
   },
   {
     "id": "book-rack",
@@ -134,7 +134,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T13:28:50.023Z"
+    "lastUpdated": "2026-05-09T13:32:23.726Z"
   },
   {
     "id": "tryst",
@@ -175,11 +175,11 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T13:28:50.328Z"
+    "lastUpdated": "2026-05-09T13:32:24.016Z"
   },
   {
     "id": "kickstand",
-    "name": "Kickstand Cafe",
+    "name": "Kickstand Café",
     "category": "bakery/coffee",
     "placeId": "ChIJM4NGlFB244kR4uaSl6T7qQ4",
     "phone": "(781) 583-6110",
@@ -213,11 +213,11 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T13:28:50.620Z"
+    "lastUpdated": "2026-05-09T13:32:24.301Z"
   },
   {
     "id": "maxima",
-    "name": "Maxima Gift & Book Center and Maxima Hive",
+    "name": "Maxima",
     "category": "shop",
     "placeId": "ChIJF9TpuP9244kRFKBVhuX6RWM",
     "phone": "(781) 646-6835",
@@ -254,12 +254,12 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T13:28:50.922Z"
+    "lastUpdated": "2026-05-09T13:32:24.585Z"
   },
   {
     "id": "lavictoria",
-    "name": "La Victoria Taqueria",
-    "category": "shop",
+    "name": "La Victoria",
+    "category": "restaurant",
     "placeId": "ChIJJ8xirVB244kRRvtF0kgbPuE",
     "phone": "(781) 859-5503",
     "hours": {
@@ -292,7 +292,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T13:28:51.221Z"
+    "lastUpdated": "2026-05-09T13:32:24.869Z"
   },
   {
     "id": "breadboard",
@@ -321,11 +321,11 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T13:28:51.513Z"
+    "lastUpdated": "2026-05-09T13:32:25.147Z"
   },
   {
     "id": "arlington-hair-salon",
-    "name": "Arlington Hair Salon-Men",
+    "name": "Arlington Hair Salon",
     "category": "services",
     "placeId": "ChIJg7Algfh244kRTyXkjfJ5CFs",
     "phone": "(781) 646-6425",
@@ -356,11 +356,11 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T13:28:51.809Z"
+    "lastUpdated": "2026-05-09T13:32:25.433Z"
   },
   {
     "id": "helenas",
-    "name": "Helena's",
+    "name": "Helena’s",
     "category": "shop",
     "placeId": "ChIJy3q_Ild244kRm092WQ6cMsY",
     "phone": "(781) 483-3055",
@@ -397,11 +397,11 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T13:28:52.103Z"
+    "lastUpdated": "2026-05-09T13:32:25.707Z"
   },
   {
     "id": "punjab",
-    "name": "Punjab Arlington",
+    "name": "Punjab",
     "category": "restaurant",
     "placeId": "ChIJTSZ3u1B244kRUP4sXEASxs0",
     "phone": "(781) 643-0943",
@@ -435,7 +435,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T13:28:52.407Z"
+    "lastUpdated": "2026-05-09T13:32:25.987Z"
   },
   {
     "id": "acitron",
@@ -476,11 +476,11 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T13:28:52.704Z"
+    "lastUpdated": "2026-05-09T13:32:26.270Z"
   },
   {
     "id": "elis",
-    "name": "Eli's Service Station",
+    "name": "Eli’s Service Station",
     "category": "automotive",
     "placeId": "ChIJkRI1Efl244kRa23FArjNRrg",
     "phone": "(781) 648-9833",
@@ -517,11 +517,11 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T13:28:52.994Z"
+    "lastUpdated": "2026-05-09T13:32:26.558Z"
   },
   {
     "id": "wholefoods-arlington",
-    "name": "Whole Foods Market",
+    "name": "Whole Foods Arlington",
     "category": "groceries",
     "placeId": "ChIJv_yrhE9244kRiZP4JWrlXXg",
     "phone": "(781) 777-7200",
@@ -558,11 +558,11 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T13:28:53.297Z"
+    "lastUpdated": "2026-05-09T13:32:26.835Z"
   },
   {
     "id": "wholefoods-medford",
-    "name": "Whole Foods Market",
+    "name": "Whole Foods Medford",
     "category": "groceries",
     "placeId": "ChIJUWka9et244kRcXcyZkGA1mo",
     "phone": "(781) 395-4998",
@@ -599,11 +599,11 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T13:28:53.600Z"
+    "lastUpdated": "2026-05-09T13:32:27.140Z"
   },
   {
     "id": "starmarket-belmont",
-    "name": "Star Market",
+    "name": "Star Market Belmont",
     "category": "groceries",
     "placeId": "ChIJEX_BCeJ344kRh3-ehRDw1Ak",
     "phone": "(617) 489-6540",
@@ -640,11 +640,11 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T13:28:53.894Z"
+    "lastUpdated": "2026-05-09T13:32:27.420Z"
   },
   {
     "id": "quebrada",
-    "name": "Quebrada Baking Company",
+    "name": "Quebrada Arlington",
     "category": "bakery/coffee",
     "placeId": "ChIJOUYvyv9244kRBqZEKjTNRcE",
     "phone": "(781) 591-0100",
@@ -681,11 +681,11 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T13:28:54.187Z"
+    "lastUpdated": "2026-05-09T13:32:27.704Z"
   },
   {
     "id": "shattuck",
-    "name": "R.W. Shattuck & Co Inc",
+    "name": "Shattuck ACE Hardware",
     "category": "hardware",
     "placeId": "ChIJicBfOEV244kRilJMjELKlIE",
     "phone": "(781) 643-0114",
@@ -722,11 +722,11 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T13:28:54.501Z"
+    "lastUpdated": "2026-05-09T13:32:27.989Z"
   },
   {
     "id": "yoshis",
-    "name": "Yoshi's",
+    "name": "Yoshi’s Japanese",
     "category": "restaurant",
     "placeId": "ChIJHbOpZN9244kRpgI4Nr_oiQk",
     "phone": "(617) 623-9263",
@@ -760,6 +760,6 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T13:28:54.783Z"
+    "lastUpdated": "2026-05-09T13:32:28.270Z"
   }
 ]

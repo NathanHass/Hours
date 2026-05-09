@@ -128,7 +128,7 @@ async function main() {
 
       results.push({
         id: biz.id,
-        name: data.displayName?.text ?? biz.name,
+        name: biz.name,
         category: biz.category,
         placeId: biz.placeId,
         phone: data.nationalPhoneNumber ?? null,
