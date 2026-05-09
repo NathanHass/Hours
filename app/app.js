@@ -117,42 +117,52 @@ function buildScheduleHTML(business) {
   return html;
 }
 
-function getTomorrowLabel(business, now) {
-  const tomorrow = new Date(now);
-  tomorrow.setDate(now.getDate() + 1);
-  const h = getHoursForDate(business, tomorrow);
-  if (!h) return 'Tomorrow: Closed';
-  return `Tomorrow: ${formatHour(h.open)} – ${formatHour(h.close)}`;
-}
-
 // --- Render ---
 
-const CATEGORY_LABELS = {
-  books: 'Books',
-  restaurant: 'Restaurants',
-  shop: 'Shops',
-};
+function categoryLabel(cat) {
+  return cat.charAt(0).toUpperCase() + cat.slice(1);
+}
 
 let currentBusinesses = [];
 
 function buildRow(business, now) {
   const { label } = getStatus(business, now);
-  const tomorrowText = getTomorrowLabel(business, now);
   const scheduleHTML = buildScheduleHTML(business);
+  const callBtn = business.phone
+    ? `<a class="biz-call" href="tel:${business.phone}">${business.phone}</a>`
+    : '';
 
   const li = document.createElement('li');
   li.className = 'biz-row';
   li.dataset.category = business.category;
   li.innerHTML = `
-    <div class="biz-tomorrow">${tomorrowText}</div>
     <div class="biz-main">
       <div class="biz-name">${business.name}</div>
       <div class="biz-status">${label}</div>
       ${scheduleHTML}
-    </div>`;
+    </div>
+    ${callBtn}`;
 
-  attachSwipe(li);
   return li;
+}
+
+function renderFilters() {
+  const scroll = document.getElementById('filter-scroll');
+  scroll.innerHTML = '';
+
+  const categories = [...new Set(currentBusinesses.map(b => b.category))].sort();
+  for (const f of activeFilters) {
+    if (!categories.includes(f)) activeFilters.delete(f);
+  }
+
+  for (const cat of categories) {
+    const btn = document.createElement('button');
+    btn.className = 'filter-btn';
+    btn.dataset.filter = cat;
+    btn.textContent = categoryLabel(cat);
+    if (activeFilters.has(cat)) btn.classList.add('active');
+    scroll.appendChild(btn);
+  }
 }
 
 function renderList() {
@@ -169,7 +179,7 @@ function renderList() {
     for (const cat of Object.keys(groups).sort()) {
       const header = document.createElement('li');
       header.className = 'category-header';
-      header.textContent = CATEGORY_LABELS[cat] ?? cat;
+      header.textContent = categoryLabel(cat);
       list.appendChild(header);
       for (const biz of groups[cat].sort((a, b) => a.name.localeCompare(b.name))) {
         list.appendChild(buildRow(biz, now));
@@ -191,63 +201,8 @@ function renderList() {
 
 function render(businesses) {
   currentBusinesses = businesses;
+  renderFilters();
   renderList();
-}
-
-// --- Swipe ---
-
-function attachSwipe(row) {
-  const main = row.querySelector('.biz-main');
-  const SNAP_THRESHOLD = 0.3; // fraction of row width
-  let startX = 0, startY = 0, currentX = 0, dragging = false, swiped = false;
-
-  row.addEventListener('touchstart', e => {
-    startX = e.touches[0].clientX;
-    startY = e.touches[0].clientY;
-    currentX = 0;
-    dragging = true;
-    row.classList.add('swiped'); // disable CSS transition while dragging
-  }, { passive: true });
-
-  row.addEventListener('touchmove', e => {
-    if (!dragging) return;
-    const dx = e.touches[0].clientX - startX;
-    const dy = e.touches[0].clientY - startY;
-
-    // Bail if primarily a vertical scroll
-    if (!swiped && Math.abs(dy) > Math.abs(dx)) {
-      dragging = false;
-      return;
-    }
-
-    // Only reveal on rightward swipe (positive dx = finger moving right)
-    currentX = Math.max(0, Math.min(dx, row.offsetWidth * 0.55));
-    main.style.transform = `translateX(${currentX}px)`;
-  }, { passive: true });
-
-  row.addEventListener('touchend', () => {
-    if (!dragging) return;
-    dragging = false;
-    row.classList.remove('swiped');
-
-    const threshold = row.offsetWidth * SNAP_THRESHOLD;
-    if (currentX >= threshold) {
-      const maxX = row.offsetWidth * 0.55;
-      main.style.transform = `translateX(${maxX}px)`;
-      swiped = true;
-    } else {
-      main.style.transform = '';
-      swiped = false;
-    }
-  });
-
-  // Tap anywhere on a held-open row snaps it back
-  row.addEventListener('click', () => {
-    if (swiped) {
-      main.style.transform = '';
-      swiped = false;
-    }
-  });
 }
 
 // --- Filters ---
@@ -258,18 +213,18 @@ function applyFilters() {
   renderList();
 }
 
-document.querySelectorAll('.filter-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const f = btn.dataset.filter;
-    const wasActive = activeFilters.has(f);
-    activeFilters.clear();
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-    if (!wasActive) {
-      activeFilters.add(f);
-      btn.classList.add('active');
-    }
-    applyFilters();
-  });
+document.getElementById('filter-bar').addEventListener('click', e => {
+  const btn = e.target.closest('.filter-btn');
+  if (!btn) return;
+  const f = btn.dataset.filter;
+  const wasActive = activeFilters.has(f);
+  activeFilters.clear();
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  if (!wasActive) {
+    activeFilters.add(f);
+    btn.classList.add('active');
+  }
+  applyFilters();
 });
 
 document.getElementById('clear-btn').addEventListener('click', () => {

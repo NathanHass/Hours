@@ -1,12 +1,13 @@
-const CACHE = "hours-v2";
+const CACHE = 'hours-20260509090054';
 const APP_SHELL = ["/", "/index.html", "/style.css", "/app.js", "/sw.js"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
-    caches
-      .open(CACHE)
-      .then((c) => c.addAll(APP_SHELL))
-      .then(() => self.skipWaiting()),
+    caches.open(CACHE).then(c =>
+      Promise.all(APP_SHELL.map(url =>
+        fetch(url, { cache: 'reload' }).then(res => c.put(url, res))
+      ))
+    ).then(() => self.skipWaiting())
   );
 });
 

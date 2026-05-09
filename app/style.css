@@ -11,7 +11,6 @@
   --filter-active-text: #ffffff;
   --separator: #e8e8e8;
   --bar-bg: #ffffff;
-  --tomorrow-bg: #f0f0f0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,7 +27,6 @@
     --filter-active-text: #1a1a1a;
     --separator: #2e2e2e;
     --bar-bg: #1a1a1a;
-    --tomorrow-bg: #2a2a2a;
   }
 }
 
@@ -55,15 +53,30 @@ html, body {
   right: 0;
   z-index: 10;
   display: flex;
-  gap: 6px;
-  padding: 8px 16px;
-  padding-top: calc(8px + env(safe-area-inset-top));
+  align-items: center;
+  padding-top: env(safe-area-inset-top);
   background: var(--bar-bg);
   border-bottom: 1px solid var(--separator);
   overscroll-behavior: none;
 }
 
-.filter-btn, #clear-btn {
+#filter-scroll {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  gap: 6px;
+  padding: 8px 16px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+#filter-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.filter-btn {
   font-family: inherit;
   font-size: 12px;
   font-weight: 500;
@@ -74,6 +87,7 @@ html, body {
   color: var(--text);
   cursor: pointer;
   white-space: nowrap;
+  flex-shrink: 0;
   -webkit-tap-highlight-color: transparent;
   user-select: none;
 }
@@ -86,9 +100,21 @@ html, body {
 
 #clear-btn {
   display: none;
-  margin-left: auto;
+  flex-shrink: 0;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 14px;
+  border: none;
+  border-left: 1px solid var(--separator);
+  border-radius: 0;
+  background: var(--bar-bg);
   color: var(--text-muted);
-  border-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  align-self: stretch;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
 }
 
 #clear-btn.visible {
@@ -116,6 +142,9 @@ html, body {
 
 /* Category header */
 .category-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   padding: 8px 16px 4px;
   font-size: 11px;
   font-weight: 600;
@@ -129,21 +158,13 @@ html, body {
 /* Each row */
 .biz-row {
   position: relative;
-  overflow: hidden;
   border-bottom: 1px solid var(--separator);
-  touch-action: pan-y;
 }
 
 .biz-main {
-  position: relative;
   padding: 10px 16px;
+  padding-right: 52px;
   background: var(--bg);
-  will-change: transform;
-  transition: transform 0.25s ease;
-}
-
-.biz-row.swiped .biz-main {
-  transition: none;
 }
 
 .biz-name {
@@ -161,10 +182,11 @@ html, body {
 
 .biz-status .open {
   color: var(--open);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .biz-status .closed {
+  font-weight: 600;
   color: var(--closed);
 }
 
@@ -189,21 +211,29 @@ html, body {
   font-style: italic;
 }
 
-/* Tomorrow panel (revealed on swipe) */
-.biz-tomorrow {
+/* Call button */
+.biz-call {
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 55%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding-right: 16px;
-  background: var(--tomorrow-bg);
-  font-size: 12px;
-  color: var(--text-muted);
-  pointer-events: none;
+  top: 10px;
+  right: 12px;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 500;
+  color: #999;
+  text-decoration: none;
+  padding: 2px 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .biz-call {
+    color: #777;
+    border-color: #444;
+  }
 }
 
 /* Updated label */

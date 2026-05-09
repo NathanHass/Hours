@@ -4,6 +4,7 @@
     "name": "Robbins Library",
     "category": "books",
     "placeId": "ChIJ0Sp5DFB244kRSFAVtDem4bM",
+    "phone": "(781) 316-3200",
     "hours": {
       "regular": {
         "sun": {
@@ -37,13 +38,14 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-08T19:12:21.191Z"
+    "lastUpdated": "2026-05-09T12:45:42.810Z"
   },
   {
     "id": "fox-library",
     "name": "Edith M Fox Library",
     "category": "books",
     "placeId": "ChIJtwszNP5244kRMrl0wQ8VL9k",
+    "phone": "(781) 316-3198",
     "hours": {
       "regular": {
         "sun": null,
@@ -71,13 +73,14 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-08T19:12:21.487Z"
+    "lastUpdated": "2026-05-09T12:45:43.120Z"
   },
   {
     "id": "capitol-theatre",
     "name": "Capitol Theatre",
     "category": "shop",
     "placeId": "ChIJoV9xuP9244kRT8loiM-PpUQ",
+    "phone": "(781) 648-4340",
     "hours": {
       "regular": {
         "sun": null,
@@ -90,13 +93,14 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-08T19:12:21.790Z"
+    "lastUpdated": "2026-05-09T12:45:43.421Z"
   },
   {
     "id": "book-rack",
     "name": "The Book Rack",
     "category": "books",
     "placeId": "ChIJL9AAU1d244kR56zUS6nALTA",
+    "phone": "(781) 646-2665",
     "hours": {
       "regular": {
         "sun": {
@@ -130,13 +134,14 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-08T19:12:22.062Z"
+    "lastUpdated": "2026-05-09T12:45:43.719Z"
   },
   {
     "id": "tryst",
     "name": "Tryst",
     "category": "restaurant",
     "placeId": "ChIJu73f0E9244kR6oIizVqJej4",
+    "phone": "(781) 641-2227",
     "hours": {
       "regular": {
         "sun": {
@@ -170,13 +175,14 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-08T19:12:22.360Z"
+    "lastUpdated": "2026-05-09T12:45:44.025Z"
   },
   {
     "id": "kickstand",
     "name": "Kickstand Cafe",
-    "category": "restaurant",
+    "category": "bakery/coffee",
     "placeId": "ChIJM4NGlFB244kR4uaSl6T7qQ4",
+    "phone": "(781) 583-6110",
     "hours": {
       "regular": {
         "sun": {
@@ -207,6 +213,515 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-08T19:12:22.652Z"
+    "lastUpdated": "2026-05-09T12:45:44.317Z"
+  },
+  {
+    "id": "maxima",
+    "name": "Maxima Gift & Book Center and Maxima Hive",
+    "category": "shop",
+    "placeId": "ChIJF9TpuP9244kRFKBVhuX6RWM",
+    "phone": "(781) 646-6835",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "mon": {
+          "open": "10:00",
+          "close": "19:00"
+        },
+        "tue": {
+          "open": "10:00",
+          "close": "19:00"
+        },
+        "wed": {
+          "open": "10:00",
+          "close": "19:00"
+        },
+        "thu": {
+          "open": "10:00",
+          "close": "19:00"
+        },
+        "fri": {
+          "open": "10:00",
+          "close": "19:00"
+        },
+        "sat": {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-05-09T12:45:44.609Z"
+  },
+  {
+    "id": "lavictoria",
+    "name": "La Victoria Taqueria",
+    "category": "shop",
+    "placeId": "ChIJJ8xirVB244kRRvtF0kgbPuE",
+    "phone": "(781) 859-5503",
+    "hours": {
+      "regular": {
+        "sun": null,
+        "mon": {
+          "open": "11:00",
+          "close": "20:00"
+        },
+        "tue": {
+          "open": "11:00",
+          "close": "20:00"
+        },
+        "wed": {
+          "open": "11:00",
+          "close": "20:00"
+        },
+        "thu": {
+          "open": "11:00",
+          "close": "20:00"
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "20:15"
+        },
+        "sat": {
+          "open": "11:00",
+          "close": "20:15"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-05-09T12:45:44.902Z"
+  },
+  {
+    "id": "breadboard",
+    "name": "Breadboard Bakery",
+    "category": "bakery/coffee",
+    "placeId": "ChIJ3bV-DEt344kRwtpOV13Sazs",
+    "phone": "(781) 777-2863",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "08:00",
+          "close": "13:00"
+        },
+        "mon": null,
+        "tue": null,
+        "wed": {
+          "open": "08:00",
+          "close": "13:00"
+        },
+        "thu": null,
+        "fri": {
+          "open": "08:00",
+          "close": "13:00"
+        },
+        "sat": null
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-05-09T12:45:45.200Z"
+  },
+  {
+    "id": "arlington-hair-salon",
+    "name": "Arlington Hair Salon-Men",
+    "category": "services",
+    "placeId": "ChIJg7Algfh244kRTyXkjfJ5CFs",
+    "phone": "(781) 646-6425",
+    "hours": {
+      "regular": {
+        "sun": null,
+        "mon": null,
+        "tue": {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "19:00"
+        },
+        "fri": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "sat": {
+          "open": "08:00",
+          "close": "14:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-05-09T12:45:45.510Z"
+  },
+  {
+    "id": "helenas",
+    "name": "Helena's",
+    "category": "shop",
+    "placeId": "ChIJy3q_Ild244kRm092WQ6cMsY",
+    "phone": "(781) 483-3055",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "12:00",
+          "close": "17:00"
+        },
+        "mon": {
+          "open": "11:00",
+          "close": "18:00"
+        },
+        "tue": {
+          "open": "11:00",
+          "close": "18:00"
+        },
+        "wed": {
+          "open": "11:00",
+          "close": "18:00"
+        },
+        "thu": {
+          "open": "11:00",
+          "close": "18:00"
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "18:00"
+        },
+        "sat": {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-05-09T12:45:45.799Z"
+  },
+  {
+    "id": "punjab",
+    "name": "Punjab Arlington",
+    "category": "restaurant",
+    "placeId": "ChIJTSZ3u1B244kRUP4sXEASxs0",
+    "phone": "(781) 643-0943",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "mon": null,
+        "tue": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "wed": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "thu": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "sat": {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-05-09T12:45:46.094Z"
+  },
+  {
+    "id": "acitron",
+    "name": "Acitrón",
+    "category": "restaurant",
+    "placeId": "ChIJ6yZ3u1B244kRJqNMZVlJVxg",
+    "phone": "(781) 777-2839",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "17:00",
+          "close": "21:00"
+        },
+        "mon": {
+          "open": "17:00",
+          "close": "21:30"
+        },
+        "tue": {
+          "open": "17:00",
+          "close": "21:30"
+        },
+        "wed": {
+          "open": "17:00",
+          "close": "21:30"
+        },
+        "thu": {
+          "open": "17:00",
+          "close": "21:30"
+        },
+        "fri": {
+          "open": "17:00",
+          "close": "21:30"
+        },
+        "sat": {
+          "open": "17:00",
+          "close": "21:30"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-05-09T12:45:46.389Z"
+  },
+  {
+    "id": "elis",
+    "name": "Eli's Service Station",
+    "category": "automotive",
+    "placeId": "ChIJkRI1Efl244kRa23FArjNRrg",
+    "phone": "(781) 648-9833",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "08:00",
+          "close": "20:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "21:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "21:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "21:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "21:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "21:00"
+        },
+        "sat": {
+          "open": "07:00",
+          "close": "21:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-05-09T12:45:46.687Z"
+  },
+  {
+    "id": "wholefoods-arlington",
+    "name": "Whole Foods Market",
+    "category": "groceries",
+    "placeId": "ChIJv_yrhE9244kRiZP4JWrlXXg",
+    "phone": "(781) 777-7200",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "mon": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "tue": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "wed": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "thu": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "fri": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "sat": {
+          "open": "08:00",
+          "close": "21:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-05-09T12:45:46.978Z"
+  },
+  {
+    "id": "wholefoods-medford",
+    "name": "Whole Foods Market",
+    "category": "groceries",
+    "placeId": "ChIJUWka9et244kRcXcyZkGA1mo",
+    "phone": "(781) 395-4998",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "mon": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "tue": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "wed": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "thu": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "fri": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "sat": {
+          "open": "08:00",
+          "close": "21:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-05-09T12:45:47.275Z"
+  },
+  {
+    "id": "starmarket-belmont",
+    "name": "Star Market",
+    "category": "groceries",
+    "placeId": "ChIJEX_BCeJ344kRh3-ehRDw1Ak",
+    "phone": "(617) 489-6540",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "07:00",
+          "close": "22:00"
+        },
+        "mon": {
+          "open": "07:00",
+          "close": "22:00"
+        },
+        "tue": {
+          "open": "07:00",
+          "close": "22:00"
+        },
+        "wed": {
+          "open": "07:00",
+          "close": "22:00"
+        },
+        "thu": {
+          "open": "07:00",
+          "close": "22:00"
+        },
+        "fri": {
+          "open": "07:00",
+          "close": "22:00"
+        },
+        "sat": {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-05-09T12:45:47.572Z"
+  },
+  {
+    "id": "quebrada",
+    "name": "Quebrada Baking Company",
+    "category": "bakery/coffee",
+    "placeId": "ChIJOUYvyv9244kRBqZEKjTNRcE",
+    "phone": "(781) 591-0100",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "06:00",
+          "close": "16:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "18:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "18:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "18:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "18:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "18:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "18:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-05-09T12:45:47.866Z"
+  },
+  {
+    "id": "shattuck",
+    "name": "R.W. Shattuck & Co Inc",
+    "category": "hardware",
+    "placeId": "ChIJicBfOEV244kRilJMjELKlIE",
+    "phone": "(781) 643-0114",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "mon": {
+          "open": "07:30",
+          "close": "18:00"
+        },
+        "tue": {
+          "open": "07:30",
+          "close": "18:00"
+        },
+        "wed": {
+          "open": "07:30",
+          "close": "18:00"
+        },
+        "thu": {
+          "open": "07:30",
+          "close": "18:00"
+        },
+        "fri": {
+          "open": "07:30",
+          "close": "18:00"
+        },
+        "sat": {
+          "open": "08:00",
+          "close": "17:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-05-09T12:45:48.154Z"
   }
 ]

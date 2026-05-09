@@ -24,8 +24,8 @@ fi
 
 # Bump SW cache version to current timestamp so installed PWAs pick up changes
 STAMP=$(date +%Y%m%d%H%M%S)
-sed -i '' "s/const CACHE = 'hours-[^']*'/const CACHE = 'hours-${STAMP}'/" app/sw.js
+sed -i '' "s/const CACHE = ['\"]hours-[^'\"]*['\"]/const CACHE = 'hours-${STAMP}'/" app/sw.js
 echo "SW cache version: hours-${STAMP}"
 
-rsync -azP --delete app/ "$DEPLOY_PATH"
+rsync -azPc --delete app/ "$DEPLOY_PATH"
 echo "Deploy complete!"

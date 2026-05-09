@@ -96,7 +96,7 @@ async function fetchPlace(placeId) {
   const res = await fetch(url, {
     headers: {
       'X-Goog-Api-Key': API_KEY,
-      'X-Goog-FieldMask': 'displayName,regularOpeningHours,currentOpeningHours',
+      'X-Goog-FieldMask': 'displayName,nationalPhoneNumber,regularOpeningHours,currentOpeningHours',
     },
   });
   if (!res.ok) {
@@ -131,6 +131,7 @@ async function main() {
         name: data.displayName?.text ?? biz.name,
         category: biz.category,
         placeId: biz.placeId,
+        phone: data.nationalPhoneNumber ?? null,
         hours: {
           regular: parseRegularHours(data.regularOpeningHours),
           overrides: parseOverrides(data.currentOpeningHours),

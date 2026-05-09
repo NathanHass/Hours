@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Place ID Search</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    background: #f5f5f5;
+    color: #1a1a1a;
+    padding: 24px;
+  }
+  h1 { font-size: 18px; font-weight: 600; margin-bottom: 20px; }
+  .form-row { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; align-items: flex-end; }
+  .field { display: flex; flex-direction: column; }
+  .label { font-size: 12px; color: #666; margin-bottom: 4px; }
+  input, button {
+    font-family: inherit;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    outline: none;
+  }
+  input:focus { border-color: #0066cc; }
+  #name { width: 260px; }
+  #zip  { width: 100px; }
+  button {
+    background: #0066cc;
+    color: #fff;
+    border-color: #0066cc;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  button:hover { background: #0055aa; }
+  button:disabled { background: #99b8d9; border-color: #99b8d9; cursor: default; }
+  #error  { color: #c00; font-size: 13px; margin-bottom: 12px; display: none; }
+  #status { font-size: 13px; color: #666; margin-bottom: 12px; min-height: 18px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  th {
+    background: #eee;
+    text-align: left;
+    padding: 10px 12px;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #555;
+  }
+  td { padding: 10px 12px; border-top: 1px solid #eee; vertical-align: top; }
+  tr:hover td { background: #fafafa; }
+  .place-id { font-family: monospace; font-size: 12px; color: #333; word-break: break-all; }
+  .address, .rating { color: #666; font-size: 13px; }
+  .copy-btn {
+    background: #fff;
+    color: #0066cc;
+    border: 1px solid #0066cc;
+    border-radius: 4px;
+    padding: 3px 8px;
+    font-size: 12px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .copy-btn:hover { background: #e8f0fa; }
+  .copy-btn.copied { color: #2a7a2a; border-color: #2a7a2a; }
+  #results { display: none; }
+</style>
+</head>
+<body>
+<h1>Place ID Search</h1>
+
+<div class="form-row">
+  <div class="field">
+    <div class="label">Business name</div>
+    <input type="text" id="name" placeholder="Robbins Library" autofocus>
+  </div>
+  <div class="field">
+    <div class="label">ZIP code</div>
+    <input type="text" id="zip" placeholder="02474" maxlength="10">
+  </div>
+  <button id="searchBtn" onclick="search()">Search</button>
+</div>
+
+<div id="error"></div>
+<div id="status"></div>
+
+<div id="results">
+  <table>
+    <thead>
+      <tr><th>Name</th><th>Address</th><th>Rating</th><th>Place ID</th><th></th></tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<script>
+  ['name', 'zip'].forEach(id => {
+    document.getElementById(id).addEventListener('keydown', e => { if (e.key === 'Enter') search(); });
+  });
+
+  async function search() {
+    const name = document.getElementById('name').value.trim();
+    const zip  = document.getElementById('zip').value.trim();
+    const btn  = document.getElementById('searchBtn');
+
+    document.getElementById('error').style.display = 'none';
+    if (!name) { showError('Enter a business name.'); return; }
+
+    const q = zip ? `${name} ${zip}` : name;
+    btn.disabled = true;
+    document.getElementById('status').textContent = 'Searching…';
+    document.getElementById('results').style.display = 'none';
+
+    try {
+      const res  = await fetch(`/search?q=${encodeURIComponent(q)}`);
+      const data = await res.json();
+
+      if (!res.ok) { showError(`API error: ${data?.error?.message || data?.error || `HTTP ${res.status}`}`); return; }
+
+      const places = data.places || [];
+      document.getElementById('status').textContent =
+        places.length ? `${places.length} result${places.length === 1 ? '' : 's'}` : 'No results found.';
+      renderTable(places);
+    } catch (e) {
+      showError(`Request failed: ${e.message}`);
+    } finally {
+      btn.disabled = false;
+    }
+  }
+
+  function renderTable(places) {
+    const tbody = document.getElementById('tbody');
+    tbody.innerHTML = '';
+    if (!places.length) return;
+    places.forEach(p => {
+      const id      = p.id || '';
+      const name    = p.displayName?.text || '—';
+      const address = p.formattedAddress || '—';
+      const rating  = p.rating ? `${p.rating} (${p.userRatingCount ?? 0})` : '—';
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${esc(name)}</td>
+        <td class="address">${esc(address)}</td>
+        <td class="rating">${esc(rating)}</td>
+        <td class="place-id">${esc(id)}</td>
+        <td><button class="copy-btn" data-id="${esc(id)}" onclick="copyId(this)">Copy</button></td>`;
+      tbody.appendChild(tr);
+    });
+    document.getElementById('results').style.display = 'block';
+  }
+
+  function copyId(btn) {
+    navigator.clipboard.writeText(btn.dataset.id).then(() => {
+      btn.textContent = 'Copied!';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 1500);
+    });
+  }
+
+  function showError(msg) {
+    const el = document.getElementById('error');
+    el.textContent = msg;
+    el.style.display = '';
+    document.getElementById('status').textContent = '';
+  }
+
+  function esc(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+</script>
+</body>
+</html>
