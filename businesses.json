@@ -1,7 +1,6 @@
 [
   { "id": "robbins-library", "name": "Robbins Library", "category": "books", "placeId": "ChIJ0Sp5DFB244kRSFAVtDem4bM" },
   { "id": "fox-library", "name": "Fox Library", "category": "books", "placeId": "ChIJtwszNP5244kRMrl0wQ8VL9k" },
-  { "id": "capitol-theatre", "name": "Capitol Theatre", "category": "shop", "placeId": "ChIJoV9xuP9244kRT8loiM-PpUQ" },
   { "id": "book-rack", "name": "The Book Rack", "category": "books", "placeId": "ChIJL9AAU1d244kR56zUS6nALTA" },
   { "id": "tryst", "name": "Tryst", "category": "restaurant", "placeId": "ChIJu73f0E9244kR6oIizVqJej4" },
   { "id": "kickstand", "name": "Kickstand Café", "category": "bakery/coffee", "placeId": "ChIJM4NGlFB244kR4uaSl6T7qQ4" },
@@ -18,6 +17,10 @@
   { "id": "starmarket-belmont", "name": "Star Market Belmont", "category": "groceries", "placeId": "ChIJEX_BCeJ344kRh3-ehRDw1Ak" },
   { "id": "quebrada", "name": "Quebrada Arlington", "category": "bakery/coffee", "placeId": "ChIJOUYvyv9244kRBqZEKjTNRcE" },
   { "id": "shattuck", "name": "Shattuck ACE Hardware", "category": "hardware", "placeId": "ChIJicBfOEV244kRilJMjELKlIE" },
-  { "id": "yoshis", "name": "Yoshi’s Japanese", "category": "restaurant", "placeId": "ChIJHbOpZN9244kRpgI4Nr_oiQk" }
+  { "id": "yoshis", "name": "Yoshi’s Japanese", "category": "restaurant", "placeId": "ChIJHbOpZN9244kRpgI4Nr_oiQk" },
+  { "id": "scoop", "name": "Scoop N Scootery", "category": "restaurant", "placeId": "ChIJe_KwKCh344kRk8xPfwZmbk4" },
+  { "id": "tatte-arlington", "name": "Tatte Arlington", "category": "bakery/coffee", "placeId": "ChIJ-86MCXZ344kRtSGabagfZRY" },
+  { "id": "belmont-books", "name": "Belmont Books", "category": "books", "placeId": "ChIJM2XLKsR344kR5Sa24czy2oM" }
 
 ]
+
