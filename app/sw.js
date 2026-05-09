@@ -1,4 +1,4 @@
-const CACHE = 'hours-20260509093240';
+const CACHE = 'hours-20260509093758';
 const APP_SHELL = ["/", "/index.html", "/style.css", "/app.js", "/sw.js"];
 
 self.addEventListener("install", (e) => {
