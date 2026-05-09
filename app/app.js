@@ -211,6 +211,8 @@ let activeFilters = new Set();
 
 function applyFilters() {
   renderList();
+  document.getElementById('business-list').scrollTop = 0;
+  window.scrollTo(0, 0);
 }
 
 document.getElementById('filter-bar').addEventListener('click', e => {
