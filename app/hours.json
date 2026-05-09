@@ -38,7 +38,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T12:45:42.810Z"
+    "lastUpdated": "2026-05-09T13:28:49.103Z"
   },
   {
     "id": "fox-library",
@@ -73,7 +73,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T12:45:43.120Z"
+    "lastUpdated": "2026-05-09T13:28:49.416Z"
   },
   {
     "id": "capitol-theatre",
@@ -93,7 +93,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T12:45:43.421Z"
+    "lastUpdated": "2026-05-09T13:28:49.719Z"
   },
   {
     "id": "book-rack",
@@ -134,7 +134,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T12:45:43.719Z"
+    "lastUpdated": "2026-05-09T13:28:50.023Z"
   },
   {
     "id": "tryst",
@@ -175,7 +175,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T12:45:44.025Z"
+    "lastUpdated": "2026-05-09T13:28:50.328Z"
   },
   {
     "id": "kickstand",
@@ -213,7 +213,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T12:45:44.317Z"
+    "lastUpdated": "2026-05-09T13:28:50.620Z"
   },
   {
     "id": "maxima",
@@ -254,7 +254,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T12:45:44.609Z"
+    "lastUpdated": "2026-05-09T13:28:50.922Z"
   },
   {
     "id": "lavictoria",
@@ -292,7 +292,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T12:45:44.902Z"
+    "lastUpdated": "2026-05-09T13:28:51.221Z"
   },
   {
     "id": "breadboard",
@@ -321,7 +321,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T12:45:45.200Z"
+    "lastUpdated": "2026-05-09T13:28:51.513Z"
   },
   {
     "id": "arlington-hair-salon",
@@ -356,7 +356,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T12:45:45.510Z"
+    "lastUpdated": "2026-05-09T13:28:51.809Z"
   },
   {
     "id": "helenas",
@@ -397,7 +397,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T12:45:45.799Z"
+    "lastUpdated": "2026-05-09T13:28:52.103Z"
   },
   {
     "id": "punjab",
@@ -435,7 +435,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T12:45:46.094Z"
+    "lastUpdated": "2026-05-09T13:28:52.407Z"
   },
   {
     "id": "acitron",
@@ -476,7 +476,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T12:45:46.389Z"
+    "lastUpdated": "2026-05-09T13:28:52.704Z"
   },
   {
     "id": "elis",
@@ -517,7 +517,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T12:45:46.687Z"
+    "lastUpdated": "2026-05-09T13:28:52.994Z"
   },
   {
     "id": "wholefoods-arlington",
@@ -558,7 +558,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T12:45:46.978Z"
+    "lastUpdated": "2026-05-09T13:28:53.297Z"
   },
   {
     "id": "wholefoods-medford",
@@ -599,7 +599,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T12:45:47.275Z"
+    "lastUpdated": "2026-05-09T13:28:53.600Z"
   },
   {
     "id": "starmarket-belmont",
@@ -640,7 +640,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T12:45:47.572Z"
+    "lastUpdated": "2026-05-09T13:28:53.894Z"
   },
   {
     "id": "quebrada",
@@ -681,7 +681,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T12:45:47.866Z"
+    "lastUpdated": "2026-05-09T13:28:54.187Z"
   },
   {
     "id": "shattuck",
@@ -722,6 +722,44 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-09T12:45:48.154Z"
+    "lastUpdated": "2026-05-09T13:28:54.501Z"
+  },
+  {
+    "id": "yoshis",
+    "name": "Yoshi's",
+    "category": "restaurant",
+    "placeId": "ChIJHbOpZN9244kRpgI4Nr_oiQk",
+    "phone": "(617) 623-9263",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "12:30",
+          "close": "22:00"
+        },
+        "mon": {
+          "open": "11:30",
+          "close": "22:00"
+        },
+        "tue": null,
+        "wed": {
+          "open": "11:30",
+          "close": "22:00"
+        },
+        "thu": {
+          "open": "11:30",
+          "close": "22:00"
+        },
+        "fri": {
+          "open": "11:30",
+          "close": "22:30"
+        },
+        "sat": {
+          "open": "11:30",
+          "close": "22:30"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-05-09T13:28:54.783Z"
   }
 ]

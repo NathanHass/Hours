@@ -17,6 +17,7 @@
   { "id": "wholefoods-medford", "name": "Whole Foods Arlington", "category": "groceries", "placeId": "ChIJUWka9et244kRcXcyZkGA1mo" },
   { "id": "starmarket-belmont", "name": "Star Market Belmont", "category": "groceries", "placeId": "ChIJEX_BCeJ344kRh3-ehRDw1Ak" },
   { "id": "quebrada", "name": "Quebrada Arlington", "category": "bakery/coffee", "placeId": "ChIJOUYvyv9244kRBqZEKjTNRcE" },
-  { "id": "shattuck", "name": "Shattuck ACE Hardware", "category": "hardware", "placeId": "ChIJicBfOEV244kRilJMjELKlIE" }
+  { "id": "shattuck", "name": "Shattuck ACE Hardware", "category": "hardware", "placeId": "ChIJicBfOEV244kRilJMjELKlIE" },
+  { "id": "yoshis", "name": "Yoshi’s Japanese", "category": "restaurant", "placeId": "ChIJHbOpZN9244kRpgI4Nr_oiQk" }
 
 ]
