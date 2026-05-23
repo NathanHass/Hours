@@ -41,7 +41,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:32.040Z"
+    "lastUpdated": "2026-05-23T13:20:57.080Z"
   },
   {
     "id": "fox-library",
@@ -77,9 +77,14 @@
           "close": "17:00"
         }
       },
-      "overrides": []
+      "overrides": [
+        {
+          "date": "2026-05-23",
+          "hours": null
+        }
+      ]
     },
-    "lastUpdated": "2026-05-13T13:53:32.353Z"
+    "lastUpdated": "2026-05-23T13:20:57.392Z"
   },
   {
     "id": "book-rack",
@@ -123,7 +128,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:32.663Z"
+    "lastUpdated": "2026-05-23T13:20:57.704Z"
   },
   {
     "id": "tryst",
@@ -167,7 +172,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:32.973Z"
+    "lastUpdated": "2026-05-23T13:20:58.017Z"
   },
   {
     "id": "kickstand",
@@ -208,7 +213,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:33.270Z"
+    "lastUpdated": "2026-05-23T13:20:58.340Z"
   },
   {
     "id": "maxima",
@@ -250,9 +255,14 @@
           "close": "19:00"
         }
       },
-      "overrides": []
+      "overrides": [
+        {
+          "date": "2026-05-25",
+          "hours": null
+        }
+      ]
     },
-    "lastUpdated": "2026-05-13T13:53:33.578Z"
+    "lastUpdated": "2026-05-23T13:20:58.652Z"
   },
   {
     "id": "lavictoria",
@@ -293,7 +303,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:33.887Z"
+    "lastUpdated": "2026-05-23T13:20:58.968Z"
   },
   {
     "id": "breadboard",
@@ -325,7 +335,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:34.198Z"
+    "lastUpdated": "2026-05-23T13:20:59.280Z"
   },
   {
     "id": "arlington-hair-salon",
@@ -363,7 +373,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:34.487Z"
+    "lastUpdated": "2026-05-23T13:20:59.594Z"
   },
   {
     "id": "helenas",
@@ -407,7 +417,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:34.784Z"
+    "lastUpdated": "2026-05-23T13:20:59.914Z"
   },
   {
     "id": "punjab",
@@ -448,7 +458,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:35.083Z"
+    "lastUpdated": "2026-05-23T13:21:00.238Z"
   },
   {
     "id": "acitron",
@@ -492,7 +502,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:35.386Z"
+    "lastUpdated": "2026-05-23T13:21:00.552Z"
   },
   {
     "id": "elis",
@@ -536,7 +546,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:35.684Z"
+    "lastUpdated": "2026-05-23T13:21:00.864Z"
   },
   {
     "id": "wholefoods-arlington",
@@ -580,7 +590,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:35.991Z"
+    "lastUpdated": "2026-05-23T13:21:01.178Z"
   },
   {
     "id": "wholefoods-medford",
@@ -624,7 +634,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:36.292Z"
+    "lastUpdated": "2026-05-23T13:21:01.500Z"
   },
   {
     "id": "starmarket-belmont",
@@ -668,7 +678,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:36.594Z"
+    "lastUpdated": "2026-05-23T13:21:01.818Z"
   },
   {
     "id": "quebrada",
@@ -710,9 +720,14 @@
           "close": "18:00"
         }
       },
-      "overrides": []
+      "overrides": [
+        {
+          "date": "2026-05-25",
+          "hours": null
+        }
+      ]
     },
-    "lastUpdated": "2026-05-13T13:53:36.905Z"
+    "lastUpdated": "2026-05-23T13:21:02.118Z"
   },
   {
     "id": "shattuck",
@@ -756,7 +771,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:37.215Z"
+    "lastUpdated": "2026-05-23T13:21:02.431Z"
   },
   {
     "id": "yoshis",
@@ -797,7 +812,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:37.511Z"
+    "lastUpdated": "2026-05-23T13:21:02.735Z"
   },
   {
     "id": "scoop",
@@ -838,7 +853,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:37.785Z"
+    "lastUpdated": "2026-05-23T13:21:03.062Z"
   },
   {
     "id": "tatte-arlington",
@@ -882,7 +897,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:38.064Z"
+    "lastUpdated": "2026-05-23T13:21:03.353Z"
   },
   {
     "id": "belmont-books",
@@ -926,7 +941,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:38.346Z"
+    "lastUpdated": "2026-05-23T13:21:03.651Z"
   },
   {
     "id": "bicycle-belle",
@@ -962,17 +977,9 @@
           "close": "17:00"
         }
       },
-      "overrides": [
-        {
-          "date": "2026-05-16",
-          "hours": {
-            "open": "10:00",
-            "close": "14:00"
-          }
-        }
-      ]
+      "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:38.617Z"
+    "lastUpdated": "2026-05-23T13:21:03.934Z"
   },
   {
     "id": "belmont-wheelworks",
@@ -1016,7 +1023,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:38.895Z"
+    "lastUpdated": "2026-05-23T13:21:04.301Z"
   },
   {
     "id": "ace-wheelworks",
@@ -1060,7 +1067,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:39.173Z"
+    "lastUpdated": "2026-05-23T13:21:04.634Z"
   },
   {
     "id": "walgreens-store",
@@ -1104,7 +1111,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:39.445Z"
+    "lastUpdated": "2026-05-23T13:21:04.921Z"
   },
   {
     "id": "walgreens-pharmacy",
@@ -1146,9 +1153,14 @@
           "close": "18:00"
         }
       },
-      "overrides": []
+      "overrides": [
+        {
+          "date": "2026-05-25",
+          "hours": null
+        }
+      ]
     },
-    "lastUpdated": "2026-05-13T13:53:39.722Z"
+    "lastUpdated": "2026-05-23T13:21:05.232Z"
   },
   {
     "id": "CVS",
@@ -1192,7 +1204,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:40.005Z"
+    "lastUpdated": "2026-05-23T13:21:05.517Z"
   },
   {
     "id": "cvs-pharmacy",
@@ -1211,7 +1223,7 @@
         },
         "mon": {
           "open": "14:00",
-          "close": "21:00"
+          "close": "18:00"
         },
         "tue": {
           "open": "14:00",
@@ -1234,9 +1246,17 @@
           "close": "20:00"
         }
       },
-      "overrides": []
+      "overrides": [
+        {
+          "date": "2026-05-25",
+          "hours": {
+            "open": "10:00",
+            "close": "18:00"
+          }
+        }
+      ]
     },
-    "lastUpdated": "2026-05-13T13:53:40.280Z"
+    "lastUpdated": "2026-05-23T13:21:05.877Z"
   },
   {
     "id": "my-eye-dr",
@@ -1274,6 +1294,6 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-13T13:53:40.562Z"
+    "lastUpdated": "2026-05-23T13:21:06.210Z"
   }
 ]
