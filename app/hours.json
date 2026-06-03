@@ -41,7 +41,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:03.636Z"
+    "lastUpdated": "2026-06-03T12:08:34.155Z"
   },
   {
     "id": "fox-library",
@@ -79,7 +79,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:03.923Z"
+    "lastUpdated": "2026-06-03T12:08:34.466Z"
   },
   {
     "id": "book-rack",
@@ -123,7 +123,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:04.219Z"
+    "lastUpdated": "2026-06-03T12:08:34.769Z"
   },
   {
     "id": "tryst",
@@ -167,7 +167,83 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:04.514Z"
+    "lastUpdated": "2026-06-03T12:08:35.069Z"
+  },
+  {
+    "id": "dunkin-369",
+    "name": "Dunkin (369 Mass Ave)",
+    "category": "bakery/coffee",
+    "placeId": "ChIJ22mv-1Z244kRhTf42q9rKhs",
+    "phone": "(781) 648-1681",
+    "address": "369 Massachusetts Ave, Arlington",
+    "lat": 42.4122797,
+    "lng": -71.1485816,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "04:30",
+          "close": "19:00"
+        },
+        "mon": {
+          "open": "04:30",
+          "close": "19:00"
+        },
+        "tue": {
+          "open": "04:30",
+          "close": "19:00"
+        },
+        "wed": {
+          "open": "04:30",
+          "close": "19:00"
+        },
+        "thu": {
+          "open": "04:30",
+          "close": "19:00"
+        },
+        "fri": {
+          "open": "04:30",
+          "close": "19:00"
+        },
+        "sat": {
+          "open": "04:30",
+          "close": "19:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-06-03T12:08:35.366Z"
+  },
+  {
+    "id": "breadboard",
+    "name": "Breadboard Bakery",
+    "category": "bakery/coffee",
+    "placeId": "ChIJ3bV-DEt344kRwtpOV13Sazs",
+    "phone": "(781) 777-2863",
+    "address": "203A Broadway #207, Arlington",
+    "lat": 42.4120747,
+    "lng": -71.14451260000001,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "08:00",
+          "close": "13:00"
+        },
+        "mon": null,
+        "tue": null,
+        "wed": {
+          "open": "08:00",
+          "close": "13:00"
+        },
+        "thu": null,
+        "fri": {
+          "open": "08:00",
+          "close": "13:00"
+        },
+        "sat": null
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-06-03T12:08:35.652Z"
   },
   {
     "id": "kickstand",
@@ -211,7 +287,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:04.818Z"
+    "lastUpdated": "2026-06-03T12:08:35.993Z"
   },
   {
     "id": "lavictoria",
@@ -252,39 +328,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:05.111Z"
-  },
-  {
-    "id": "breadboard",
-    "name": "Breadboard Bakery",
-    "category": "bakery/coffee",
-    "placeId": "ChIJ3bV-DEt344kRwtpOV13Sazs",
-    "phone": "(781) 777-2863",
-    "address": "203A Broadway #207, Arlington",
-    "lat": 42.4120747,
-    "lng": -71.14451260000001,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "08:00",
-          "close": "13:00"
-        },
-        "mon": null,
-        "tue": null,
-        "wed": {
-          "open": "08:00",
-          "close": "13:00"
-        },
-        "thu": null,
-        "fri": {
-          "open": "08:00",
-          "close": "13:00"
-        },
-        "sat": null
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:05:05.394Z"
+    "lastUpdated": "2026-06-03T12:08:36.295Z"
   },
   {
     "id": "arlington-hair-salon",
@@ -322,7 +366,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:05.680Z"
+    "lastUpdated": "2026-06-03T12:08:36.602Z"
   },
   {
     "id": "punjab",
@@ -363,7 +407,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:05.976Z"
+    "lastUpdated": "2026-06-03T12:08:36.893Z"
   },
   {
     "id": "acitron",
@@ -407,7 +451,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:06.275Z"
+    "lastUpdated": "2026-06-03T12:08:37.192Z"
   },
   {
     "id": "elis",
@@ -451,7 +495,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:06.577Z"
+    "lastUpdated": "2026-06-03T12:08:37.484Z"
   },
   {
     "id": "wholefoods-arlington",
@@ -495,7 +539,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:06.872Z"
+    "lastUpdated": "2026-06-03T12:08:37.791Z"
   },
   {
     "id": "wholefoods-medford",
@@ -539,7 +583,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:07.386Z"
+    "lastUpdated": "2026-06-03T12:08:38.082Z"
   },
   {
     "id": "starmarket-belmont",
@@ -583,7 +627,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:07.694Z"
+    "lastUpdated": "2026-06-03T12:08:38.373Z"
   },
   {
     "id": "quebrada",
@@ -627,7 +671,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:07.991Z"
+    "lastUpdated": "2026-06-03T12:08:38.667Z"
   },
   {
     "id": "shattuck",
@@ -671,7 +715,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:08.284Z"
+    "lastUpdated": "2026-06-03T12:08:38.957Z"
   },
   {
     "id": "yoshis",
@@ -712,7 +756,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:08.564Z"
+    "lastUpdated": "2026-06-03T12:08:39.255Z"
   },
   {
     "id": "scoop",
@@ -753,7 +797,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:08.857Z"
+    "lastUpdated": "2026-06-03T12:08:39.557Z"
   },
   {
     "id": "tatte-arlington",
@@ -797,7 +841,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:09.148Z"
+    "lastUpdated": "2026-06-03T12:08:39.840Z"
   },
   {
     "id": "belmont-books",
@@ -841,7 +885,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:09.425Z"
+    "lastUpdated": "2026-06-03T12:08:40.123Z"
   },
   {
     "id": "bicycle-belle",
@@ -876,7 +920,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:09.701Z"
+    "lastUpdated": "2026-06-03T12:08:40.413Z"
   },
   {
     "id": "belmont-wheelworks",
@@ -920,7 +964,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:09.981Z"
+    "lastUpdated": "2026-06-03T12:08:40.694Z"
   },
   {
     "id": "ace-wheelworks",
@@ -964,7 +1008,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:10.260Z"
+    "lastUpdated": "2026-06-03T12:08:40.969Z"
   },
   {
     "id": "walgreens-store",
@@ -1008,7 +1052,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:10.543Z"
+    "lastUpdated": "2026-06-03T12:08:41.240Z"
   },
   {
     "id": "walgreens-pharmacy",
@@ -1052,7 +1096,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:10.822Z"
+    "lastUpdated": "2026-06-03T12:08:41.519Z"
   },
   {
     "id": "CVS",
@@ -1096,7 +1140,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:11.113Z"
+    "lastUpdated": "2026-06-03T12:08:41.798Z"
   },
   {
     "id": "cvs-pharmacy",
@@ -1140,7 +1184,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:11.390Z"
+    "lastUpdated": "2026-06-03T12:08:42.076Z"
   },
   {
     "id": "my-eye-dr",
@@ -1178,7 +1222,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:11.668Z"
+    "lastUpdated": "2026-06-03T12:08:42.353Z"
   },
   {
     "id": "maxima",
@@ -1222,7 +1266,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:11.957Z"
+    "lastUpdated": "2026-06-03T12:08:42.632Z"
   },
   {
     "id": "henry-bear",
@@ -1266,7 +1310,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:12.231Z"
+    "lastUpdated": "2026-06-03T12:08:42.904Z"
   },
   {
     "id": "helenas",
@@ -1310,50 +1354,6 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:05:12.512Z"
-  },
-  {
-    "id": "dunkin-369",
-    "name": "Dunkin (369 Mass Ave)",
-    "category": "shops",
-    "placeId": "ChIJ22mv-1Z244kRhTf42q9rKhs",
-    "phone": "(781) 648-1681",
-    "address": "369 Massachusetts Ave, Arlington",
-    "lat": 42.4122797,
-    "lng": -71.1485816,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "04:30",
-          "close": "19:00"
-        },
-        "mon": {
-          "open": "04:30",
-          "close": "19:00"
-        },
-        "tue": {
-          "open": "04:30",
-          "close": "19:00"
-        },
-        "wed": {
-          "open": "04:30",
-          "close": "19:00"
-        },
-        "thu": {
-          "open": "04:30",
-          "close": "19:00"
-        },
-        "fri": {
-          "open": "04:30",
-          "close": "19:00"
-        },
-        "sat": {
-          "open": "04:30",
-          "close": "19:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:05:12.794Z"
+    "lastUpdated": "2026-06-03T12:08:43.185Z"
   }
 ]
