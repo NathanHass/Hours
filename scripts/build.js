@@ -1,22 +1,22 @@
 #!/usr/bin/env node
 // Fetches hours from Google Places API (New) and writes hours.json.
-// Usage: node scripts/refresh.js  (reads GOOGLE_PLACES_API_KEY from .env)
+// Usage: node scripts/build.js  (reads GOOGLE_PLACES_API_KEY from .env)
 
-import { readFileSync, writeFileSync, existsSync } from 'fs';
-import { join } from 'path';
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
+import { readFileSync, writeFileSync, existsSync } from "fs";
+import { join } from "path";
+import { fileURLToPath } from "url";
+import { dirname } from "path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const ROOT = join(__dirname, '..');
+const ROOT = join(__dirname, "..");
 
 // Load .env without any external dependencies
-const envPath = join(ROOT, '.env');
+const envPath = join(ROOT, ".env");
 if (existsSync(envPath)) {
-  for (const line of readFileSync(envPath, 'utf8').split('\n')) {
+  for (const line of readFileSync(envPath, "utf8").split("\n")) {
     const trimmed = line.trim();
-    if (!trimmed || trimmed.startsWith('#')) continue;
-    const eq = trimmed.indexOf('=');
+    if (!trimmed || trimmed.startsWith("#")) continue;
+    const eq = trimmed.indexOf("=");
     if (eq === -1) continue;
     const key = trimmed.slice(0, eq).trim();
     const val = trimmed.slice(eq + 1).trim();
@@ -26,15 +26,15 @@ if (existsSync(envPath)) {
 
 const API_KEY = process.env.GOOGLE_PLACES_API_KEY;
 if (!API_KEY) {
-  console.error('Error: GOOGLE_PLACES_API_KEY is not set.');
-  console.error('  Add it to .env: GOOGLE_PLACES_API_KEY=your_key_here');
+  console.error("Error: GOOGLE_PLACES_API_KEY is not set.");
+  console.error("  Add it to .env: GOOGLE_PLACES_API_KEY=your_key_here");
   process.exit(1);
 }
 
-const DAYS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+const DAYS = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
 
 function pad(n) {
-  return String(n).padStart(2, '0');
+  return String(n).padStart(2, "0");
 }
 
 function formatTime(hour, minute) {
@@ -43,7 +43,15 @@ function formatTime(hour, minute) {
 
 // Maps Google's regularOpeningHours.periods → { mon: {open,close}|null, ... }
 function parseRegularHours(regularOpeningHours) {
-  const result = { sun: null, mon: null, tue: null, wed: null, thu: null, fri: null, sat: null };
+  const result = {
+    sun: null,
+    mon: null,
+    tue: null,
+    wed: null,
+    thu: null,
+    fri: null,
+    sat: null,
+  };
   if (!regularOpeningHours?.periods) return result;
 
   for (const period of regularOpeningHours.periods) {
@@ -69,7 +77,7 @@ function parseOverrides(currentOpeningHours) {
     const dateStr = `${year}-${pad(month)}-${pad(day)}`;
 
     // Find periods whose open.date matches this special day
-    const match = periods.find(p => {
+    const match = periods.find((p) => {
       const d = p.open?.date;
       return d && d.year === year && d.month === month && d.day === day;
     });
@@ -95,8 +103,9 @@ async function fetchPlace(placeId) {
   const url = `https://places.googleapis.com/v1/places/${placeId}`;
   const res = await fetch(url, {
     headers: {
-      'X-Goog-Api-Key': API_KEY,
-      'X-Goog-FieldMask': 'displayName,nationalPhoneNumber,shortFormattedAddress,location,regularOpeningHours,currentOpeningHours',
+      "X-Goog-Api-Key": API_KEY,
+      "X-Goog-FieldMask":
+        "displayName,nationalPhoneNumber,shortFormattedAddress,location,regularOpeningHours,currentOpeningHours",
     },
   });
   if (!res.ok) {
@@ -107,13 +116,13 @@ async function fetchPlace(placeId) {
 }
 
 async function main() {
-  const bizPath = join(ROOT, 'businesses.json');
+  const bizPath = join(ROOT, "businesses.json");
   if (!existsSync(bizPath)) {
-    console.error('Error: businesses.json not found in project root.');
+    console.error("Error: businesses.json not found in project root.");
     process.exit(1);
   }
 
-  const businesses = JSON.parse(readFileSync(bizPath, 'utf8'));
+  const businesses = JSON.parse(readFileSync(bizPath, "utf8"));
   const results = [];
 
   for (const biz of businesses) {
@@ -142,21 +151,21 @@ async function main() {
         lastUpdated: new Date().toISOString(),
       });
 
-      console.log('ok');
+      console.log("ok");
     } catch (err) {
       console.log(`WARN: ${err.message}`);
     }
 
     // Be polite to the API
-    await new Promise(r => setTimeout(r, 200));
+    await new Promise((r) => setTimeout(r, 200));
   }
 
-  const outPath = join(ROOT, 'app', 'hours.json');
-  writeFileSync(outPath, JSON.stringify(results, null, 2) + '\n');
+  const outPath = join(ROOT, "app", "hours.json");
+  writeFileSync(outPath, JSON.stringify(results, null, 2) + "\n");
   console.log(`\nWrote ${results.length} businesses to app/hours.json`);
 }
 
-main().catch(err => {
-  console.error('Fatal:', err.message);
+main().catch((err) => {
+  console.error("Fatal:", err.message);
   process.exit(1);
 });

@@ -41,7 +41,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:20:57.080Z"
+    "lastUpdated": "2026-06-03T12:05:03.636Z"
   },
   {
     "id": "fox-library",
@@ -77,14 +77,9 @@
           "close": "17:00"
         }
       },
-      "overrides": [
-        {
-          "date": "2026-05-23",
-          "hours": null
-        }
-      ]
+      "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:20:57.392Z"
+    "lastUpdated": "2026-06-03T12:05:03.923Z"
   },
   {
     "id": "book-rack",
@@ -128,7 +123,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:20:57.704Z"
+    "lastUpdated": "2026-06-03T12:05:04.219Z"
   },
   {
     "id": "tryst",
@@ -172,7 +167,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:20:58.017Z"
+    "lastUpdated": "2026-06-03T12:05:04.514Z"
   },
   {
     "id": "kickstand",
@@ -181,15 +176,18 @@
     "placeId": "ChIJM4NGlFB244kR4uaSl6T7qQ4",
     "phone": "(781) 583-6110",
     "address": "594 Massachusetts Ave, Arlington",
-    "lat": 42.4147229,
-    "lng": -71.1527055,
+    "lat": 42.4146962,
+    "lng": -71.1528187,
     "hours": {
       "regular": {
         "sun": {
           "open": "08:00",
           "close": "15:00"
         },
-        "mon": null,
+        "mon": {
+          "open": "08:00",
+          "close": "15:00"
+        },
         "tue": {
           "open": "08:00",
           "close": "15:00"
@@ -213,56 +211,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:20:58.340Z"
-  },
-  {
-    "id": "maxima",
-    "name": "Maxima",
-    "category": "shop",
-    "placeId": "ChIJF9TpuP9244kRFKBVhuX6RWM",
-    "phone": "(781) 646-6835",
-    "address": "Massachusetts Ave, Arlington",
-    "lat": 42.4059856,
-    "lng": -71.14281249999999,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "10:00",
-          "close": "18:00"
-        },
-        "mon": {
-          "open": "10:00",
-          "close": "19:00"
-        },
-        "tue": {
-          "open": "10:00",
-          "close": "19:00"
-        },
-        "wed": {
-          "open": "10:00",
-          "close": "19:00"
-        },
-        "thu": {
-          "open": "10:00",
-          "close": "19:00"
-        },
-        "fri": {
-          "open": "10:00",
-          "close": "19:00"
-        },
-        "sat": {
-          "open": "10:00",
-          "close": "19:00"
-        }
-      },
-      "overrides": [
-        {
-          "date": "2026-05-25",
-          "hours": null
-        }
-      ]
-    },
-    "lastUpdated": "2026-05-23T13:20:58.652Z"
+    "lastUpdated": "2026-06-03T12:05:04.818Z"
   },
   {
     "id": "lavictoria",
@@ -303,7 +252,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:20:58.968Z"
+    "lastUpdated": "2026-06-03T12:05:05.111Z"
   },
   {
     "id": "breadboard",
@@ -335,7 +284,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:20:59.280Z"
+    "lastUpdated": "2026-06-03T12:05:05.394Z"
   },
   {
     "id": "arlington-hair-salon",
@@ -373,51 +322,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:20:59.594Z"
-  },
-  {
-    "id": "helenas",
-    "name": "Helena’s",
-    "category": "shop",
-    "placeId": "ChIJy3q_Ild244kRm092WQ6cMsY",
-    "phone": "(781) 483-3055",
-    "address": "397 Massachusetts Ave, Arlington",
-    "lat": 42.4135546,
-    "lng": -71.1492813,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "12:00",
-          "close": "17:00"
-        },
-        "mon": {
-          "open": "11:00",
-          "close": "18:00"
-        },
-        "tue": {
-          "open": "11:00",
-          "close": "18:00"
-        },
-        "wed": {
-          "open": "11:00",
-          "close": "18:00"
-        },
-        "thu": {
-          "open": "11:00",
-          "close": "18:00"
-        },
-        "fri": {
-          "open": "11:00",
-          "close": "18:00"
-        },
-        "sat": {
-          "open": "11:00",
-          "close": "18:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-05-23T13:20:59.914Z"
+    "lastUpdated": "2026-06-03T12:05:05.680Z"
   },
   {
     "id": "punjab",
@@ -458,7 +363,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:21:00.238Z"
+    "lastUpdated": "2026-06-03T12:05:05.976Z"
   },
   {
     "id": "acitron",
@@ -502,12 +407,12 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:21:00.552Z"
+    "lastUpdated": "2026-06-03T12:05:06.275Z"
   },
   {
     "id": "elis",
     "name": "Eli’s Service Station",
-    "category": "automotive",
+    "category": "cars",
     "placeId": "ChIJkRI1Efl244kRa23FArjNRrg",
     "phone": "(781) 648-9833",
     "address": "125 Broadway, Arlington",
@@ -546,7 +451,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:21:00.864Z"
+    "lastUpdated": "2026-06-03T12:05:06.577Z"
   },
   {
     "id": "wholefoods-arlington",
@@ -590,7 +495,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:21:01.178Z"
+    "lastUpdated": "2026-06-03T12:05:06.872Z"
   },
   {
     "id": "wholefoods-medford",
@@ -634,7 +539,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:21:01.500Z"
+    "lastUpdated": "2026-06-03T12:05:07.386Z"
   },
   {
     "id": "starmarket-belmont",
@@ -678,7 +583,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:21:01.818Z"
+    "lastUpdated": "2026-06-03T12:05:07.694Z"
   },
   {
     "id": "quebrada",
@@ -720,14 +625,9 @@
           "close": "18:00"
         }
       },
-      "overrides": [
-        {
-          "date": "2026-05-25",
-          "hours": null
-        }
-      ]
+      "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:21:02.118Z"
+    "lastUpdated": "2026-06-03T12:05:07.991Z"
   },
   {
     "id": "shattuck",
@@ -771,7 +671,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:21:02.431Z"
+    "lastUpdated": "2026-06-03T12:05:08.284Z"
   },
   {
     "id": "yoshis",
@@ -812,7 +712,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:21:02.735Z"
+    "lastUpdated": "2026-06-03T12:05:08.564Z"
   },
   {
     "id": "scoop",
@@ -853,7 +753,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:21:03.062Z"
+    "lastUpdated": "2026-06-03T12:05:08.857Z"
   },
   {
     "id": "tatte-arlington",
@@ -897,7 +797,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:21:03.353Z"
+    "lastUpdated": "2026-06-03T12:05:09.148Z"
   },
   {
     "id": "belmont-books",
@@ -941,7 +841,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:21:03.651Z"
+    "lastUpdated": "2026-06-03T12:05:09.425Z"
   },
   {
     "id": "bicycle-belle",
@@ -972,14 +872,11 @@
           "open": "10:00",
           "close": "17:00"
         },
-        "sat": {
-          "open": "10:00",
-          "close": "17:00"
-        }
+        "sat": null
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:21:03.934Z"
+    "lastUpdated": "2026-06-03T12:05:09.701Z"
   },
   {
     "id": "belmont-wheelworks",
@@ -1023,7 +920,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:21:04.301Z"
+    "lastUpdated": "2026-06-03T12:05:09.981Z"
   },
   {
     "id": "ace-wheelworks",
@@ -1067,7 +964,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:21:04.634Z"
+    "lastUpdated": "2026-06-03T12:05:10.260Z"
   },
   {
     "id": "walgreens-store",
@@ -1111,7 +1008,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:21:04.921Z"
+    "lastUpdated": "2026-06-03T12:05:10.543Z"
   },
   {
     "id": "walgreens-pharmacy",
@@ -1153,14 +1050,9 @@
           "close": "18:00"
         }
       },
-      "overrides": [
-        {
-          "date": "2026-05-25",
-          "hours": null
-        }
-      ]
+      "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:21:05.232Z"
+    "lastUpdated": "2026-06-03T12:05:10.822Z"
   },
   {
     "id": "CVS",
@@ -1204,7 +1096,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:21:05.517Z"
+    "lastUpdated": "2026-06-03T12:05:11.113Z"
   },
   {
     "id": "cvs-pharmacy",
@@ -1223,7 +1115,7 @@
         },
         "mon": {
           "open": "14:00",
-          "close": "18:00"
+          "close": "21:00"
         },
         "tue": {
           "open": "14:00",
@@ -1246,17 +1138,9 @@
           "close": "20:00"
         }
       },
-      "overrides": [
-        {
-          "date": "2026-05-25",
-          "hours": {
-            "open": "10:00",
-            "close": "18:00"
-          }
-        }
-      ]
+      "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:21:05.877Z"
+    "lastUpdated": "2026-06-03T12:05:11.390Z"
   },
   {
     "id": "my-eye-dr",
@@ -1294,6 +1178,182 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-05-23T13:21:06.210Z"
+    "lastUpdated": "2026-06-03T12:05:11.668Z"
+  },
+  {
+    "id": "maxima",
+    "name": "Maxima Gifts.",
+    "category": "shops",
+    "placeId": "ChIJF9TpuP9244kRFKBVhuX6RWM",
+    "phone": "(781) 646-6835",
+    "address": "Massachusetts Ave, Arlington",
+    "lat": 42.4059856,
+    "lng": -71.14281249999999,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "mon": {
+          "open": "10:00",
+          "close": "19:00"
+        },
+        "tue": {
+          "open": "10:00",
+          "close": "19:00"
+        },
+        "wed": {
+          "open": "10:00",
+          "close": "19:00"
+        },
+        "thu": {
+          "open": "10:00",
+          "close": "19:00"
+        },
+        "fri": {
+          "open": "10:00",
+          "close": "19:00"
+        },
+        "sat": {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-06-03T12:05:11.957Z"
+  },
+  {
+    "id": "henry-bear",
+    "name": "Henry Bear’s Park",
+    "category": "shops",
+    "placeId": "ChIJgWCkdFB244kRy6u8doxZZSU",
+    "phone": "(781) 646-9400",
+    "address": "685 Massachusetts Ave, Arlington",
+    "lat": 42.416221,
+    "lng": -71.15513,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "mon": {
+          "open": "10:00",
+          "close": "19:00"
+        },
+        "tue": {
+          "open": "10:00",
+          "close": "19:00"
+        },
+        "wed": {
+          "open": "10:00",
+          "close": "19:00"
+        },
+        "thu": {
+          "open": "10:00",
+          "close": "19:00"
+        },
+        "fri": {
+          "open": "10:00",
+          "close": "19:00"
+        },
+        "sat": {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-06-03T12:05:12.231Z"
+  },
+  {
+    "id": "helenas",
+    "name": "Helena’s",
+    "category": "shops",
+    "placeId": "ChIJy3q_Ild244kRm092WQ6cMsY",
+    "phone": "(781) 483-3055",
+    "address": "397 Massachusetts Ave, Arlington",
+    "lat": 42.4135546,
+    "lng": -71.1492813,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "12:00",
+          "close": "17:00"
+        },
+        "mon": {
+          "open": "11:00",
+          "close": "18:00"
+        },
+        "tue": {
+          "open": "11:00",
+          "close": "18:00"
+        },
+        "wed": {
+          "open": "11:00",
+          "close": "18:00"
+        },
+        "thu": {
+          "open": "11:00",
+          "close": "18:00"
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "18:00"
+        },
+        "sat": {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-06-03T12:05:12.512Z"
+  },
+  {
+    "id": "dunkin-369",
+    "name": "Dunkin (369 Mass Ave)",
+    "category": "shops",
+    "placeId": "ChIJ22mv-1Z244kRhTf42q9rKhs",
+    "phone": "(781) 648-1681",
+    "address": "369 Massachusetts Ave, Arlington",
+    "lat": 42.4122797,
+    "lng": -71.1485816,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "04:30",
+          "close": "19:00"
+        },
+        "mon": {
+          "open": "04:30",
+          "close": "19:00"
+        },
+        "tue": {
+          "open": "04:30",
+          "close": "19:00"
+        },
+        "wed": {
+          "open": "04:30",
+          "close": "19:00"
+        },
+        "thu": {
+          "open": "04:30",
+          "close": "19:00"
+        },
+        "fri": {
+          "open": "04:30",
+          "close": "19:00"
+        },
+        "sat": {
+          "open": "04:30",
+          "close": "19:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-06-03T12:05:12.794Z"
   }
 ]

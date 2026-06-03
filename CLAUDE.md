@@ -144,7 +144,7 @@ Do not show any loading state if cached data exists. The user should never perce
 
 Show a small, muted "Updated {relative time}" at the very bottom of the list. Example: "Updated 3 hours ago" or "Updated yesterday". This helps the user know if their data might be stale. Use the `hours_updated` localStorage timestamp for this.
 
-## Refresh script (scripts/refresh.js)
+## Build script (scripts/build.js)
 
 Node.js script. Dependencies: only `node-fetch` (or use Node 18+ built-in fetch).
 
@@ -190,7 +190,7 @@ Writes `hours.json` to the project root. The format is defined in README.md.
 ### Running
 
 ```bash
-GOOGLE_PLACES_API_KEY=xxx node scripts/refresh.js
+GOOGLE_PLACES_API_KEY=xxx node scripts/build.js
 ```
 
 ## Sample data for development
@@ -396,7 +396,7 @@ Before the Google API is wired up, use this hardcoded `hours.json` for frontend 
 ]
 ```
 
-Start by building the frontend against this sample data. Get the swipe interaction, filters, and status computation working first. The refresh script is a separate task.
+Start by building the frontend against this sample data. Get the swipe interaction, filters, and status computation working first. The build script is a separate task.
 
 ## Things to avoid
 

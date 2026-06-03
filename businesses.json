@@ -4,14 +4,12 @@
   { "id": "book-rack", "name": "The Book Rack", "category": "books", "placeId": "ChIJL9AAU1d244kR56zUS6nALTA" },
   { "id": "tryst", "name": "Tryst", "category": "restaurant", "placeId": "ChIJu73f0E9244kR6oIizVqJej4" },
   { "id": "kickstand", "name": "Kickstand Café", "category": "bakery/coffee", "placeId": "ChIJM4NGlFB244kR4uaSl6T7qQ4" },
-  { "id": "maxima", "name": "Maxima", "category": "shop", "placeId": "ChIJF9TpuP9244kRFKBVhuX6RWM" },
   { "id": "lavictoria", "name": "La Victoria", "category": "restaurant", "placeId": "ChIJJ8xirVB244kRRvtF0kgbPuE" },
   { "id": "breadboard", "name": "Breadboard Bakery", "category": "bakery/coffee", "placeId": "ChIJ3bV-DEt344kRwtpOV13Sazs" },
   { "id": "arlington-hair-salon", "name": "Arlington Hair Salon", "category": "health", "placeId": "ChIJg7Algfh244kRTyXkjfJ5CFs" },
-  { "id": "helenas", "name": "Helena’s", "category": "shop", "placeId": "ChIJy3q_Ild244kRm092WQ6cMsY" },
   { "id": "punjab", "name": "Punjab", "category": "restaurant", "placeId": "ChIJTSZ3u1B244kRUP4sXEASxs0" },
   { "id": "acitron", "name": "Acitrón", "category": "restaurant", "placeId": "ChIJ6yZ3u1B244kRJqNMZVlJVxg" },
-  { "id": "elis", "name": "Eli’s Service Station", "category": "automotive", "placeId": "ChIJkRI1Efl244kRa23FArjNRrg" },
+  { "id": "elis", "name": "Eli’s Service Station", "category": "cars", "placeId": "ChIJkRI1Efl244kRa23FArjNRrg" },
   { "id": "wholefoods-arlington", "name": "Whole Foods Arlington", "category": "groceries", "placeId": "ChIJv_yrhE9244kRiZP4JWrlXXg" },
   { "id": "wholefoods-medford", "name": "Whole Foods Medford", "category": "groceries", "placeId": "ChIJUWka9et244kRcXcyZkGA1mo" },
   { "id": "starmarket-belmont", "name": "Star Market Belmont", "category": "groceries", "placeId": "ChIJEX_BCeJ344kRh3-ehRDw1Ak" },
@@ -28,7 +26,15 @@
   { "id": "walgreens-pharmacy", "name": "Walgreens Pharmacy", "category": "health", "placeId": "ChIJ_Y_RRDt344kRB_XNtAA6ec0" },
   { "id": "CVS", "name": "CVS (Store)", "category": "health", "placeId": "ChIJc2KtfE9244kRd6OqiX7ucsc" },
   { "id": "cvs-pharmacy", "name": "CVS Pharmacy", "category": "health", "placeId": "ChIJwVUXDrN344kRwnECSioprLk" },
-  { "id": "my-eye-dr", "name": "MyEyeDr.", "category": "health", "placeId": "ChIJ9S_EX6J344kR78eBvxal64Q" }  
-
+  { "id": "my-eye-dr", "name": "MyEyeDr.", "category": "health", "placeId": "ChIJ9S_EX6J344kR78eBvxal64Q" }, 
+  { "id": "maxima", "name": "Maxima Gifts.", "category": "shops", "placeId": "ChIJF9TpuP9244kRFKBVhuX6RWM" },
+  { "id": "henry-bear", "name": "Henry Bear’s Park", "category": "shops", "placeId": "ChIJgWCkdFB244kRy6u8doxZZSU" },  
+  { "id": "helenas", "name": "Helena’s", "category": "shops", "placeId": "ChIJy3q_Ild244kRm092WQ6cMsY" },
+  { "id": "dunkin-369", "name": "Dunkin (369 Mass Ave)", "category": "shops", "placeId": "ChIJ22mv-1Z244kRhTf42q9rKhs" }
 ]
+
+
+
+
+
 
