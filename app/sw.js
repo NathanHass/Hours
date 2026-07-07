@@ -1,4 +1,4 @@
-const CACHE = 'hours-20260603080853';
+const CACHE = 'hours-20260707-sticky-brewery';
 const APP_SHELL = ["./", "./index.html", "./style.css", "./app.js", "./sw.js"];
 
 self.addEventListener("install", (e) => {

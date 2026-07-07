@@ -8,6 +8,7 @@
     "address": "2 N Main St, Andover",
     "lat": 42.656858199999995,
     "lng": -71.1414934,
+    "website": "https://mhl.org/",
     "hours": {
       "regular": {
         "sun": {
@@ -41,7 +42,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:13.409Z"
+    "lastUpdated": "2026-07-07T01:52:36.152Z"
   },
   {
     "id": "andover-bookstore",
@@ -52,6 +53,7 @@
     "address": "74 Main St, Andover",
     "lat": 42.6548555,
     "lng": -71.1390078,
+    "website": "http://andoverbookstore.com/",
     "hours": {
       "regular": {
         "sun": {
@@ -85,7 +87,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:13.713Z"
+    "lastUpdated": "2026-07-07T01:52:36.461Z"
   },
   {
     "id": "34-park",
@@ -96,6 +98,7 @@
     "address": "34 Park St, Andover",
     "lat": 42.6571929,
     "lng": -71.1389531,
+    "website": "http://www.34park.com/",
     "hours": {
       "regular": {
         "sun": {
@@ -129,7 +132,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:13.997Z"
+    "lastUpdated": "2026-07-07T01:52:36.763Z"
   },
   {
     "id": "otto-andover",
@@ -140,6 +143,7 @@
     "address": "27 Main St, Andover",
     "lat": 42.6558614,
     "lng": -71.1403241,
+    "website": "https://locations.ottoportland.com/otto-a22dd8b67938?y_source=1_MTg1ODExMjUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
     "hours": {
       "regular": {
         "sun": {
@@ -173,7 +177,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:14.289Z"
+    "lastUpdated": "2026-07-07T01:52:37.077Z"
   },
   {
     "id": "monicas-mithai",
@@ -184,6 +188,7 @@
     "address": "16 Post Office Ave, Andover",
     "lat": 42.6568488,
     "lng": -71.14009340000001,
+    "website": "https://monicasmithaicafebar.com/?utm_source=google",
     "hours": {
       "regular": {
         "sun": null,
@@ -211,7 +216,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:14.578Z"
+    "lastUpdated": "2026-07-07T01:52:37.380Z"
   },
   {
     "id": "nans-kitchen",
@@ -222,6 +227,7 @@
     "address": "10 Main St, Andover",
     "lat": 42.6566493,
     "lng": -71.1401144,
+    "website": "https://www.nanskitchen.com/andover-massachusetts-nans",
     "hours": {
       "regular": {
         "sun": {
@@ -255,7 +261,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:14.895Z"
+    "lastUpdated": "2026-07-07T01:52:37.680Z"
   },
   {
     "id": "la-fina",
@@ -266,6 +272,7 @@
     "address": "27 Main St, Andover",
     "lat": 42.655708999999995,
     "lng": -71.1403491,
+    "website": "http://www.lafinarestaurant.com/",
     "hours": {
       "regular": {
         "sun": {
@@ -299,7 +306,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:15.191Z"
+    "lastUpdated": "2026-07-07T01:52:37.986Z"
   },
   {
     "id": "casa-blanca",
@@ -310,6 +317,7 @@
     "address": "10 Main St, Andover",
     "lat": 42.656388899999996,
     "lng": -71.14027779999999,
+    "website": "http://casablancasrestaurant.com/",
     "hours": {
       "regular": {
         "sun": {
@@ -343,7 +351,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:15.484Z"
+    "lastUpdated": "2026-07-07T01:52:38.292Z"
   },
   {
     "id": "autograph-tavern",
@@ -354,6 +362,7 @@
     "address": "89 Main St, Andover",
     "lat": 42.6539885,
     "lng": -71.139676,
+    "website": "https://www.autographtavern.com/",
     "hours": {
       "regular": {
         "sun": {
@@ -384,7 +393,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:15.774Z"
+    "lastUpdated": "2026-07-07T01:52:38.597Z"
   },
   {
     "id": "bartlett-street",
@@ -395,6 +404,7 @@
     "address": "11 Bartlet St, Andover",
     "lat": 42.6561695,
     "lng": -71.1386084,
+    "website": "https://bartletstreetandover.com/",
     "hours": {
       "regular": {
         "sun": null,
@@ -422,7 +432,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:16.055Z"
+    "lastUpdated": "2026-07-07T01:52:38.895Z"
   },
   {
     "id": "elm-square-oyster",
@@ -433,6 +443,7 @@
     "address": "2 Elm Square, 2 Elm Square, Andover",
     "lat": 42.6567703,
     "lng": -71.1405066,
+    "website": "https://www.elmsquareoysterco.com/",
     "hours": {
       "regular": {
         "sun": null,
@@ -460,7 +471,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:16.339Z"
+    "lastUpdated": "2026-07-07T01:52:39.196Z"
   },
   {
     "id": "larosas",
@@ -471,6 +482,7 @@
     "address": "7 Barnard St, Andover",
     "lat": 42.6560081,
     "lng": -71.13969809999999,
+    "website": "http://www.larosasofandover.com/",
     "hours": {
       "regular": {
         "sun": {
@@ -504,7 +516,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:16.614Z"
+    "lastUpdated": "2026-07-07T01:52:39.500Z"
   },
   {
     "id": "oak-iron",
@@ -515,6 +527,7 @@
     "address": "18 Red Spring Rd, Andover",
     "lat": 42.6563599,
     "lng": -71.1470741,
+    "website": "http://www.oakandironbrewing.com/",
     "hours": {
       "regular": {
         "sun": {
@@ -539,7 +552,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:16.916Z"
+    "lastUpdated": "2026-07-07T01:52:39.808Z"
   },
   {
     "id": "shoyu",
@@ -550,6 +563,7 @@
     "address": "40 Park St, Andover",
     "lat": 42.6570823,
     "lng": -71.1386409,
+    "website": "http://shoyusushi.com/",
     "hours": {
       "regular": {
         "sun": {
@@ -583,7 +597,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:17.199Z"
+    "lastUpdated": "2026-07-07T01:52:40.112Z"
   },
   {
     "id": "bakery-on-the-square",
@@ -594,6 +608,7 @@
     "address": "28 Chestnut St #7, Andover",
     "lat": 42.6557538,
     "lng": -71.1387659,
+    "website": "https://www.andoverbakeshop.com/",
     "hours": {
       "regular": {
         "sun": {
@@ -624,7 +639,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:17.482Z"
+    "lastUpdated": "2026-07-07T01:52:40.422Z"
   },
   {
     "id": "perfectos-caffe",
@@ -635,6 +650,7 @@
     "address": "79 N Main St, Andover",
     "lat": 42.6586924,
     "lng": -71.1422197,
+    "website": "http://www.perfectoscaffe.com/",
     "hours": {
       "regular": {
         "sun": {
@@ -668,7 +684,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:17.774Z"
+    "lastUpdated": "2026-07-07T01:52:40.744Z"
   },
   {
     "id": "ultimate-perk",
@@ -679,6 +695,7 @@
     "address": "96 Main St, Andover",
     "lat": 42.654022,
     "lng": -71.138625,
+    "website": "http://www.ultimateperk.com/",
     "hours": {
       "regular": {
         "sun": {
@@ -712,7 +729,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:18.097Z"
+    "lastUpdated": "2026-07-07T01:52:41.042Z"
   },
   {
     "id": "caffe-nero-andover",
@@ -723,6 +740,7 @@
     "address": "77 Main St, Andover",
     "lat": 42.6545256,
     "lng": -71.13950849999999,
+    "website": "https://caffenero.com/us/",
     "hours": {
       "regular": {
         "sun": {
@@ -756,7 +774,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:18.386Z"
+    "lastUpdated": "2026-07-07T01:52:41.343Z"
   },
   {
     "id": "dunkin-andover",
@@ -767,6 +785,7 @@
     "address": "93 Main St, Andover",
     "lat": 42.6538411,
     "lng": -71.1389658,
+    "website": "https://locations.dunkindonuts.com/en/ma/andover/93-main-street/352694?utm_source=google&utm_medium=local&utm_campaign=localmaps&utm_content=352694&y_source=1_MTIxMDk0MzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
     "hours": {
       "regular": {
         "sun": {
@@ -800,7 +819,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:18.683Z"
+    "lastUpdated": "2026-07-07T01:52:41.636Z"
   },
   {
     "id": "jp-licks",
@@ -811,6 +830,7 @@
     "address": "28 Park St, Andover",
     "lat": 42.6566987,
     "lng": -71.13934259999999,
+    "website": "https://jplicks.com/",
     "hours": {
       "regular": {
         "sun": {
@@ -844,7 +864,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:18.968Z"
+    "lastUpdated": "2026-07-07T01:52:41.926Z"
   },
   {
     "id": "wholefoods-andover",
@@ -855,6 +875,7 @@
     "address": "40 Railroad St, Andover",
     "lat": 42.660895,
     "lng": -71.1445731,
+    "website": "https://www.wholefoodsmarket.com/stores/andover?utm_source=google&utm_medium=organic&utm_campaign=listings",
     "hours": {
       "regular": {
         "sun": {
@@ -888,7 +909,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:19.258Z"
+    "lastUpdated": "2026-07-07T01:52:42.268Z"
   },
   {
     "id": "market-basket-n-andover",
@@ -899,6 +920,7 @@
     "address": "350 Winthrop Ave, North Andover",
     "lat": 42.684668099999996,
     "lng": -71.1361867,
+    "website": "https://www.shopmarketbasket.com/",
     "hours": {
       "regular": {
         "sun": {
@@ -932,7 +954,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:19.536Z"
+    "lastUpdated": "2026-07-07T01:52:42.548Z"
   },
   {
     "id": "stop-shop-andover",
@@ -943,6 +965,7 @@
     "address": "209 N Main St, Andover",
     "lat": 42.665304899999995,
     "lng": -71.1444253,
+    "website": "https://stores.stopandshop.com/ma/andover/209-north-main-street?y_source=1_NDE5NTQ3NS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
     "hours": {
       "regular": {
         "sun": {
@@ -976,7 +999,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:19.820Z"
+    "lastUpdated": "2026-07-07T01:52:42.829Z"
   },
   {
     "id": "cvs-andover",
@@ -987,6 +1010,7 @@
     "address": "68 Main St, Andover",
     "lat": 42.6551134,
     "lng": -71.1391723,
+    "website": "https://www.cvs.com/store-locator/andover-ma-pharmacies/68-main-street-andover-ma-01810/storeid=1174?WT.mc_id=LS_GOOGLE_RX_1174",
     "hours": {
       "regular": {
         "sun": {
@@ -1020,7 +1044,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:20.104Z"
+    "lastUpdated": "2026-07-07T01:52:43.135Z"
   },
   {
     "id": "walgreens-n-andover",
@@ -1031,6 +1055,7 @@
     "address": "800 Waverly Rd Ft110790-2696, North Andover",
     "lat": 42.6777779,
     "lng": -71.13338639999999,
+    "website": "https://www.walgreens.com/locator/walgreens-800+waverley+rd-north+andover-ma-01845/id=10209",
     "hours": {
       "regular": {
         "sun": {
@@ -1064,17 +1089,18 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:20.395Z"
+    "lastUpdated": "2026-07-07T01:52:43.422Z"
   },
   {
     "id": "wine-sense",
     "name": "The Wine Sense",
-    "category": "wine",
+    "category": "package stores",
     "placeId": "ChIJ6b9G9ocI44kR0yxXu_KjkM0",
     "phone": "(978) 749-9464",
     "address": "166 N Main St, Andover",
     "lat": 42.6615907,
     "lng": -71.14503119999999,
+    "website": "http://www.wine-sense.net/",
     "hours": {
       "regular": {
         "sun": {
@@ -1105,17 +1131,18 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:20.673Z"
+    "lastUpdated": "2026-07-07T01:52:43.700Z"
   },
   {
     "id": "andover-classic-wines",
     "name": "Andover Classic Wines",
-    "category": "wine",
+    "category": "package stores",
     "placeId": "ChIJQYVbXYcI44kRAraxZfgbEN4",
     "phone": "(978) 470-0500",
     "address": "209 N Main St, Andover",
     "lat": 42.665155299999995,
     "lng": -71.14402849999999,
+    "website": "https://www.andoverclassicwines.com/",
     "hours": {
       "regular": {
         "sun": {
@@ -1149,17 +1176,18 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:20.965Z"
+    "lastUpdated": "2026-07-07T01:52:43.979Z"
   },
   {
     "id": "andover-wine-merchant",
     "name": "Andover Wine Merchant",
-    "category": "wine",
+    "category": "package stores",
     "placeId": "ChIJ_eeSFPcJ44kRQ8pw6cFKvew",
     "phone": "(978) 300-8001",
     "address": "63 Park St Ste 6, Andover",
     "lat": 42.656895,
     "lng": -71.13712799999999,
+    "website": "https://www.andoverwinemerchant.com/",
     "hours": {
       "regular": {
         "sun": null,
@@ -1187,7 +1215,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:21.239Z"
+    "lastUpdated": "2026-07-07T01:52:44.263Z"
   },
   {
     "id": "mad-maggies",
@@ -1198,6 +1226,7 @@
     "address": "1025 Osgood St, North Andover",
     "lat": 42.7146372,
     "lng": -71.1159029,
+    "website": "http://www.madmaggies.com/",
     "hours": {
       "regular": {
         "sun": {
@@ -1231,7 +1260,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:21.516Z"
+    "lastUpdated": "2026-07-07T01:52:44.547Z"
   },
   {
     "id": "andover-collection",
@@ -1242,6 +1271,7 @@
     "address": "40 Main St, Andover",
     "lat": 42.6558607,
     "lng": -71.1398753,
+    "website": "http://www.andovercollection.com/",
     "hours": {
       "regular": {
         "sun": null,
@@ -1272,7 +1302,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:21.805Z"
+    "lastUpdated": "2026-07-07T01:52:44.824Z"
   },
   {
     "id": "chic-consignment",
@@ -1283,6 +1313,7 @@
     "address": "44 Main St, Andover",
     "lat": 42.6557824,
     "lng": -71.1398337,
+    "website": "http://www.chicconsignment.com/",
     "hours": {
       "regular": {
         "sun": null,
@@ -1310,7 +1341,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:22.089Z"
+    "lastUpdated": "2026-07-07T01:52:45.099Z"
   },
   {
     "id": "dovetail-apothecary",
@@ -1321,6 +1352,7 @@
     "address": "46 Main St, Andover",
     "lat": 42.655749799999995,
     "lng": -71.1397247,
+    "website": "http://dovetailapothecary.com/",
     "hours": {
       "regular": {
         "sun": null,
@@ -1348,7 +1380,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:22.375Z"
+    "lastUpdated": "2026-07-07T01:52:45.380Z"
   },
   {
     "id": "highland-heather",
@@ -1359,6 +1391,7 @@
     "address": "36 Main St, Andover",
     "lat": 42.6559099,
     "lng": -71.1399395,
+    "website": "https://highlandandheather.com/",
     "hours": {
       "regular": {
         "sun": {
@@ -1389,7 +1422,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:22.666Z"
+    "lastUpdated": "2026-07-07T01:52:45.664Z"
   },
   {
     "id": "helen-thomas",
@@ -1400,6 +1433,7 @@
     "address": "2 Elm Square, 2 Main St, Andover",
     "lat": 42.6569465,
     "lng": -71.1405578,
+    "website": null,
     "hours": {
       "regular": {
         "sun": {
@@ -1433,7 +1467,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:22.947Z"
+    "lastUpdated": "2026-07-07T01:52:45.949Z"
   },
   {
     "id": "jmclaughlin",
@@ -1444,6 +1478,7 @@
     "address": "13 Main St, Andover",
     "lat": 42.6562565,
     "lng": -71.14059189999999,
+    "website": "https://www.jmclaughlin.com/pages/store-locator-ma-andover",
     "hours": {
       "regular": {
         "sun": {
@@ -1477,7 +1512,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:23.234Z"
+    "lastUpdated": "2026-07-07T01:52:46.238Z"
   },
   {
     "id": "learning-express",
@@ -1488,6 +1523,7 @@
     "address": "34 Park St, Andover",
     "lat": 42.6572757,
     "lng": -71.13914220000001,
+    "website": "https://learningexpress.com/andover",
     "hours": {
       "regular": {
         "sun": {
@@ -1521,7 +1557,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:23.525Z"
+    "lastUpdated": "2026-07-07T01:52:46.547Z"
   },
   {
     "id": "omnia",
@@ -1532,6 +1568,7 @@
     "address": "15 Railroad St #2, Andover",
     "lat": 42.6582946,
     "lng": -71.1446533,
+    "website": "https://omniametaphysical.com/",
     "hours": {
       "regular": {
         "sun": null,
@@ -1559,7 +1596,7 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:23.810Z"
+    "lastUpdated": "2026-07-07T01:52:46.828Z"
   },
   {
     "id": "royal-jewelers",
@@ -1570,6 +1607,7 @@
     "address": "58 Main St, Andover",
     "lat": 42.6556597,
     "lng": -71.1397918,
+    "website": "https://royaljewelers.com/",
     "hours": {
       "regular": {
         "sun": null,
@@ -1600,6 +1638,633 @@
       },
       "overrides": []
     },
-    "lastUpdated": "2026-07-06T13:48:24.094Z"
+    "lastUpdated": "2026-07-07T01:52:47.112Z"
+  },
+  {
+    "id": "taco-bell-lawrence",
+    "name": "Taco Bell",
+    "category": "restaurant",
+    "placeId": "ChIJjSUNccoH44kRIulJvyxY7XY",
+    "phone": "(978) 794-0273",
+    "address": "79 Winthrop Ave, Lawrence",
+    "lat": 42.6893296,
+    "lng": -71.1489991,
+    "website": "https://locations.tacobell.com/ma/lawrence/79-winthrop-avenue.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=029264&utm_content=website&y_source=1_NjE0MjE1OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "00:00",
+          "close": "24:00"
+        },
+        "mon": {
+          "open": "00:00",
+          "close": "24:00"
+        },
+        "tue": {
+          "open": "00:00",
+          "close": "24:00"
+        },
+        "wed": {
+          "open": "00:00",
+          "close": "24:00"
+        },
+        "thu": {
+          "open": "00:00",
+          "close": "24:00"
+        },
+        "fri": {
+          "open": "00:00",
+          "close": "24:00"
+        },
+        "sat": {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-07T01:52:47.395Z"
+  },
+  {
+    "id": "mcdonalds-andover",
+    "name": "McDonald’s",
+    "category": "restaurant",
+    "placeId": "ChIJX325f30I44kRY_ksbHBtuMk",
+    "phone": "(978) 475-9854",
+    "address": "195 N Main St, Andover",
+    "lat": 42.663241,
+    "lng": -71.1446768,
+    "website": "https://www.mcdonalds.com/us/en-us/location/MA/ANDOVER/195-N-MAIN-ST/501.html?cid=RF:YXT:GMB::Clicks",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "05:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "05:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "05:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "05:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "05:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "05:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "05:00",
+          "close": "23:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-07T01:52:47.681Z"
+  },
+  {
+    "id": "shunju",
+    "name": "Shunju",
+    "category": "restaurant",
+    "placeId": "ChIJF1LAoqgI44kR5EWvRqJPUN4",
+    "phone": "(978) 681-1888",
+    "address": "733 Turnpike St, North Andover",
+    "lat": 42.661052500000004,
+    "lng": -71.111231,
+    "website": "https://shunjurestaurant.com/",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "12:00",
+          "close": "21:30"
+        },
+        "mon": {
+          "open": "11:30",
+          "close": "21:30"
+        },
+        "tue": {
+          "open": "11:30",
+          "close": "21:30"
+        },
+        "wed": {
+          "open": "11:30",
+          "close": "21:30"
+        },
+        "thu": {
+          "open": "11:30",
+          "close": "21:30"
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "22:30"
+        },
+        "sat": {
+          "open": "11:00",
+          "close": "22:30"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-07T01:52:47.957Z"
+  },
+  {
+    "id": "garlic-breath-pizza",
+    "name": "Garlic Breath Pizza",
+    "category": "restaurant",
+    "placeId": "ChIJd2j0stYJ44kRCScoH83DR3o",
+    "phone": "(978) 258-2084",
+    "address": "733 Turnpike St #7, North Andover",
+    "lat": 42.6610383,
+    "lng": -71.1109469,
+    "website": "https://garlicbreathpizza.com/",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "11:30",
+          "close": "20:00"
+        },
+        "mon": null,
+        "tue": {
+          "open": "11:30",
+          "close": "20:00"
+        },
+        "wed": {
+          "open": "11:30",
+          "close": "20:00"
+        },
+        "thu": {
+          "open": "11:30",
+          "close": "20:00"
+        },
+        "fri": {
+          "open": "11:30",
+          "close": "20:00"
+        },
+        "sat": {
+          "open": "11:30",
+          "close": "20:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-07T01:52:48.241Z"
+  },
+  {
+    "id": "nueva-liquors",
+    "name": "Nueva Liquors",
+    "category": "package stores",
+    "placeId": "ChIJ2RVhyY4I44kR_qDLKEm55GI",
+    "phone": null,
+    "address": "5 Bartlet St, Andover",
+    "lat": 42.656404599999995,
+    "lng": -71.1386495,
+    "website": null,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "11:00",
+          "close": "18:00"
+        },
+        "mon": {
+          "open": "11:00",
+          "close": "20:00"
+        },
+        "tue": {
+          "open": "11:00",
+          "close": "20:00"
+        },
+        "wed": {
+          "open": "11:00",
+          "close": "20:00"
+        },
+        "thu": {
+          "open": "11:00",
+          "close": "20:00"
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "20:00"
+        },
+        "sat": {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-07T01:52:48.520Z"
+  },
+  {
+    "id": "andover-spa-wine-spirits",
+    "name": "Andover Spa Wine & Spirits",
+    "category": "package stores",
+    "placeId": "ChIJxyMjIokI44kRTCJNVT2FNV4",
+    "phone": "(978) 475-4750",
+    "address": "9 Elm St, Andover",
+    "lat": 42.657313099999996,
+    "lng": -71.140288,
+    "website": "https://www.order.store/store/andover-spa-wine-%26-spirits/vuCCicsUXRmgfoJI2GLceA",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "10:00",
+          "close": "21:00"
+        },
+        "mon": {
+          "open": "10:00",
+          "close": "22:00"
+        },
+        "tue": {
+          "open": "10:00",
+          "close": "22:00"
+        },
+        "wed": {
+          "open": "10:00",
+          "close": "22:00"
+        },
+        "thu": {
+          "open": "10:00",
+          "close": "22:00"
+        },
+        "fri": {
+          "open": "10:00",
+          "close": "22:00"
+        },
+        "sat": {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-07T01:52:48.806Z"
+  },
+  {
+    "id": "village-square-liquors",
+    "name": "Village Square Liquors",
+    "category": "package stores",
+    "placeId": "ChIJmeE6dYwI44kRKZeBCN4hg6c",
+    "phone": "(978) 783-3922",
+    "address": "89 Main St, Andover",
+    "lat": 42.6539745,
+    "lng": -71.1391771,
+    "website": "https://villagesqliquors.com/",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "11:00",
+          "close": "19:00"
+        },
+        "mon": {
+          "open": "09:00",
+          "close": "21:00"
+        },
+        "tue": {
+          "open": "09:00",
+          "close": "21:00"
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "21:00"
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "21:00"
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "21:00"
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-07T01:52:49.099Z"
+  },
+  {
+    "id": "shawsheen-village-liquors",
+    "name": "Shawsheen Village Liquors",
+    "category": "package stores",
+    "placeId": "ChIJY2TYCNYH44kRKFRy8alXMu0",
+    "phone": "(978) 475-3636",
+    "address": "4 Poor St, Andover",
+    "lat": 42.6721457,
+    "lng": -71.15126699999999,
+    "website": null,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "10:00",
+          "close": "20:00"
+        },
+        "mon": {
+          "open": "10:00",
+          "close": "21:00"
+        },
+        "tue": {
+          "open": "10:00",
+          "close": "21:00"
+        },
+        "wed": {
+          "open": "10:00",
+          "close": "21:00"
+        },
+        "thu": {
+          "open": "10:00",
+          "close": "21:00"
+        },
+        "fri": {
+          "open": "10:00",
+          "close": "22:00"
+        },
+        "sat": {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-07T01:52:49.389Z"
+  },
+  {
+    "id": "den-rock-andover",
+    "name": "Den Rock Wine & Spirits of Andover",
+    "category": "package stores",
+    "placeId": "ChIJh3-R8L8H44kRPmZf27eyPJ4",
+    "phone": "(978) 737-3331",
+    "address": "349 N Main St, Andover",
+    "lat": 42.6731699,
+    "lng": -71.1503346,
+    "website": null,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "10:00",
+          "close": "22:00"
+        },
+        "mon": {
+          "open": "09:00",
+          "close": "22:00"
+        },
+        "tue": {
+          "open": "09:00",
+          "close": "22:00"
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "22:00"
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "22:00"
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "22:00"
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "22:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-07T01:52:49.738Z"
+  },
+  {
+    "id": "den-rock-north-andover",
+    "name": "Den Rock Wine & Spirits",
+    "category": "package stores",
+    "placeId": "ChIJOaMTXyMG44kR1JXNTZNJhrc",
+    "phone": "(978) 683-2216",
+    "address": "54 Peters St, North Andover",
+    "lat": 42.6753012,
+    "lng": -71.1265742,
+    "website": "http://denrockstore.com/",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "10:00",
+          "close": "22:00"
+        },
+        "mon": {
+          "open": "09:00",
+          "close": "22:00"
+        },
+        "tue": {
+          "open": "09:00",
+          "close": "22:00"
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "22:00"
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "22:00"
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-07T01:52:50.022Z"
+  },
+  {
+    "id": "taste-of-the-vineyard",
+    "name": "A Taste of The Vineyard",
+    "category": "package stores",
+    "placeId": "ChIJN1CEUh4G44kRFV9rH3Bcq9g",
+    "phone": "(978) 228-7756",
+    "address": "Inside Stop & Shop, 757 Turnpike St, North Andover",
+    "lat": 42.6600557,
+    "lng": -71.10952209999999,
+    "website": "https://microsite.talech.com/shop/A-TASTE-OF-VINEYARD-NORTH-ANDOVER-MA/L7E8zNxByWX9O3ox",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "10:00",
+          "close": "19:00"
+        },
+        "mon": {
+          "open": "09:00",
+          "close": "21:00"
+        },
+        "tue": {
+          "open": "09:00",
+          "close": "21:00"
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "21:00"
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "21:00"
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "21:00"
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-07T01:52:50.300Z"
+  },
+  {
+    "id": "wine-and-beer-andovers",
+    "name": "Wine & Beer At the Andovers",
+    "category": "package stores",
+    "placeId": "ChIJd6ViNTEG44kR3I4yQXPTA78",
+    "phone": "(978) 686-1864",
+    "address": "342 Winthrop Ave, North Andover",
+    "lat": 42.68520240000001,
+    "lng": -71.1363681,
+    "website": null,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "10:00",
+          "close": "20:00"
+        },
+        "mon": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "tue": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "wed": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "thu": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "fri": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "sat": {
+          "open": "08:00",
+          "close": "21:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-07T01:52:50.582Z"
+  },
+  {
+    "id": "mcaloons-liquors",
+    "name": "McAloon’s Liquors",
+    "category": "package stores",
+    "placeId": "ChIJfzoa3WcG44kR4zQHbf83EVU",
+    "phone": "(978) 682-8029",
+    "address": "531 Chickering Rd, North Andover",
+    "lat": 42.6946386,
+    "lng": -71.11923209999999,
+    "website": null,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "10:00",
+          "close": "21:00"
+        },
+        "mon": {
+          "open": "08:00",
+          "close": "22:00"
+        },
+        "tue": {
+          "open": "08:00",
+          "close": "22:00"
+        },
+        "wed": {
+          "open": "08:00",
+          "close": "22:00"
+        },
+        "thu": {
+          "open": "08:00",
+          "close": "22:00"
+        },
+        "fri": {
+          "open": "08:00",
+          "close": "22:00"
+        },
+        "sat": {
+          "open": "08:00",
+          "close": "22:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-07T01:52:50.871Z"
+  },
+  {
+    "id": "tree-house-brewing",
+    "name": "Tree House Brewing",
+    "category": "breweries",
+    "placeId": "ChIJ4WJ3V5Oh44kRn9iYpe2wE8c",
+    "phone": "(413) 523-2367",
+    "address": "1880 Main St, Tewksbury",
+    "lat": 42.5915506,
+    "lng": -71.2050845,
+    "website": "http://www.treehousebrew.com/",
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "11:00",
+          "close": "20:00"
+        },
+        "mon": {
+          "open": "11:00",
+          "close": "21:00"
+        },
+        "tue": {
+          "open": "11:00",
+          "close": "21:00"
+        },
+        "wed": {
+          "open": "11:00",
+          "close": "21:00"
+        },
+        "thu": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "sat": {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-07T01:52:51.160Z"
   }
 ]

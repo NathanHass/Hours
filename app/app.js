@@ -18,6 +18,11 @@ function toMinutes(hhmm) {
   return h * 60 + m;
 }
 
+// A business open around the clock: stored as 00:00–24:00
+function isAllDay(h) {
+  return h && h.open === "00:00" && h.close === "24:00";
+}
+
 function getHoursForDate(business, date) {
   const yyyy = date.getFullYear();
   const mm = String(date.getMonth() + 1).padStart(2, "0");
@@ -37,6 +42,13 @@ function getStatus(business, now) {
   const nowMins = now.getHours() * 60 + now.getMinutes();
 
   if (todayHours) {
+    if (isAllDay(todayHours)) {
+      return {
+        label: `<span class="open">Open</span> · 24 hours`,
+        isOpen: true,
+      };
+    }
+
     const openMins = toMinutes(todayHours.open);
     const closeMins = toMinutes(todayHours.close);
 
@@ -104,7 +116,9 @@ function buildScheduleHTML(business) {
         ? DAY_LABELS[g.start]
         : `${DAY_LABELS[g.start]}–${DAY_LABELS[g.end]}`;
     const hoursStr = g.hours
-      ? `${formatHour(g.hours.open)}–${formatHour(g.hours.close)}`
+      ? isAllDay(g.hours)
+        ? "24 hours"
+        : `${formatHour(g.hours.open)}–${formatHour(g.hours.close)}`
       : "Closed";
     html += `<span class="schedule-day">${dayLabel}</span><span class="schedule-hours">${hoursStr}</span>`;
   }
@@ -125,7 +139,9 @@ function buildScheduleHTML(business) {
       });
       const label = o.reason ? `${dateLabel} (${o.reason})` : dateLabel;
       const hoursStr = o.hours
-        ? `${formatHour(o.hours.open)}–${formatHour(o.hours.close)}`
+        ? isAllDay(o.hours)
+          ? "24 hours"
+          : `${formatHour(o.hours.open)}–${formatHour(o.hours.close)}`
         : "Closed";
       html += `<span class="schedule-day schedule-override">${label}</span><span class="schedule-hours">${hoursStr}</span>`;
     }
@@ -138,7 +154,17 @@ function buildScheduleHTML(business) {
 // --- Render ---
 
 function categoryLabel(cat) {
-  return cat.charAt(0).toUpperCase() + cat.slice(1);
+  // Capitalize the first letter of each word ("package stores" → "Package Stores")
+  return cat.replace(/(^|\s)\S/g, (c) => c.toUpperCase());
+}
+
+// Sort key that ignores a leading article ("The Autograph" sorts under "A")
+function sortName(name) {
+  return name.replace(/^(the|an|a)\s+/i, "");
+}
+
+function byName(a, b) {
+  return sortName(a.name).localeCompare(sortName(b.name));
 }
 
 let currentBusinesses = [];
@@ -157,6 +183,15 @@ function buildRow(business, now) {
     mapsURL && business.address
       ? `<a class="biz-maps" href="${mapsURL}" target="_blank">${business.address}</a>`
       : "";
+  let webHost = "";
+  if (business.website) {
+    try {
+      webHost = new URL(business.website).hostname.replace(/^www\./, "");
+    } catch {}
+  }
+  const webHTML = business.website
+    ? `<a class="biz-web" href="${business.website}" target="_blank" rel="noopener noreferrer">${webHost || "Website"}</a>`
+    : "";
 
   const li = document.createElement("li");
   li.className = "biz-row";
@@ -169,7 +204,7 @@ function buildRow(business, now) {
       </div>
       <div class="biz-accordion">
         ${scheduleHTML}
-        <div class="biz-contact">${phoneHTML}${mapsHTML}</div>
+        <div class="biz-contact">${phoneHTML}${webHTML}${mapsHTML}</div>
       </div>
     </div>`;
 
@@ -180,6 +215,8 @@ function renderFilters() {
   const scroll = document.getElementById("filter-scroll");
   scroll.innerHTML = "";
 
+  // Note: the "Open Now" pill lives statically in index.html (pinned, doesn't
+  // scroll with the category pills) — we only manage its active state here.
   const categories = [
     ...new Set(currentBusinesses.map((b) => b.category)),
   ].sort();
@@ -192,9 +229,10 @@ function renderFilters() {
     btn.className = "filter-btn";
     btn.dataset.filter = cat;
     btn.textContent = categoryLabel(cat);
-    if (activeFilters.has(cat)) btn.classList.add("active");
     scroll.appendChild(btn);
   }
+
+  syncFilterButtons();
 }
 
 function renderList() {
@@ -202,10 +240,16 @@ function renderList() {
   const now = new Date();
   list.innerHTML = "";
 
+  const matchesStatus = (biz) =>
+    !statusFilter || getStatus(biz, now).isOpen === (statusFilter === "open");
+  const hasFilters = activeFilters.size > 0 || statusFilter !== null;
+
   if (activeFilters.size === 0) {
-    // Group by category (alphabetized), businesses sorted by name within each group
+    // No category filter → keep the grouped, category-labeled view.
+    // A status filter (e.g. Open Now) just narrows each group; empty groups drop out.
     const groups = {};
     for (const biz of currentBusinesses) {
+      if (!matchesStatus(biz)) continue;
       (groups[biz.category] ??= []).push(biz);
     }
     for (const cat of Object.keys(groups).sort()) {
@@ -213,25 +257,21 @@ function renderList() {
       header.className = "category-header";
       header.textContent = categoryLabel(cat);
       list.appendChild(header);
-      for (const biz of groups[cat].sort((a, b) =>
-        a.name.localeCompare(b.name),
-      )) {
+      for (const biz of groups[cat].sort(byName)) {
         list.appendChild(buildRow(biz, now));
       }
     }
   } else {
-    // Flat filtered list, sorted by name
+    // A category is selected → flat list, sorted by name, status also applies
     const filtered = currentBusinesses
-      .filter((b) => activeFilters.has(b.category))
-      .sort((a, b) => a.name.localeCompare(b.name));
+      .filter((b) => activeFilters.has(b.category) && matchesStatus(b))
+      .sort(byName);
     for (const biz of filtered) {
       list.appendChild(buildRow(biz, now));
     }
   }
 
-  document
-    .getElementById("clear-btn")
-    .classList.toggle("visible", activeFilters.size > 0);
+  document.getElementById("clear-btn").classList.toggle("visible", hasFilters);
   updateTimestamp();
 }
 
@@ -244,6 +284,16 @@ function render(businesses) {
 // --- Filters ---
 
 let activeFilters = new Set();
+let statusFilter = "open"; // null | "open" — defaults to showing open-now
+
+function syncFilterButtons() {
+  document.querySelectorAll(".filter-btn").forEach((b) => {
+    const on = b.dataset.status
+      ? statusFilter === b.dataset.status
+      : activeFilters.has(b.dataset.filter);
+    b.classList.toggle("active", on);
+  });
+}
 
 function applyFilters() {
   renderList();
@@ -254,24 +304,26 @@ function applyFilters() {
 document.getElementById("filter-bar").addEventListener("click", (e) => {
   const btn = e.target.closest(".filter-btn");
   if (!btn) return;
-  const f = btn.dataset.filter;
-  const wasActive = activeFilters.has(f);
-  activeFilters.clear();
-  document
-    .querySelectorAll(".filter-btn")
-    .forEach((b) => b.classList.remove("active"));
-  if (!wasActive) {
-    activeFilters.add(f);
-    btn.classList.add("active");
+
+  if (btn.dataset.status) {
+    // Status filter — single-select within open/closed, toggles off when re-tapped
+    statusFilter = statusFilter === btn.dataset.status ? null : btn.dataset.status;
+  } else {
+    // Category filter — single-select
+    const f = btn.dataset.filter;
+    const wasActive = activeFilters.has(f);
+    activeFilters.clear();
+    if (!wasActive) activeFilters.add(f);
   }
+
+  syncFilterButtons();
   applyFilters();
 });
 
 document.getElementById("clear-btn").addEventListener("click", () => {
   activeFilters.clear();
-  document
-    .querySelectorAll(".filter-btn")
-    .forEach((b) => b.classList.remove("active"));
+  statusFilter = null;
+  syncFilterButtons();
   applyFilters();
 });
 

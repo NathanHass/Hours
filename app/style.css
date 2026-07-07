@@ -65,11 +65,19 @@ html, body {
   min-width: 0;
   display: flex;
   gap: 6px;
-  padding: 8px 16px;
+  padding: 8px 16px 8px 12px;
+  border-left: 1px solid var(--separator);
   overflow-x: auto;
   scrollbar-width: none;
   overscroll-behavior-x: contain;
   -webkit-overflow-scrolling: touch;
+}
+
+/* Pinned "Open Now" pill — stays put while the category pills scroll */
+#open-now-btn {
+  flex-shrink: 0;
+  align-self: center;
+  margin: 0 10px 0 16px;
 }
 
 #filter-scroll::-webkit-scrollbar {
@@ -97,6 +105,13 @@ html, body {
   color: var(--filter-active-text);
   border-color: var(--filter-active-bg);
 }
+
+.status-open.active {
+  background: var(--open);
+  border-color: var(--open);
+  color: #fff;
+}
+
 
 #clear-btn {
   display: none;
@@ -243,7 +258,8 @@ html, body {
 }
 
 .biz-call,
-.biz-maps {
+.biz-maps,
+.biz-web {
   display: inline-block;
   font-family: inherit;
   font-size: 12px;
@@ -260,7 +276,8 @@ html, body {
 
 @media (prefers-color-scheme: dark) {
   .biz-call,
-  .biz-maps {
+  .biz-maps,
+  .biz-web {
     color: #777;
     border-color: #444;
   }

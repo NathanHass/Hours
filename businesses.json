@@ -74,7 +74,7 @@
   {
     "id": "oak-iron",
     "name": "Oak & Iron Brewing Co.",
-    "category": "restaurant",
+    "category": "breweries",
     "placeId": "ChIJMxclhmEI44kRzq9zSub6IQ0"
   },
   {
@@ -152,19 +152,19 @@
   {
     "id": "wine-sense",
     "name": "The Wine Sense",
-    "category": "wine",
+    "category": "package stores",
     "placeId": "ChIJ6b9G9ocI44kR0yxXu_KjkM0"
   },
   {
     "id": "andover-classic-wines",
     "name": "Andover Classic Wines",
-    "category": "wine",
+    "category": "package stores",
     "placeId": "ChIJQYVbXYcI44kRAraxZfgbEN4"
   },
   {
     "id": "andover-wine-merchant",
     "name": "Andover Wine Merchant",
-    "category": "wine",
+    "category": "package stores",
     "placeId": "ChIJ_eeSFPcJ44kRQ8pw6cFKvew"
   },
   {
@@ -226,5 +226,89 @@
     "name": "Royal Jewelers",
     "category": "shops",
     "placeId": "ChIJI50PWokI44kRBprx3S6dVUI"
+  },
+  {
+    "id": "taco-bell-lawrence",
+    "name": "Taco Bell",
+    "category": "restaurant",
+    "placeId": "ChIJjSUNccoH44kRIulJvyxY7XY"
+  },
+  {
+    "id": "mcdonalds-andover",
+    "name": "McDonald’s",
+    "category": "restaurant",
+    "placeId": "ChIJX325f30I44kRY_ksbHBtuMk"
+  },
+  {
+    "id": "shunju",
+    "name": "Shunju",
+    "category": "restaurant",
+    "placeId": "ChIJF1LAoqgI44kR5EWvRqJPUN4"
+  },
+  {
+    "id": "garlic-breath-pizza",
+    "name": "Garlic Breath Pizza",
+    "category": "restaurant",
+    "placeId": "ChIJd2j0stYJ44kRCScoH83DR3o"
+  },
+  {
+    "id": "nueva-liquors",
+    "name": "Nueva Liquors",
+    "placeId": "ChIJ2RVhyY4I44kR_qDLKEm55GI",
+    "category": "package stores"
+  },
+  {
+    "id": "andover-spa-wine-spirits",
+    "name": "Andover Spa Wine & Spirits",
+    "placeId": "ChIJxyMjIokI44kRTCJNVT2FNV4",
+    "category": "package stores"
+  },
+  {
+    "id": "village-square-liquors",
+    "name": "Village Square Liquors",
+    "placeId": "ChIJmeE6dYwI44kRKZeBCN4hg6c",
+    "category": "package stores"
+  },
+  {
+    "id": "shawsheen-village-liquors",
+    "name": "Shawsheen Village Liquors",
+    "placeId": "ChIJY2TYCNYH44kRKFRy8alXMu0",
+    "category": "package stores"
+  },
+  {
+    "id": "den-rock-andover",
+    "name": "Den Rock Wine & Spirits of Andover",
+    "placeId": "ChIJh3-R8L8H44kRPmZf27eyPJ4",
+    "category": "package stores"
+  },
+  {
+    "id": "den-rock-north-andover",
+    "name": "Den Rock Wine & Spirits",
+    "placeId": "ChIJOaMTXyMG44kR1JXNTZNJhrc",
+    "category": "package stores"
+  },
+  {
+    "id": "taste-of-the-vineyard",
+    "name": "A Taste of The Vineyard",
+    "placeId": "ChIJN1CEUh4G44kRFV9rH3Bcq9g",
+    "category": "package stores"
+  },
+  {
+    "id": "wine-and-beer-andovers",
+    "name": "Wine & Beer At the Andovers",
+    "placeId": "ChIJd6ViNTEG44kR3I4yQXPTA78",
+    "category": "package stores"
+  },
+  {
+    "id": "mcaloons-liquors",
+    "name": "McAloon’s Liquors",
+    "placeId": "ChIJfzoa3WcG44kR4zQHbf83EVU",
+    "category": "package stores"
+  },
+  {
+    "id": "tree-house-brewing",
+    "name": "Tree House Brewing",
+    "category": "breweries",
+    "placeId": "ChIJ4WJ3V5Oh44kRn9iYpe2wE8c"
   }
 ]

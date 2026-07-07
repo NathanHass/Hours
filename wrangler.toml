@@ -1,6 +1,6 @@
 # Cloudflare Workers static-assets config for the Hours PWA.
 # The app is plain static files (no build step) — deploy the app/ dir directly.
-name = "andover-hours"
+name = "andover"
 compatibility_date = "2026-07-01"
 
 [assets]

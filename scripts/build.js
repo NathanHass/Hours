@@ -52,11 +52,23 @@ function parseRegularHours(regularOpeningHours) {
     fri: null,
     sat: null,
   };
-  if (!regularOpeningHours?.periods) return result;
+  const periods = regularOpeningHours?.periods;
+  if (!periods) return result;
 
-  for (const period of regularOpeningHours.periods) {
+  // Google encodes "open 24/7" as a single period at day 0 with no close.
+  if (periods.length === 1 && periods[0].open && !periods[0].close) {
+    for (const d of DAYS) result[d] = { open: "00:00", close: "24:00" };
+    return result;
+  }
+
+  for (const period of periods) {
     const dayKey = DAYS[period.open?.day];
-    if (!dayKey || !period.close) continue;
+    if (!dayKey) continue;
+    if (!period.close) {
+      // Open 24 hours on this day (period with no close)
+      result[dayKey] = { open: "00:00", close: "24:00" };
+      continue;
+    }
     result[dayKey] = {
       open: formatTime(period.open.hour ?? 0, period.open.minute ?? 0),
       close: formatTime(period.close.hour ?? 0, period.close.minute ?? 0),
@@ -105,7 +117,7 @@ async function fetchPlace(placeId) {
     headers: {
       "X-Goog-Api-Key": API_KEY,
       "X-Goog-FieldMask":
-        "displayName,nationalPhoneNumber,shortFormattedAddress,location,regularOpeningHours,currentOpeningHours",
+        "displayName,nationalPhoneNumber,shortFormattedAddress,location,websiteUri,regularOpeningHours,currentOpeningHours",
     },
   });
   if (!res.ok) {
@@ -144,6 +156,7 @@ async function main() {
         address: data.shortFormattedAddress ?? null,
         lat: data.location?.latitude ?? null,
         lng: data.location?.longitude ?? null,
+        website: data.websiteUri ?? null,
         hours: {
           regular: parseRegularHours(data.regularOpeningHours),
           overrides: parseOverrides(data.currentOpeningHours),
