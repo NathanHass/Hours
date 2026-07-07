@@ -2,7 +2,10 @@
   "type": "module",
   "scripts": {
     "search": "node scripts/search-server.js",
+    "resolve": "node scripts/resolve-ids.js",
     "build": "node scripts/build.js",
-    "deploy": "bash scripts/deploy.sh"
+    "deploy": "bash scripts/deploy.sh",
+    "cf:dev": "wrangler dev",
+    "cf:deploy": "wrangler deploy"
   }
 }

@@ -1,40 +1,230 @@
 [
-  { "id": "robbins-library", "name": "Robbins Library", "category": "books", "placeId": "ChIJ0Sp5DFB244kRSFAVtDem4bM" },
-  { "id": "fox-library", "name": "Fox Library", "category": "books", "placeId": "ChIJtwszNP5244kRMrl0wQ8VL9k" },
-  { "id": "book-rack", "name": "The Book Rack", "category": "books", "placeId": "ChIJL9AAU1d244kR56zUS6nALTA" },
-  { "id": "tryst", "name": "Tryst", "category": "restaurant", "placeId": "ChIJu73f0E9244kR6oIizVqJej4" },
-  { "id": "dunkin-369", "name": "Dunkin (369 Mass Ave)", "category": "bakery/coffee", "placeId": "ChIJ22mv-1Z244kRhTf42q9rKhs" },
-  { "id": "breadboard", "name": "Breadboard Bakery", "category": "bakery/coffee", "placeId": "ChIJ3bV-DEt344kRwtpOV13Sazs" },
-  { "id": "kickstand", "name": "Kickstand Café", "category": "bakery/coffee", "placeId": "ChIJM4NGlFB244kR4uaSl6T7qQ4" },
-  { "id": "lavictoria", "name": "La Victoria", "category": "restaurant", "placeId": "ChIJJ8xirVB244kRRvtF0kgbPuE" },
-  { "id": "arlington-hair-salon", "name": "Arlington Hair Salon", "category": "health", "placeId": "ChIJg7Algfh244kRTyXkjfJ5CFs" },
-  { "id": "punjab", "name": "Punjab", "category": "restaurant", "placeId": "ChIJTSZ3u1B244kRUP4sXEASxs0" },
-  { "id": "acitron", "name": "Acitrón", "category": "restaurant", "placeId": "ChIJ6yZ3u1B244kRJqNMZVlJVxg" },
-  { "id": "elis", "name": "Eli’s Service Station", "category": "cars", "placeId": "ChIJkRI1Efl244kRa23FArjNRrg" },
-  { "id": "wholefoods-arlington", "name": "Whole Foods Arlington", "category": "groceries", "placeId": "ChIJv_yrhE9244kRiZP4JWrlXXg" },
-  { "id": "wholefoods-medford", "name": "Whole Foods Medford", "category": "groceries", "placeId": "ChIJUWka9et244kRcXcyZkGA1mo" },
-  { "id": "starmarket-belmont", "name": "Star Market Belmont", "category": "groceries", "placeId": "ChIJEX_BCeJ344kRh3-ehRDw1Ak" },
-  { "id": "quebrada", "name": "Quebrada Arlington", "category": "bakery/coffee", "placeId": "ChIJOUYvyv9244kRBqZEKjTNRcE" },
-  { "id": "shattuck", "name": "Shattuck ACE Hardware", "category": "hardware", "placeId": "ChIJicBfOEV244kRilJMjELKlIE" },
-  { "id": "yoshis", "name": "Yoshi’s Japanese", "category": "restaurant", "placeId": "ChIJHbOpZN9244kRpgI4Nr_oiQk" },
-  { "id": "scoop", "name": "Scoop N Scootery", "category": "restaurant", "placeId": "ChIJe_KwKCh344kRk8xPfwZmbk4" },
-  { "id": "tatte-arlington", "name": "Tatte Arlington", "category": "bakery/coffee", "placeId": "ChIJ-86MCXZ344kRtSGabagfZRY" },
-  { "id": "belmont-books", "name": "Belmont Books", "category": "books", "placeId": "ChIJM2XLKsR344kR5Sa24czy2oM" },
-  { "id": "bicycle-belle", "name": "Bicycle Belle", "category": "bikes", "placeId": "ChIJwwR0HTx344kRTnlYEX0FyDk" },
-  { "id": "belmont-wheelworks", "name": "Belmont Wheelworks", "category": "bikes", "placeId": "ChIJ0b-JS-J344kR0z5ZpgbqKyY" },
-  { "id": "ace-wheelworks", "name": "Ace Wheelworks Somerville", "category": "bikes", "placeId": "ChIJndSl0yJ344kRJOosmZcUL7M" },
-  { "id": "walgreens-store", "name": "Walgreens (Store)", "category": "health", "placeId": "ChIJdegK1VV244kRXKOh0Ap4imY" },
-  { "id": "walgreens-pharmacy", "name": "Walgreens Pharmacy", "category": "health", "placeId": "ChIJ_Y_RRDt344kRB_XNtAA6ec0" },
-  { "id": "CVS", "name": "CVS (Store)", "category": "health", "placeId": "ChIJc2KtfE9244kRd6OqiX7ucsc" },
-  { "id": "cvs-pharmacy", "name": "CVS Pharmacy", "category": "health", "placeId": "ChIJwVUXDrN344kRwnECSioprLk" },
-  { "id": "my-eye-dr", "name": "MyEyeDr.", "category": "health", "placeId": "ChIJ9S_EX6J344kR78eBvxal64Q" }, 
-  { "id": "maxima", "name": "Maxima Gifts.", "category": "shops", "placeId": "ChIJF9TpuP9244kRFKBVhuX6RWM" },
-  { "id": "henry-bear", "name": "Henry Bear’s Park", "category": "shops", "placeId": "ChIJgWCkdFB244kRy6u8doxZZSU" },  
-  { "id": "helenas", "name": "Helena’s", "category": "shops", "placeId": "ChIJy3q_Ild244kRm092WQ6cMsY" }
+  {
+    "id": "memorial-hall-library",
+    "name": "Memorial Hall Library",
+    "category": "books",
+    "placeId": "ChIJVevCE4kI44kRrPi9dN03YYo"
+  },
+  {
+    "id": "andover-bookstore",
+    "name": "Andover Bookstore",
+    "category": "books",
+    "placeId": "ChIJn6uGjosI44kRNrzqZyLtwAI"
+  },
+  {
+    "id": "34-park",
+    "name": "34 Park",
+    "category": "restaurant",
+    "placeId": "ChIJw-LcoGoJ44kRcFQWuikV7ZM"
+  },
+  {
+    "id": "otto-andover",
+    "name": "OTTO",
+    "category": "restaurant",
+    "placeId": "ChIJSTPwG1cJ44kRCm2ZpPPmYdQ"
+  },
+  {
+    "id": "monicas-mithai",
+    "name": "Monica’s Mithai Cafe & Bar",
+    "category": "restaurant",
+    "placeId": "ChIJ4azHkwgJ44kRccuCiPMStRU"
+  },
+  {
+    "id": "nans-kitchen",
+    "name": "Nan's Kitchen",
+    "category": "restaurant",
+    "placeId": "ChIJLxzL_8IJ44kR4FTa449V4D8"
+  },
+  {
+    "id": "la-fina",
+    "name": "La Fina",
+    "category": "restaurant",
+    "placeId": "ChIJKbI-nu4J44kRQj6AP8MAqZ0"
+  },
+  {
+    "id": "casa-blanca",
+    "name": "Casa Blanca",
+    "category": "restaurant",
+    "placeId": "ChIJWUmIaokI44kRHgpDSIE5doQ"
+  },
+  {
+    "id": "autograph-tavern",
+    "name": "The Autograph American Tavern",
+    "category": "restaurant",
+    "placeId": "ChIJe7MoA2kJ44kRqocpwMxr9Qk"
+  },
+  {
+    "id": "bartlett-street",
+    "name": "Bartlet Street",
+    "category": "restaurant",
+    "placeId": "ChIJoXkcUqAJ44kRgQVBxhrYlik"
+  },
+  {
+    "id": "elm-square-oyster",
+    "name": "Elm Square Oyster Co.",
+    "category": "restaurant",
+    "placeId": "ChIJs8wxFokI44kR7bdB5rHU5TU"
+  },
+  {
+    "id": "larosas",
+    "name": "LaRosa's Italian Cafe & Bar",
+    "category": "restaurant",
+    "placeId": "ChIJwTimRIkI44kRFs-6JEQKocA"
+  },
+  {
+    "id": "oak-iron",
+    "name": "Oak & Iron Brewing Co.",
+    "category": "restaurant",
+    "placeId": "ChIJMxclhmEI44kRzq9zSub6IQ0"
+  },
+  {
+    "id": "shoyu",
+    "name": "ShoYu Restaurant and Bar",
+    "category": "restaurant",
+    "placeId": "ChIJC1rLF7oJ44kRN8owf5tIal8"
+  },
+  {
+    "id": "bakery-on-the-square",
+    "name": "Andover Bake Shop",
+    "category": "bakery/coffee",
+    "placeId": "ChIJfXENfggJ44kRxFCSX32ZMuQ"
+  },
+  {
+    "id": "perfectos-caffe",
+    "name": "Perfecto's Caffe",
+    "category": "bakery/coffee",
+    "placeId": "ChIJ8XQnWogI44kR1mHbo6ZBxzg"
+  },
+  {
+    "id": "ultimate-perk",
+    "name": "Ultimate Perk Coffee Shop",
+    "category": "bakery/coffee",
+    "placeId": "ChIJnT0odYwI44kRWEEwHM7SZ_w"
+  },
+  {
+    "id": "caffe-nero-andover",
+    "name": "Caffè Nero",
+    "category": "bakery/coffee",
+    "placeId": "ChIJW0y18YsI44kRmBJKugALTUI"
+  },
+  {
+    "id": "dunkin-andover",
+    "name": "Dunkin'",
+    "category": "bakery/coffee",
+    "placeId": "ChIJwbB2QokI44kR5PVUSlOWS5g"
+  },
+  {
+    "id": "jp-licks",
+    "name": "J.P. Licks",
+    "category": "bakery/coffee",
+    "placeId": "ChIJUcGoBlgJ44kRuD3HPBRW1Ww"
+  },
+  {
+    "id": "wholefoods-andover",
+    "name": "Whole Foods Market",
+    "category": "groceries",
+    "placeId": "ChIJe7LfVH0I44kRx3tYinfGxS8"
+  },
+  {
+    "id": "market-basket-n-andover",
+    "name": "Market Basket",
+    "category": "groceries",
+    "placeId": "ChIJ5Y28NTEG44kRUI5-e5PMOOg"
+  },
+  {
+    "id": "stop-shop-andover",
+    "name": "Stop & Shop",
+    "category": "groceries",
+    "placeId": "ChIJ27Xh5H0I44kRBgMxv8hkFBA"
+  },
+  {
+    "id": "cvs-andover",
+    "name": "CVS Pharmacy",
+    "category": "health",
+    "placeId": "ChIJSUpq_osI44kR3wSNeL9uNYU"
+  },
+  {
+    "id": "walgreens-n-andover",
+    "name": "Walgreens",
+    "category": "health",
+    "placeId": "ChIJtZtvEDAG44kRw0gEUcy2FdE"
+  },
+  {
+    "id": "wine-sense",
+    "name": "The Wine Sense",
+    "category": "wine",
+    "placeId": "ChIJ6b9G9ocI44kR0yxXu_KjkM0"
+  },
+  {
+    "id": "andover-classic-wines",
+    "name": "Andover Classic Wines",
+    "category": "wine",
+    "placeId": "ChIJQYVbXYcI44kRAraxZfgbEN4"
+  },
+  {
+    "id": "andover-wine-merchant",
+    "name": "Andover Wine Merchant",
+    "category": "wine",
+    "placeId": "ChIJ_eeSFPcJ44kRQ8pw6cFKvew"
+  },
+  {
+    "id": "mad-maggies",
+    "name": "Mad Maggie's Ice Cream",
+    "category": "shops",
+    "placeId": "ChIJPdyiM5IG44kR7-sRDG37Uto"
+  },
+  {
+    "id": "andover-collection",
+    "name": "Andover Collection",
+    "category": "shops",
+    "placeId": "ChIJe0CBkNgJ44kRO4cNL-oIHDw"
+  },
+  {
+    "id": "chic-consignment",
+    "name": "Chic Consignment",
+    "category": "shops",
+    "placeId": "ChIJ_7UdUIkI44kR6KYVFJd2guc"
+  },
+  {
+    "id": "dovetail-apothecary",
+    "name": "Dovetail Apothecary of Beauty",
+    "category": "shops",
+    "placeId": "ChIJ5_ZLwRcJ44kRFNWvnzJURvE"
+  },
+  {
+    "id": "highland-heather",
+    "name": "Highland and Heather",
+    "category": "shops",
+    "placeId": "ChIJvVAWJTMJ44kR2ZTEvkzDPEU"
+  },
+  {
+    "id": "helen-thomas",
+    "name": "Helen Thomas Simply Smashing",
+    "category": "shops",
+    "placeId": "ChIJQVfWCIwI44kR1yGPGcUoriw"
+  },
+  {
+    "id": "jmclaughlin",
+    "name": "J.McLaughlin",
+    "category": "shops",
+    "placeId": "ChIJxRZyaYkI44kRIe0FzB45Ipw"
+  },
+  {
+    "id": "learning-express",
+    "name": "Learning Express Toys",
+    "category": "shops",
+    "placeId": "ChIJi8z8M4kI44kRi3yvKWRaGik"
+  },
+  {
+    "id": "omnia",
+    "name": "Omnia",
+    "category": "shops",
+    "placeId": "ChIJ1-CH91gJ44kR_PFP0eINoJc"
+  },
+  {
+    "id": "royal-jewelers",
+    "name": "Royal Jewelers",
+    "category": "shops",
+    "placeId": "ChIJI50PWokI44kRBprx3S6dVUI"
+  }
 ]
-
-
-
-
-
-

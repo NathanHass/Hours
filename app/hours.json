@@ -1,1359 +1,1605 @@
 [
   {
-    "id": "robbins-library",
-    "name": "Robbins Library",
+    "id": "memorial-hall-library",
+    "name": "Memorial Hall Library",
     "category": "books",
-    "placeId": "ChIJ0Sp5DFB244kRSFAVtDem4bM",
-    "phone": "(781) 316-3200",
-    "address": "700 Massachusetts Ave, Arlington",
-    "lat": 42.4156894,
-    "lng": -71.1549265,
+    "placeId": "ChIJVevCE4kI44kRrPi9dN03YYo",
+    "phone": "(978) 623-8400",
+    "address": "2 N Main St, Andover",
+    "lat": 42.656858199999995,
+    "lng": -71.1414934,
     "hours": {
       "regular": {
         "sun": {
-          "open": "14:00",
-          "close": "17:00"
-        },
-        "mon": {
-          "open": "09:00",
-          "close": "21:00"
-        },
-        "tue": {
-          "open": "09:00",
-          "close": "21:00"
-        },
-        "wed": {
-          "open": "09:00",
-          "close": "21:00"
-        },
-        "thu": {
-          "open": "09:00",
-          "close": "21:00"
-        },
-        "fri": {
-          "open": "09:00",
-          "close": "17:00"
-        },
-        "sat": {
-          "open": "09:00",
-          "close": "17:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:34.155Z"
-  },
-  {
-    "id": "fox-library",
-    "name": "Fox Library",
-    "category": "books",
-    "placeId": "ChIJtwszNP5244kRMrl0wQ8VL9k",
-    "phone": "(781) 316-3198",
-    "address": "175 Massachusetts Ave, Arlington",
-    "lat": 42.4055924,
-    "lng": -71.1416508,
-    "hours": {
-      "regular": {
-        "sun": null,
-        "mon": null,
-        "tue": {
-          "open": "09:00",
-          "close": "17:00"
-        },
-        "wed": {
-          "open": "12:00",
-          "close": "20:00"
-        },
-        "thu": {
-          "open": "09:00",
-          "close": "17:00"
-        },
-        "fri": {
-          "open": "09:00",
-          "close": "17:00"
-        },
-        "sat": {
-          "open": "09:00",
-          "close": "17:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:34.466Z"
-  },
-  {
-    "id": "book-rack",
-    "name": "The Book Rack",
-    "category": "books",
-    "placeId": "ChIJL9AAU1d244kR56zUS6nALTA",
-    "phone": "(781) 646-2665",
-    "address": "13 Medford St, Arlington",
-    "lat": 42.4150241,
-    "lng": -71.1505797,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "10:00",
-          "close": "18:00"
-        },
-        "mon": {
-          "open": "10:00",
-          "close": "18:00"
-        },
-        "tue": {
           "open": "13:00",
           "close": "17:00"
         },
-        "wed": {
-          "open": "10:00",
-          "close": "18:00"
-        },
-        "thu": {
-          "open": "10:00",
-          "close": "19:00"
-        },
-        "fri": {
-          "open": "10:00",
-          "close": "18:00"
-        },
-        "sat": {
-          "open": "10:00",
-          "close": "18:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:34.769Z"
-  },
-  {
-    "id": "tryst",
-    "name": "Tryst",
-    "category": "restaurant",
-    "placeId": "ChIJu73f0E9244kR6oIizVqJej4",
-    "phone": "(781) 641-2227",
-    "address": "689 Massachusetts Ave, Arlington",
-    "lat": 42.416209699999996,
-    "lng": -71.1552568,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "17:00",
-          "close": "21:00"
-        },
         "mon": {
-          "open": "17:00",
+          "open": "09:00",
           "close": "21:00"
         },
-        "tue": {
-          "open": "17:00",
-          "close": "21:00"
-        },
-        "wed": {
-          "open": "17:00",
-          "close": "21:00"
-        },
-        "thu": {
-          "open": "17:00",
-          "close": "21:00"
-        },
-        "fri": {
-          "open": "17:00",
-          "close": "21:00"
-        },
-        "sat": {
-          "open": "17:00",
-          "close": "21:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:35.069Z"
-  },
-  {
-    "id": "dunkin-369",
-    "name": "Dunkin (369 Mass Ave)",
-    "category": "bakery/coffee",
-    "placeId": "ChIJ22mv-1Z244kRhTf42q9rKhs",
-    "phone": "(781) 648-1681",
-    "address": "369 Massachusetts Ave, Arlington",
-    "lat": 42.4122797,
-    "lng": -71.1485816,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "04:30",
-          "close": "19:00"
-        },
-        "mon": {
-          "open": "04:30",
-          "close": "19:00"
-        },
-        "tue": {
-          "open": "04:30",
-          "close": "19:00"
-        },
-        "wed": {
-          "open": "04:30",
-          "close": "19:00"
-        },
-        "thu": {
-          "open": "04:30",
-          "close": "19:00"
-        },
-        "fri": {
-          "open": "04:30",
-          "close": "19:00"
-        },
-        "sat": {
-          "open": "04:30",
-          "close": "19:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:35.366Z"
-  },
-  {
-    "id": "breadboard",
-    "name": "Breadboard Bakery",
-    "category": "bakery/coffee",
-    "placeId": "ChIJ3bV-DEt344kRwtpOV13Sazs",
-    "phone": "(781) 777-2863",
-    "address": "203A Broadway #207, Arlington",
-    "lat": 42.4120747,
-    "lng": -71.14451260000001,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "08:00",
-          "close": "13:00"
-        },
-        "mon": null,
-        "tue": null,
-        "wed": {
-          "open": "08:00",
-          "close": "13:00"
-        },
-        "thu": null,
-        "fri": {
-          "open": "08:00",
-          "close": "13:00"
-        },
-        "sat": null
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:35.652Z"
-  },
-  {
-    "id": "kickstand",
-    "name": "Kickstand Café",
-    "category": "bakery/coffee",
-    "placeId": "ChIJM4NGlFB244kR4uaSl6T7qQ4",
-    "phone": "(781) 583-6110",
-    "address": "594 Massachusetts Ave, Arlington",
-    "lat": 42.4146962,
-    "lng": -71.1528187,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "08:00",
-          "close": "15:00"
-        },
-        "mon": {
-          "open": "08:00",
-          "close": "15:00"
-        },
-        "tue": {
-          "open": "08:00",
-          "close": "15:00"
-        },
-        "wed": {
-          "open": "08:00",
-          "close": "15:00"
-        },
-        "thu": {
-          "open": "08:00",
-          "close": "15:00"
-        },
-        "fri": {
-          "open": "08:00",
-          "close": "15:00"
-        },
-        "sat": {
-          "open": "08:00",
-          "close": "15:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:35.993Z"
-  },
-  {
-    "id": "lavictoria",
-    "name": "La Victoria",
-    "category": "restaurant",
-    "placeId": "ChIJJ8xirVB244kRRvtF0kgbPuE",
-    "phone": "(781) 859-5503",
-    "address": "12 Medford St, Arlington",
-    "lat": 42.4150978,
-    "lng": -71.1509799,
-    "hours": {
-      "regular": {
-        "sun": null,
-        "mon": {
-          "open": "11:00",
-          "close": "20:00"
-        },
-        "tue": {
-          "open": "11:00",
-          "close": "20:00"
-        },
-        "wed": {
-          "open": "11:00",
-          "close": "20:00"
-        },
-        "thu": {
-          "open": "11:00",
-          "close": "20:00"
-        },
-        "fri": {
-          "open": "11:00",
-          "close": "20:15"
-        },
-        "sat": {
-          "open": "11:00",
-          "close": "20:15"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:36.295Z"
-  },
-  {
-    "id": "arlington-hair-salon",
-    "name": "Arlington Hair Salon",
-    "category": "health",
-    "placeId": "ChIJg7Algfh244kRTyXkjfJ5CFs",
-    "phone": "(781) 646-6425",
-    "address": "205 Broadway #207, Arlington",
-    "lat": 42.4120718,
-    "lng": -71.1445155,
-    "hours": {
-      "regular": {
-        "sun": null,
-        "mon": null,
         "tue": {
           "open": "09:00",
-          "close": "18:00"
+          "close": "21:00"
         },
         "wed": {
           "open": "09:00",
-          "close": "18:00"
+          "close": "21:00"
         },
         "thu": {
           "open": "09:00",
-          "close": "19:00"
-        },
-        "fri": {
-          "open": "10:00",
-          "close": "18:00"
-        },
-        "sat": {
-          "open": "08:00",
-          "close": "14:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:36.602Z"
-  },
-  {
-    "id": "punjab",
-    "name": "Punjab",
-    "category": "restaurant",
-    "placeId": "ChIJTSZ3u1B244kRUP4sXEASxs0",
-    "phone": "(781) 643-0943",
-    "address": "485 Massachusetts Ave, Arlington",
-    "lat": 42.4152688,
-    "lng": -71.1520286,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "11:00",
-          "close": "22:00"
-        },
-        "mon": null,
-        "tue": {
-          "open": "11:00",
-          "close": "22:00"
-        },
-        "wed": {
-          "open": "11:00",
-          "close": "22:00"
-        },
-        "thu": {
-          "open": "11:00",
-          "close": "22:00"
-        },
-        "fri": {
-          "open": "11:00",
-          "close": "22:00"
-        },
-        "sat": {
-          "open": "11:00",
-          "close": "22:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:36.893Z"
-  },
-  {
-    "id": "acitron",
-    "name": "Acitrón",
-    "category": "restaurant",
-    "placeId": "ChIJ6yZ3u1B244kRJqNMZVlJVxg",
-    "phone": "(781) 777-2839",
-    "address": "473 Massachusetts Ave, Arlington",
-    "lat": 42.4151179,
-    "lng": -71.1518467,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "17:00",
-          "close": "21:00"
-        },
-        "mon": {
-          "open": "17:00",
-          "close": "21:30"
-        },
-        "tue": {
-          "open": "17:00",
-          "close": "21:30"
-        },
-        "wed": {
-          "open": "17:00",
-          "close": "21:30"
-        },
-        "thu": {
-          "open": "17:00",
-          "close": "21:30"
-        },
-        "fri": {
-          "open": "17:00",
-          "close": "21:30"
-        },
-        "sat": {
-          "open": "17:00",
-          "close": "21:30"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:37.192Z"
-  },
-  {
-    "id": "elis",
-    "name": "Eli’s Service Station",
-    "category": "cars",
-    "placeId": "ChIJkRI1Efl244kRa23FArjNRrg",
-    "phone": "(781) 648-9833",
-    "address": "125 Broadway, Arlington",
-    "lat": 42.410699,
-    "lng": -71.1408976,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "08:00",
-          "close": "20:00"
-        },
-        "mon": {
-          "open": "06:00",
-          "close": "21:00"
-        },
-        "tue": {
-          "open": "06:00",
-          "close": "21:00"
-        },
-        "wed": {
-          "open": "06:00",
-          "close": "21:00"
-        },
-        "thu": {
-          "open": "06:00",
           "close": "21:00"
         },
         "fri": {
-          "open": "06:00",
-          "close": "21:00"
-        },
-        "sat": {
-          "open": "07:00",
-          "close": "21:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:37.484Z"
-  },
-  {
-    "id": "wholefoods-arlington",
-    "name": "Whole Foods Arlington",
-    "category": "groceries",
-    "placeId": "ChIJv_yrhE9244kRiZP4JWrlXXg",
-    "phone": "(781) 777-7200",
-    "address": "808 Massachusetts Ave, Arlington",
-    "lat": 42.41624540000001,
-    "lng": -71.159761,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "08:00",
-          "close": "21:00"
-        },
-        "mon": {
-          "open": "08:00",
-          "close": "21:00"
-        },
-        "tue": {
-          "open": "08:00",
-          "close": "21:00"
-        },
-        "wed": {
-          "open": "08:00",
-          "close": "21:00"
-        },
-        "thu": {
-          "open": "08:00",
-          "close": "21:00"
-        },
-        "fri": {
-          "open": "08:00",
-          "close": "21:00"
-        },
-        "sat": {
-          "open": "08:00",
-          "close": "21:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:37.791Z"
-  },
-  {
-    "id": "wholefoods-medford",
-    "name": "Whole Foods Medford",
-    "category": "groceries",
-    "placeId": "ChIJUWka9et244kRcXcyZkGA1mo",
-    "phone": "(781) 395-4998",
-    "address": "2151 Mystic Valley Pkwy, Medford",
-    "lat": 42.4170313,
-    "lng": -71.1265626,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "08:00",
-          "close": "21:00"
-        },
-        "mon": {
-          "open": "08:00",
-          "close": "21:00"
-        },
-        "tue": {
-          "open": "08:00",
-          "close": "21:00"
-        },
-        "wed": {
-          "open": "08:00",
-          "close": "21:00"
-        },
-        "thu": {
-          "open": "08:00",
-          "close": "21:00"
-        },
-        "fri": {
-          "open": "08:00",
-          "close": "21:00"
-        },
-        "sat": {
-          "open": "08:00",
-          "close": "21:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:38.082Z"
-  },
-  {
-    "id": "starmarket-belmont",
-    "name": "Star Market Belmont",
-    "category": "groceries",
-    "placeId": "ChIJEX_BCeJ344kRh3-ehRDw1Ak",
-    "phone": "(617) 489-6540",
-    "address": "535 Trapelo Rd, Belmont",
-    "lat": 42.3883942,
-    "lng": -71.1911666,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "07:00",
-          "close": "22:00"
-        },
-        "mon": {
-          "open": "07:00",
-          "close": "22:00"
-        },
-        "tue": {
-          "open": "07:00",
-          "close": "22:00"
-        },
-        "wed": {
-          "open": "07:00",
-          "close": "22:00"
-        },
-        "thu": {
-          "open": "07:00",
-          "close": "22:00"
-        },
-        "fri": {
-          "open": "07:00",
-          "close": "22:00"
-        },
-        "sat": {
-          "open": "07:00",
-          "close": "22:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:38.373Z"
-  },
-  {
-    "id": "quebrada",
-    "name": "Quebrada Arlington",
-    "category": "bakery/coffee",
-    "placeId": "ChIJOUYvyv9244kRBqZEKjTNRcE",
-    "phone": "(781) 591-0100",
-    "address": "208 Massachusetts Ave, Arlington",
-    "lat": 42.4059652,
-    "lng": -71.1427848,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "06:00",
-          "close": "16:00"
-        },
-        "mon": {
-          "open": "06:00",
-          "close": "18:00"
-        },
-        "tue": {
-          "open": "06:00",
-          "close": "18:00"
-        },
-        "wed": {
-          "open": "06:00",
-          "close": "18:00"
-        },
-        "thu": {
-          "open": "06:00",
-          "close": "18:00"
-        },
-        "fri": {
-          "open": "06:00",
-          "close": "18:00"
-        },
-        "sat": {
-          "open": "06:00",
-          "close": "18:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:38.667Z"
-  },
-  {
-    "id": "shattuck",
-    "name": "Shattuck ACE Hardware",
-    "category": "hardware",
-    "placeId": "ChIJicBfOEV244kRilJMjELKlIE",
-    "phone": "(781) 643-0114",
-    "address": "24 Mill St, Arlington",
-    "lat": 42.4181045,
-    "lng": -71.1580318,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "10:00",
+          "open": "09:00",
           "close": "17:00"
         },
-        "mon": {
-          "open": "07:30",
-          "close": "18:00"
-        },
-        "tue": {
-          "open": "07:30",
-          "close": "18:00"
-        },
-        "wed": {
-          "open": "07:30",
-          "close": "18:00"
-        },
-        "thu": {
-          "open": "07:30",
-          "close": "18:00"
-        },
-        "fri": {
-          "open": "07:30",
-          "close": "18:00"
-        },
         "sat": {
-          "open": "08:00",
+          "open": "09:00",
           "close": "17:00"
         }
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:08:38.957Z"
+    "lastUpdated": "2026-07-06T13:48:13.409Z"
   },
   {
-    "id": "yoshis",
-    "name": "Yoshi’s Japanese",
-    "category": "restaurant",
-    "placeId": "ChIJHbOpZN9244kRpgI4Nr_oiQk",
-    "phone": "(617) 623-9263",
-    "address": "132 College Ave, Somerville",
-    "lat": 42.4005353,
-    "lng": -71.1175454,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "12:30",
-          "close": "22:00"
-        },
-        "mon": {
-          "open": "11:30",
-          "close": "22:00"
-        },
-        "tue": null,
-        "wed": {
-          "open": "11:30",
-          "close": "22:00"
-        },
-        "thu": {
-          "open": "11:30",
-          "close": "22:00"
-        },
-        "fri": {
-          "open": "11:30",
-          "close": "22:30"
-        },
-        "sat": {
-          "open": "11:30",
-          "close": "22:30"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:39.255Z"
-  },
-  {
-    "id": "scoop",
-    "name": "Scoop N Scootery",
-    "category": "restaurant",
-    "placeId": "ChIJe_KwKCh344kRk8xPfwZmbk4",
-    "phone": "(781) 777-2830",
-    "address": "112 Massachusetts Ave, Arlington",
-    "lat": 42.4033073,
-    "lng": -71.1395113,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "15:00",
-          "close": "22:00"
-        },
-        "mon": null,
-        "tue": {
-          "open": "15:00",
-          "close": "02:00"
-        },
-        "wed": {
-          "open": "15:00",
-          "close": "02:00"
-        },
-        "thu": {
-          "open": "15:00",
-          "close": "02:00"
-        },
-        "fri": {
-          "open": "15:00",
-          "close": "02:00"
-        },
-        "sat": {
-          "open": "15:00",
-          "close": "02:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:39.557Z"
-  },
-  {
-    "id": "tatte-arlington",
-    "name": "Tatte Arlington",
-    "category": "bakery/coffee",
-    "placeId": "ChIJ-86MCXZ344kRtSGabagfZRY",
-    "phone": "(781) 583-6046",
-    "address": "645 Massachusetts Ave, Arlington",
-    "lat": 42.415979199999995,
-    "lng": -71.15378849999999,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "07:30",
-          "close": "19:00"
-        },
-        "mon": {
-          "open": "07:00",
-          "close": "20:00"
-        },
-        "tue": {
-          "open": "07:00",
-          "close": "20:00"
-        },
-        "wed": {
-          "open": "07:00",
-          "close": "20:00"
-        },
-        "thu": {
-          "open": "07:00",
-          "close": "20:00"
-        },
-        "fri": {
-          "open": "07:00",
-          "close": "20:00"
-        },
-        "sat": {
-          "open": "07:00",
-          "close": "20:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:39.840Z"
-  },
-  {
-    "id": "belmont-books",
-    "name": "Belmont Books",
+    "id": "andover-bookstore",
+    "name": "Andover Bookstore",
     "category": "books",
-    "placeId": "ChIJM2XLKsR344kR5Sa24czy2oM",
-    "phone": "(617) 932-1496",
-    "address": "79 Leonard St, Belmont",
-    "lat": 42.3977831,
-    "lng": -71.1744386,
+    "placeId": "ChIJn6uGjosI44kRNrzqZyLtwAI",
+    "phone": "(978) 475-0143",
+    "address": "74 Main St, Andover",
+    "lat": 42.6548555,
+    "lng": -71.1390078,
     "hours": {
       "regular": {
         "sun": {
-          "open": "10:00",
+          "open": "11:00",
           "close": "16:00"
         },
         "mon": {
-          "open": "07:00",
+          "open": "10:00",
           "close": "18:00"
         },
         "tue": {
-          "open": "07:00",
+          "open": "10:00",
           "close": "18:00"
         },
         "wed": {
-          "open": "07:00",
+          "open": "10:00",
           "close": "18:00"
         },
         "thu": {
-          "open": "07:00",
+          "open": "10:00",
           "close": "18:00"
         },
         "fri": {
-          "open": "07:00",
+          "open": "10:00",
           "close": "18:00"
         },
         "sat": {
-          "open": "07:00",
+          "open": "10:00",
           "close": "18:00"
         }
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:08:40.123Z"
+    "lastUpdated": "2026-07-06T13:48:13.713Z"
   },
   {
-    "id": "bicycle-belle",
-    "name": "Bicycle Belle",
-    "category": "bikes",
-    "placeId": "ChIJwwR0HTx344kRTnlYEX0FyDk",
-    "phone": "(617) 661-0969",
-    "address": "368 Beacon St, Somerville",
-    "lat": 42.3859936,
-    "lng": -71.11605089999999,
+    "id": "34-park",
+    "name": "34 Park",
+    "category": "restaurant",
+    "placeId": "ChIJw-LcoGoJ44kRcFQWuikV7ZM",
+    "phone": "(978) 409-2445",
+    "address": "34 Park St, Andover",
+    "lat": 42.6571929,
+    "lng": -71.1389531,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "12:00",
+          "close": "20:00"
+        },
+        "mon": {
+          "open": "16:00",
+          "close": "20:30"
+        },
+        "tue": {
+          "open": "16:00",
+          "close": "20:30"
+        },
+        "wed": {
+          "open": "16:00",
+          "close": "20:30"
+        },
+        "thu": {
+          "open": "11:30",
+          "close": "21:30"
+        },
+        "fri": {
+          "open": "11:30",
+          "close": "21:30"
+        },
+        "sat": {
+          "open": "11:30",
+          "close": "21:30"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:13.997Z"
+  },
+  {
+    "id": "otto-andover",
+    "name": "OTTO",
+    "category": "restaurant",
+    "placeId": "ChIJSTPwG1cJ44kRCm2ZpPPmYdQ",
+    "phone": "(617) 588-6910",
+    "address": "27 Main St, Andover",
+    "lat": 42.6558614,
+    "lng": -71.1403241,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "mon": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "tue": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "wed": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "thu": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "00:00"
+        },
+        "sat": {
+          "open": "11:00",
+          "close": "00:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:14.289Z"
+  },
+  {
+    "id": "monicas-mithai",
+    "name": "Monica’s Mithai Cafe & Bar",
+    "category": "restaurant",
+    "placeId": "ChIJ4azHkwgJ44kRccuCiPMStRU",
+    "phone": "(617) 548-3797",
+    "address": "16 Post Office Ave, Andover",
+    "lat": 42.6568488,
+    "lng": -71.14009340000001,
+    "hours": {
+      "regular": {
+        "sun": null,
+        "mon": null,
+        "tue": {
+          "open": "16:30",
+          "close": "21:00"
+        },
+        "wed": {
+          "open": "16:30",
+          "close": "21:00"
+        },
+        "thu": {
+          "open": "16:30",
+          "close": "21:00"
+        },
+        "fri": {
+          "open": "16:30",
+          "close": "21:30"
+        },
+        "sat": {
+          "open": "16:30",
+          "close": "21:30"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:14.578Z"
+  },
+  {
+    "id": "nans-kitchen",
+    "name": "Nan's Kitchen",
+    "category": "restaurant",
+    "placeId": "ChIJLxzL_8IJ44kR4FTa449V4D8",
+    "phone": "(978) 809-3304",
+    "address": "10 Main St, Andover",
+    "lat": 42.6566493,
+    "lng": -71.1401144,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "07:00",
+          "close": "20:00"
+        },
+        "mon": {
+          "open": "07:00",
+          "close": "20:00"
+        },
+        "tue": {
+          "open": "07:00",
+          "close": "20:00"
+        },
+        "wed": {
+          "open": "07:00",
+          "close": "20:00"
+        },
+        "thu": {
+          "open": "07:00",
+          "close": "20:00"
+        },
+        "fri": {
+          "open": "07:00",
+          "close": "20:00"
+        },
+        "sat": {
+          "open": "07:00",
+          "close": "20:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:14.895Z"
+  },
+  {
+    "id": "la-fina",
+    "name": "La Fina",
+    "category": "restaurant",
+    "placeId": "ChIJKbI-nu4J44kRQj6AP8MAqZ0",
+    "phone": "(978) 475-4082",
+    "address": "27 Main St, Andover",
+    "lat": 42.655708999999995,
+    "lng": -71.1403491,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "15:00",
+          "close": "21:00"
+        },
+        "mon": {
+          "open": "17:00",
+          "close": "21:00"
+        },
+        "tue": {
+          "open": "17:00",
+          "close": "21:00"
+        },
+        "wed": {
+          "open": "17:00",
+          "close": "21:00"
+        },
+        "thu": {
+          "open": "17:00",
+          "close": "22:00"
+        },
+        "fri": {
+          "open": "17:00",
+          "close": "22:00"
+        },
+        "sat": {
+          "open": "16:00",
+          "close": "22:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:15.191Z"
+  },
+  {
+    "id": "casa-blanca",
+    "name": "Casa Blanca",
+    "category": "restaurant",
+    "placeId": "ChIJWUmIaokI44kRHgpDSIE5doQ",
+    "phone": "(978) 289-4165",
+    "address": "10 Main St, Andover",
+    "lat": 42.656388899999996,
+    "lng": -71.14027779999999,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "mon": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "tue": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "wed": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "thu": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:15.484Z"
+  },
+  {
+    "id": "autograph-tavern",
+    "name": "The Autograph American Tavern",
+    "category": "restaurant",
+    "placeId": "ChIJe7MoA2kJ44kRqocpwMxr9Qk",
+    "phone": "(978) 925-6905",
+    "address": "89 Main St, Andover",
+    "lat": 42.6539885,
+    "lng": -71.139676,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "11:00",
+          "close": "21:00"
+        },
+        "mon": {
+          "open": "12:00",
+          "close": "21:00"
+        },
+        "tue": {
+          "open": "12:00",
+          "close": "21:00"
+        },
+        "wed": {
+          "open": "12:00",
+          "close": "21:00"
+        },
+        "thu": {
+          "open": "12:00",
+          "close": "21:00"
+        },
+        "fri": {
+          "open": "12:00",
+          "close": "21:30"
+        },
+        "sat": null
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:15.774Z"
+  },
+  {
+    "id": "bartlett-street",
+    "name": "Bartlet Street",
+    "category": "restaurant",
+    "placeId": "ChIJoXkcUqAJ44kRgQVBxhrYlik",
+    "phone": "(978) 470-3000",
+    "address": "11 Bartlet St, Andover",
+    "lat": 42.6561695,
+    "lng": -71.1386084,
     "hours": {
       "regular": {
         "sun": null,
         "mon": null,
         "tue": {
           "open": "10:00",
-          "close": "17:00"
-        },
-        "wed": {
-          "open": "11:00",
-          "close": "19:00"
-        },
-        "thu": {
-          "open": "10:00",
-          "close": "17:00"
-        },
-        "fri": {
-          "open": "10:00",
-          "close": "17:00"
-        },
-        "sat": null
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:40.413Z"
-  },
-  {
-    "id": "belmont-wheelworks",
-    "name": "Belmont Wheelworks",
-    "category": "bikes",
-    "placeId": "ChIJ0b-JS-J344kR0z5ZpgbqKyY",
-    "phone": "(617) 489-3577",
-    "address": "480 Trapelo Rd, Belmont",
-    "lat": 42.3872225,
-    "lng": -71.1893834,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "12:00",
-          "close": "17:00"
-        },
-        "mon": {
-          "open": "10:00",
-          "close": "18:00"
-        },
-        "tue": {
-          "open": "10:00",
-          "close": "18:00"
+          "close": "14:00"
         },
         "wed": {
           "open": "10:00",
-          "close": "18:00"
-        },
-        "thu": {
-          "open": "10:00",
-          "close": "18:00"
-        },
-        "fri": {
-          "open": "10:00",
-          "close": "18:00"
-        },
-        "sat": {
-          "open": "09:00",
-          "close": "18:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:40.694Z"
-  },
-  {
-    "id": "ace-wheelworks",
-    "name": "Ace Wheelworks Somerville",
-    "category": "bikes",
-    "placeId": "ChIJndSl0yJ344kRJOosmZcUL7M",
-    "phone": "(617) 776-2100",
-    "address": "145 Elm St, Somerville",
-    "lat": 42.391269699999995,
-    "lng": -71.1185455,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "12:00",
-          "close": "17:00"
-        },
-        "mon": {
-          "open": "10:00",
-          "close": "18:00"
-        },
-        "tue": {
-          "open": "10:00",
-          "close": "18:00"
-        },
-        "wed": {
-          "open": "10:00",
-          "close": "18:00"
-        },
-        "thu": {
-          "open": "10:00",
-          "close": "18:00"
-        },
-        "fri": {
-          "open": "10:00",
-          "close": "18:00"
-        },
-        "sat": {
-          "open": "09:00",
-          "close": "18:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:40.969Z"
-  },
-  {
-    "id": "walgreens-store",
-    "name": "Walgreens (Store)",
-    "category": "health",
-    "placeId": "ChIJdegK1VV244kRXKOh0Ap4imY",
-    "phone": "(781) 643-4112",
-    "address": "324 Massachusetts Ave, Arlington",
-    "lat": 42.4252883,
-    "lng": -71.18740140000001,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "07:00",
-          "close": "23:00"
-        },
-        "mon": {
-          "open": "07:00",
-          "close": "23:00"
-        },
-        "tue": {
-          "open": "07:00",
-          "close": "23:00"
-        },
-        "wed": {
-          "open": "07:00",
-          "close": "23:00"
-        },
-        "thu": {
-          "open": "07:00",
-          "close": "23:00"
-        },
-        "fri": {
-          "open": "07:00",
-          "close": "23:00"
-        },
-        "sat": {
-          "open": "07:00",
-          "close": "23:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:41.240Z"
-  },
-  {
-    "id": "walgreens-pharmacy",
-    "name": "Walgreens Pharmacy",
-    "category": "health",
-    "placeId": "ChIJ_Y_RRDt344kRB_XNtAA6ec0",
-    "phone": "(781) 643-4112",
-    "address": "324 Massachusetts Ave, Arlington",
-    "lat": 42.4100132,
-    "lng": -71.1486304,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "14:00",
-          "close": "18:00"
-        },
-        "mon": {
-          "open": "14:00",
-          "close": "21:00"
-        },
-        "tue": {
-          "open": "14:00",
-          "close": "21:00"
-        },
-        "wed": {
-          "open": "14:00",
-          "close": "21:00"
-        },
-        "thu": {
-          "open": "14:00",
-          "close": "21:00"
-        },
-        "fri": {
-          "open": "14:00",
-          "close": "21:00"
-        },
-        "sat": {
-          "open": "14:00",
-          "close": "18:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:41.519Z"
-  },
-  {
-    "id": "CVS",
-    "name": "CVS (Store)",
-    "category": "health",
-    "placeId": "ChIJc2KtfE9244kRd6OqiX7ucsc",
-    "phone": "(781) 643-4272",
-    "address": "833 Massachusetts Ave, Arlington",
-    "lat": 42.417142399999996,
-    "lng": -71.160361,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "07:00",
-          "close": "22:00"
-        },
-        "mon": {
-          "open": "07:00",
-          "close": "22:00"
-        },
-        "tue": {
-          "open": "07:00",
-          "close": "22:00"
-        },
-        "wed": {
-          "open": "07:00",
-          "close": "22:00"
-        },
-        "thu": {
-          "open": "07:00",
-          "close": "22:00"
-        },
-        "fri": {
-          "open": "07:00",
-          "close": "22:00"
-        },
-        "sat": {
-          "open": "07:00",
-          "close": "22:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-06-03T12:08:41.798Z"
-  },
-  {
-    "id": "cvs-pharmacy",
-    "name": "CVS Pharmacy",
-    "category": "health",
-    "placeId": "ChIJwVUXDrN344kRwnECSioprLk",
-    "phone": "(781) 643-4272",
-    "address": "833 Massachusetts Ave, Arlington",
-    "lat": 42.4169623,
-    "lng": -71.1605281,
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "14:00",
           "close": "20:00"
         },
-        "mon": {
-          "open": "14:00",
-          "close": "21:00"
-        },
-        "tue": {
-          "open": "14:00",
-          "close": "21:00"
-        },
-        "wed": {
-          "open": "14:00",
-          "close": "21:00"
-        },
         "thu": {
-          "open": "14:00",
-          "close": "21:00"
+          "open": "10:00",
+          "close": "20:00"
         },
         "fri": {
-          "open": "14:00",
-          "close": "21:00"
+          "open": "10:00",
+          "close": "20:00"
         },
         "sat": {
-          "open": "14:00",
+          "open": "10:00",
           "close": "20:00"
         }
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:08:42.076Z"
+    "lastUpdated": "2026-07-06T13:48:16.055Z"
   },
   {
-    "id": "my-eye-dr",
-    "name": "MyEyeDr.",
-    "category": "health",
-    "placeId": "ChIJ9S_EX6J344kR78eBvxal64Q",
-    "phone": "(781) 488-0094",
-    "address": "1328 Massachusetts Ave, Arlington",
-    "lat": 42.42417460000001,
-    "lng": -71.1828845,
+    "id": "elm-square-oyster",
+    "name": "Elm Square Oyster Co.",
+    "category": "restaurant",
+    "placeId": "ChIJs8wxFokI44kR7bdB5rHU5TU",
+    "phone": "(978) 470-2228",
+    "address": "2 Elm Square, 2 Elm Square, Andover",
+    "lat": 42.6567703,
+    "lng": -71.1405066,
     "hours": {
       "regular": {
         "sun": null,
+        "mon": null,
+        "tue": {
+          "open": "17:00",
+          "close": "22:00"
+        },
+        "wed": {
+          "open": "17:00",
+          "close": "22:00"
+        },
+        "thu": {
+          "open": "17:00",
+          "close": "22:00"
+        },
+        "fri": {
+          "open": "17:00",
+          "close": "22:00"
+        },
+        "sat": {
+          "open": "16:00",
+          "close": "22:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:16.339Z"
+  },
+  {
+    "id": "larosas",
+    "name": "LaRosa's Italian Cafe & Bar",
+    "category": "restaurant",
+    "placeId": "ChIJwTimRIkI44kRFs-6JEQKocA",
+    "phone": "(978) 475-1777",
+    "address": "7 Barnard St, Andover",
+    "lat": 42.6560081,
+    "lng": -71.13969809999999,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "11:00",
+          "close": "21:00"
+        },
         "mon": {
-          "open": "08:00",
-          "close": "17:00"
+          "open": "11:00",
+          "close": "22:00"
         },
         "tue": {
-          "open": "08:00",
-          "close": "17:00"
+          "open": "11:00",
+          "close": "22:00"
         },
+        "wed": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "thu": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "sat": {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:16.614Z"
+  },
+  {
+    "id": "oak-iron",
+    "name": "Oak & Iron Brewing Co.",
+    "category": "restaurant",
+    "placeId": "ChIJMxclhmEI44kRzq9zSub6IQ0",
+    "phone": "(978) 475-4077",
+    "address": "18 Red Spring Rd, Andover",
+    "lat": 42.6563599,
+    "lng": -71.1470741,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "13:00",
+          "close": "18:00"
+        },
+        "mon": null,
+        "tue": null,
         "wed": null,
         "thu": {
-          "open": "08:00",
-          "close": "17:00"
+          "open": "16:00",
+          "close": "20:30"
         },
         "fri": {
-          "open": "08:00",
-          "close": "17:00"
+          "open": "16:00",
+          "close": "20:30"
         },
         "sat": {
-          "open": "08:00",
+          "open": "13:00",
+          "close": "20:30"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:16.916Z"
+  },
+  {
+    "id": "shoyu",
+    "name": "ShoYu Restaurant and Bar",
+    "category": "restaurant",
+    "placeId": "ChIJC1rLF7oJ44kRN8owf5tIal8",
+    "phone": "(978) 409-1494",
+    "address": "40 Park St, Andover",
+    "lat": 42.6570823,
+    "lng": -71.1386409,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "12:00",
+          "close": "21:00"
+        },
+        "mon": {
+          "open": "11:30",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "11:30",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "11:30",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "11:30",
+          "close": "00:30"
+        },
+        "fri": {
+          "open": "11:30",
+          "close": "00:30"
+        },
+        "sat": {
+          "open": "11:30",
+          "close": "00:30"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:17.199Z"
+  },
+  {
+    "id": "bakery-on-the-square",
+    "name": "Andover Bake Shop",
+    "category": "bakery/coffee",
+    "placeId": "ChIJfXENfggJ44kRxFCSX32ZMuQ",
+    "phone": "(978) 409-2498",
+    "address": "28 Chestnut St #7, Andover",
+    "lat": 42.6557538,
+    "lng": -71.1387659,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "10:00",
+          "close": "13:00"
+        },
+        "mon": null,
+        "tue": {
+          "open": "10:00",
+          "close": "16:00"
+        },
+        "wed": {
+          "open": "10:00",
+          "close": "16:00"
+        },
+        "thu": {
+          "open": "10:00",
+          "close": "16:00"
+        },
+        "fri": {
+          "open": "10:00",
+          "close": "16:00"
+        },
+        "sat": {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:17.482Z"
+  },
+  {
+    "id": "perfectos-caffe",
+    "name": "Perfecto's Caffe",
+    "category": "bakery/coffee",
+    "placeId": "ChIJ8XQnWogI44kR1mHbo6ZBxzg",
+    "phone": "(978) 749-7022",
+    "address": "79 N Main St, Andover",
+    "lat": 42.6586924,
+    "lng": -71.1422197,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "06:00",
+          "close": "14:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "14:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "14:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "14:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "14:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "14:00"
+        },
+        "sat": {
+          "open": "06:00",
           "close": "14:00"
         }
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:08:42.353Z"
+    "lastUpdated": "2026-07-06T13:48:17.774Z"
   },
   {
-    "id": "maxima",
-    "name": "Maxima Gifts.",
-    "category": "shops",
-    "placeId": "ChIJF9TpuP9244kRFKBVhuX6RWM",
-    "phone": "(781) 646-6835",
-    "address": "Massachusetts Ave, Arlington",
-    "lat": 42.4059856,
-    "lng": -71.14281249999999,
+    "id": "ultimate-perk",
+    "name": "Ultimate Perk Coffee Shop",
+    "category": "bakery/coffee",
+    "placeId": "ChIJnT0odYwI44kRWEEwHM7SZ_w",
+    "phone": "(978) 470-1401",
+    "address": "96 Main St, Andover",
+    "lat": 42.654022,
+    "lng": -71.138625,
     "hours": {
       "regular": {
         "sun": {
-          "open": "10:00",
-          "close": "18:00"
+          "open": "06:00",
+          "close": "14:00"
         },
         "mon": {
-          "open": "10:00",
+          "open": "06:00",
+          "close": "15:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "15:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "15:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "15:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "15:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "15:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:18.097Z"
+  },
+  {
+    "id": "caffe-nero-andover",
+    "name": "Caffè Nero",
+    "category": "bakery/coffee",
+    "placeId": "ChIJW0y18YsI44kRmBJKugALTUI",
+    "phone": "(978) 409-2847",
+    "address": "77 Main St, Andover",
+    "lat": 42.6545256,
+    "lng": -71.13950849999999,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "06:30",
+          "close": "19:00"
+        },
+        "mon": {
+          "open": "06:30",
           "close": "19:00"
         },
         "tue": {
-          "open": "10:00",
+          "open": "06:30",
           "close": "19:00"
         },
         "wed": {
-          "open": "10:00",
+          "open": "06:30",
           "close": "19:00"
         },
         "thu": {
-          "open": "10:00",
+          "open": "06:30",
           "close": "19:00"
         },
         "fri": {
-          "open": "10:00",
+          "open": "06:30",
           "close": "19:00"
         },
         "sat": {
-          "open": "10:00",
+          "open": "06:30",
           "close": "19:00"
         }
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:08:42.632Z"
+    "lastUpdated": "2026-07-06T13:48:18.386Z"
   },
   {
-    "id": "henry-bear",
-    "name": "Henry Bear’s Park",
-    "category": "shops",
-    "placeId": "ChIJgWCkdFB244kRy6u8doxZZSU",
-    "phone": "(781) 646-9400",
-    "address": "685 Massachusetts Ave, Arlington",
-    "lat": 42.416221,
-    "lng": -71.15513,
+    "id": "dunkin-andover",
+    "name": "Dunkin'",
+    "category": "bakery/coffee",
+    "placeId": "ChIJwbB2QokI44kR5PVUSlOWS5g",
+    "phone": "(978) 475-4193",
+    "address": "93 Main St, Andover",
+    "lat": 42.6538411,
+    "lng": -71.1389658,
     "hours": {
       "regular": {
         "sun": {
-          "open": "10:00",
-          "close": "17:00"
+          "open": "05:00",
+          "close": "19:00"
         },
         "mon": {
-          "open": "10:00",
+          "open": "05:00",
           "close": "19:00"
         },
         "tue": {
-          "open": "10:00",
+          "open": "05:00",
           "close": "19:00"
         },
         "wed": {
-          "open": "10:00",
+          "open": "05:00",
           "close": "19:00"
         },
         "thu": {
-          "open": "10:00",
+          "open": "05:00",
           "close": "19:00"
         },
         "fri": {
-          "open": "10:00",
+          "open": "05:00",
           "close": "19:00"
         },
         "sat": {
-          "open": "10:00",
+          "open": "05:00",
           "close": "19:00"
         }
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:08:42.904Z"
+    "lastUpdated": "2026-07-06T13:48:18.683Z"
   },
   {
-    "id": "helenas",
-    "name": "Helena’s",
-    "category": "shops",
-    "placeId": "ChIJy3q_Ild244kRm092WQ6cMsY",
-    "phone": "(781) 483-3055",
-    "address": "397 Massachusetts Ave, Arlington",
-    "lat": 42.4135546,
-    "lng": -71.1492813,
+    "id": "jp-licks",
+    "name": "J.P. Licks",
+    "category": "bakery/coffee",
+    "placeId": "ChIJUcGoBlgJ44kRuD3HPBRW1Ww",
+    "phone": "(978) 783-2370",
+    "address": "28 Park St, Andover",
+    "lat": 42.6566987,
+    "lng": -71.13934259999999,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "mon": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "tue": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "wed": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "thu": {
+          "open": "11:00",
+          "close": "22:00"
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:18.968Z"
+  },
+  {
+    "id": "wholefoods-andover",
+    "name": "Whole Foods Market",
+    "category": "groceries",
+    "placeId": "ChIJe7LfVH0I44kRx3tYinfGxS8",
+    "phone": "(978) 749-6664",
+    "address": "40 Railroad St, Andover",
+    "lat": 42.660895,
+    "lng": -71.1445731,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "mon": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "tue": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "wed": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "thu": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "fri": {
+          "open": "08:00",
+          "close": "21:00"
+        },
+        "sat": {
+          "open": "08:00",
+          "close": "21:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:19.258Z"
+  },
+  {
+    "id": "market-basket-n-andover",
+    "name": "Market Basket",
+    "category": "groceries",
+    "placeId": "ChIJ5Y28NTEG44kRUI5-e5PMOOg",
+    "phone": "(978) 688-6322",
+    "address": "350 Winthrop Ave, North Andover",
+    "lat": 42.684668099999996,
+    "lng": -71.1361867,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "07:00",
+          "close": "20:00"
+        },
+        "mon": {
+          "open": "07:00",
+          "close": "21:00"
+        },
+        "tue": {
+          "open": "07:00",
+          "close": "21:00"
+        },
+        "wed": {
+          "open": "07:00",
+          "close": "21:00"
+        },
+        "thu": {
+          "open": "07:00",
+          "close": "21:00"
+        },
+        "fri": {
+          "open": "07:00",
+          "close": "21:00"
+        },
+        "sat": {
+          "open": "07:00",
+          "close": "21:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:19.536Z"
+  },
+  {
+    "id": "stop-shop-andover",
+    "name": "Stop & Shop",
+    "category": "groceries",
+    "placeId": "ChIJ27Xh5H0I44kRBgMxv8hkFBA",
+    "phone": "(978) 623-9912",
+    "address": "209 N Main St, Andover",
+    "lat": 42.665304899999995,
+    "lng": -71.1444253,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "07:00",
+          "close": "21:00"
+        },
+        "mon": {
+          "open": "07:00",
+          "close": "22:00"
+        },
+        "tue": {
+          "open": "07:00",
+          "close": "22:00"
+        },
+        "wed": {
+          "open": "07:00",
+          "close": "22:00"
+        },
+        "thu": {
+          "open": "07:00",
+          "close": "22:00"
+        },
+        "fri": {
+          "open": "07:00",
+          "close": "22:00"
+        },
+        "sat": {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:19.820Z"
+  },
+  {
+    "id": "cvs-andover",
+    "name": "CVS Pharmacy",
+    "category": "health",
+    "placeId": "ChIJSUpq_osI44kR3wSNeL9uNYU",
+    "phone": "(978) 470-0542",
+    "address": "68 Main St, Andover",
+    "lat": 42.6551134,
+    "lng": -71.1391723,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "14:00",
+          "close": "13:30"
+        },
+        "mon": {
+          "open": "14:00",
+          "close": "13:30"
+        },
+        "tue": {
+          "open": "14:00",
+          "close": "13:30"
+        },
+        "wed": {
+          "open": "14:00",
+          "close": "13:30"
+        },
+        "thu": {
+          "open": "14:00",
+          "close": "13:30"
+        },
+        "fri": {
+          "open": "14:00",
+          "close": "13:30"
+        },
+        "sat": {
+          "open": "14:00",
+          "close": "13:30"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:20.104Z"
+  },
+  {
+    "id": "walgreens-n-andover",
+    "name": "Walgreens",
+    "category": "health",
+    "placeId": "ChIJtZtvEDAG44kRw0gEUcy2FdE",
+    "phone": "(978) 681-1530",
+    "address": "800 Waverly Rd Ft110790-2696, North Andover",
+    "lat": 42.6777779,
+    "lng": -71.13338639999999,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "07:00",
+          "close": "22:00"
+        },
+        "mon": {
+          "open": "07:00",
+          "close": "22:00"
+        },
+        "tue": {
+          "open": "07:00",
+          "close": "22:00"
+        },
+        "wed": {
+          "open": "07:00",
+          "close": "22:00"
+        },
+        "thu": {
+          "open": "07:00",
+          "close": "22:00"
+        },
+        "fri": {
+          "open": "07:00",
+          "close": "22:00"
+        },
+        "sat": {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:20.395Z"
+  },
+  {
+    "id": "wine-sense",
+    "name": "The Wine Sense",
+    "category": "wine",
+    "placeId": "ChIJ6b9G9ocI44kR0yxXu_KjkM0",
+    "phone": "(978) 749-9464",
+    "address": "166 N Main St, Andover",
+    "lat": 42.6615907,
+    "lng": -71.14503119999999,
     "hours": {
       "regular": {
         "sun": {
           "open": "12:00",
-          "close": "17:00"
-        },
-        "mon": {
-          "open": "11:00",
           "close": "18:00"
         },
+        "mon": null,
         "tue": {
           "open": "11:00",
-          "close": "18:00"
+          "close": "19:00"
         },
         "wed": {
           "open": "11:00",
-          "close": "18:00"
+          "close": "19:00"
         },
         "thu": {
           "open": "11:00",
-          "close": "18:00"
+          "close": "19:00"
         },
         "fri": {
           "open": "11:00",
+          "close": "19:00"
+        },
+        "sat": {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:20.673Z"
+  },
+  {
+    "id": "andover-classic-wines",
+    "name": "Andover Classic Wines",
+    "category": "wine",
+    "placeId": "ChIJQYVbXYcI44kRAraxZfgbEN4",
+    "phone": "(978) 470-0500",
+    "address": "209 N Main St, Andover",
+    "lat": 42.665155299999995,
+    "lng": -71.14402849999999,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "11:00",
+          "close": "18:00"
+        },
+        "mon": {
+          "open": "09:00",
+          "close": "20:00"
+        },
+        "tue": {
+          "open": "09:00",
+          "close": "20:00"
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "20:00"
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "20:00"
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "20:00"
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "20:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:20.965Z"
+  },
+  {
+    "id": "andover-wine-merchant",
+    "name": "Andover Wine Merchant",
+    "category": "wine",
+    "placeId": "ChIJ_eeSFPcJ44kRQ8pw6cFKvew",
+    "phone": "(978) 300-8001",
+    "address": "63 Park St Ste 6, Andover",
+    "lat": 42.656895,
+    "lng": -71.13712799999999,
+    "hours": {
+      "regular": {
+        "sun": null,
+        "mon": {
+          "open": "12:00",
+          "close": "19:00"
+        },
+        "tue": {
+          "open": "12:00",
+          "close": "19:00"
+        },
+        "wed": {
+          "open": "11:00",
+          "close": "19:00"
+        },
+        "thu": {
+          "open": "11:00",
+          "close": "19:00"
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "19:00"
+        },
+        "sat": null
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:21.239Z"
+  },
+  {
+    "id": "mad-maggies",
+    "name": "Mad Maggie's Ice Cream",
+    "category": "shops",
+    "placeId": "ChIJPdyiM5IG44kR7-sRDG37Uto",
+    "phone": "(978) 685-2814",
+    "address": "1025 Osgood St, North Andover",
+    "lat": 42.7146372,
+    "lng": -71.1159029,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "12:00",
+          "close": "20:30"
+        },
+        "mon": {
+          "open": "12:00",
+          "close": "21:00"
+        },
+        "tue": {
+          "open": "12:00",
+          "close": "21:00"
+        },
+        "wed": {
+          "open": "12:00",
+          "close": "21:00"
+        },
+        "thu": {
+          "open": "12:00",
+          "close": "21:00"
+        },
+        "fri": {
+          "open": "12:00",
+          "close": "21:30"
+        },
+        "sat": {
+          "open": "12:00",
+          "close": "21:30"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:21.516Z"
+  },
+  {
+    "id": "andover-collection",
+    "name": "Andover Collection",
+    "category": "shops",
+    "placeId": "ChIJe0CBkNgJ44kRO4cNL-oIHDw",
+    "phone": "(978) 409-2245",
+    "address": "40 Main St, Andover",
+    "lat": 42.6558607,
+    "lng": -71.1398753,
+    "hours": {
+      "regular": {
+        "sun": null,
+        "mon": {
+          "open": "11:00",
+          "close": "17:00"
+        },
+        "tue": {
+          "open": "11:00",
+          "close": "17:00"
+        },
+        "wed": {
+          "open": "11:00",
+          "close": "17:00"
+        },
+        "thu": {
+          "open": "11:00",
+          "close": "17:00"
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "17:00"
+        },
+        "sat": {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:21.805Z"
+  },
+  {
+    "id": "chic-consignment",
+    "name": "Chic Consignment",
+    "category": "shops",
+    "placeId": "ChIJ_7UdUIkI44kR6KYVFJd2guc",
+    "phone": "(978) 474-1755",
+    "address": "44 Main St, Andover",
+    "lat": 42.6557824,
+    "lng": -71.1398337,
+    "hours": {
+      "regular": {
+        "sun": null,
+        "mon": null,
+        "tue": {
+          "open": "11:00",
+          "close": "17:00"
+        },
+        "wed": {
+          "open": "11:00",
+          "close": "17:00"
+        },
+        "thu": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "fri": {
+          "open": "10:00",
           "close": "18:00"
         },
         "sat": {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:22.089Z"
+  },
+  {
+    "id": "dovetail-apothecary",
+    "name": "Dovetail Apothecary of Beauty",
+    "category": "shops",
+    "placeId": "ChIJ5_ZLwRcJ44kRFNWvnzJURvE",
+    "phone": "(978) 749-2717",
+    "address": "46 Main St, Andover",
+    "lat": 42.655749799999995,
+    "lng": -71.1397247,
+    "hours": {
+      "regular": {
+        "sun": null,
+        "mon": null,
+        "tue": {
           "open": "11:00",
+          "close": "16:00"
+        },
+        "wed": {
+          "open": "11:00",
+          "close": "17:00"
+        },
+        "thu": {
+          "open": "11:00",
+          "close": "17:00"
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "17:00"
+        },
+        "sat": {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:22.375Z"
+  },
+  {
+    "id": "highland-heather",
+    "name": "Highland and Heather",
+    "category": "shops",
+    "placeId": "ChIJvVAWJTMJ44kR2ZTEvkzDPEU",
+    "phone": "(978) 961-7306",
+    "address": "36 Main St, Andover",
+    "lat": 42.6559099,
+    "lng": -71.1399395,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "12:00",
+          "close": "15:00"
+        },
+        "mon": {
+          "open": "12:00",
+          "close": "15:00"
+        },
+        "tue": null,
+        "wed": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "thu": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "fri": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "sat": {
+          "open": "10:00",
           "close": "18:00"
         }
       },
       "overrides": []
     },
-    "lastUpdated": "2026-06-03T12:08:43.185Z"
+    "lastUpdated": "2026-07-06T13:48:22.666Z"
+  },
+  {
+    "id": "helen-thomas",
+    "name": "Helen Thomas Simply Smashing",
+    "category": "shops",
+    "placeId": "ChIJQVfWCIwI44kR1yGPGcUoriw",
+    "phone": "(978) 475-7981",
+    "address": "2 Elm Square, 2 Main St, Andover",
+    "lat": 42.6569465,
+    "lng": -71.1405578,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "11:00",
+          "close": "16:00"
+        },
+        "mon": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "tue": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "wed": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "thu": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "fri": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "sat": {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:22.947Z"
+  },
+  {
+    "id": "jmclaughlin",
+    "name": "J.McLaughlin",
+    "category": "shops",
+    "placeId": "ChIJxRZyaYkI44kRIe0FzB45Ipw",
+    "phone": "(978) 608-8571",
+    "address": "13 Main St, Andover",
+    "lat": 42.6562565,
+    "lng": -71.14059189999999,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "11:00",
+          "close": "16:00"
+        },
+        "mon": {
+          "open": "09:30",
+          "close": "17:30"
+        },
+        "tue": {
+          "open": "09:30",
+          "close": "17:30"
+        },
+        "wed": {
+          "open": "09:30",
+          "close": "17:30"
+        },
+        "thu": {
+          "open": "09:30",
+          "close": "17:30"
+        },
+        "fri": {
+          "open": "09:30",
+          "close": "17:30"
+        },
+        "sat": {
+          "open": "09:30",
+          "close": "17:30"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:23.234Z"
+  },
+  {
+    "id": "learning-express",
+    "name": "Learning Express Toys",
+    "category": "shops",
+    "placeId": "ChIJi8z8M4kI44kRi3yvKWRaGik",
+    "phone": "(978) 474-0555",
+    "address": "34 Park St, Andover",
+    "lat": 42.6572757,
+    "lng": -71.13914220000001,
+    "hours": {
+      "regular": {
+        "sun": {
+          "open": "11:00",
+          "close": "16:00"
+        },
+        "mon": {
+          "open": "09:30",
+          "close": "17:30"
+        },
+        "tue": {
+          "open": "09:30",
+          "close": "17:30"
+        },
+        "wed": {
+          "open": "09:30",
+          "close": "17:30"
+        },
+        "thu": {
+          "open": "09:30",
+          "close": "19:00"
+        },
+        "fri": {
+          "open": "09:30",
+          "close": "17:30"
+        },
+        "sat": {
+          "open": "09:30",
+          "close": "17:30"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:23.525Z"
+  },
+  {
+    "id": "omnia",
+    "name": "Omnia",
+    "category": "shops",
+    "placeId": "ChIJ1-CH91gJ44kR_PFP0eINoJc",
+    "phone": "(978) 346-6999",
+    "address": "15 Railroad St #2, Andover",
+    "lat": 42.6582946,
+    "lng": -71.1446533,
+    "hours": {
+      "regular": {
+        "sun": null,
+        "mon": null,
+        "tue": {
+          "open": "10:00",
+          "close": "16:00"
+        },
+        "wed": {
+          "open": "13:00",
+          "close": "18:00"
+        },
+        "thu": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "fri": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "sat": {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:23.810Z"
+  },
+  {
+    "id": "royal-jewelers",
+    "name": "Royal Jewelers",
+    "category": "shops",
+    "placeId": "ChIJI50PWokI44kRBprx3S6dVUI",
+    "phone": "(978) 475-3330",
+    "address": "58 Main St, Andover",
+    "lat": 42.6556597,
+    "lng": -71.1397918,
+    "hours": {
+      "regular": {
+        "sun": null,
+        "mon": {
+          "open": "10:00",
+          "close": "17:30"
+        },
+        "tue": {
+          "open": "10:00",
+          "close": "17:30"
+        },
+        "wed": {
+          "open": "10:00",
+          "close": "17:30"
+        },
+        "thu": {
+          "open": "10:00",
+          "close": "19:00"
+        },
+        "fri": {
+          "open": "10:00",
+          "close": "17:30"
+        },
+        "sat": {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      },
+      "overrides": []
+    },
+    "lastUpdated": "2026-07-06T13:48:24.094Z"
   }
 ]
