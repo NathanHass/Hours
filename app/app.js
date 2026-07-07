@@ -294,6 +294,27 @@ function render(businesses) {
 let activeFilters = new Set();
 let statusFilter = "open"; // null | "open" — defaults to showing open-now
 
+// Restore filter state from the URL hash (#open=1&cat=restaurant) if present.
+// A hash carrying our params is authoritative; a bare URL keeps the defaults.
+// Using the hash (not a query string) keeps the offline cache match intact.
+(function initFiltersFromURL() {
+  const params = new URLSearchParams(location.hash.slice(1));
+  if (params.has("open")) {
+    statusFilter = params.get("open") === "1" ? "open" : null;
+  }
+  const cat = params.get("cat");
+  if (cat) activeFilters.add(cat);
+})();
+
+// Persist current filter state to the URL hash so it survives reload / can be shared.
+function writeFiltersToURL() {
+  const params = new URLSearchParams();
+  params.set("open", statusFilter === "open" ? "1" : "0");
+  const cat = [...activeFilters][0];
+  if (cat) params.set("cat", cat);
+  history.replaceState(null, "", `#${params.toString()}`);
+}
+
 function syncFilterButtons() {
   document.querySelectorAll(".filter-btn").forEach((b) => {
     const on = b.dataset.status
@@ -305,6 +326,7 @@ function syncFilterButtons() {
 
 function applyFilters() {
   renderList();
+  writeFiltersToURL();
   document.getElementById("business-list").scrollTop = 0;
   window.scrollTo(0, 0);
 }
