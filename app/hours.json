@@ -2043,51 +2043,6 @@
     "lastUpdated": "2026-07-07T01:52:49.738Z"
   },
   {
-    "id": "den-rock-north-andover",
-    "name": "Den Rock Wine & Spirits",
-    "category": "package stores",
-    "placeId": "ChIJOaMTXyMG44kR1JXNTZNJhrc",
-    "phone": "(978) 683-2216",
-    "address": "54 Peters St, North Andover",
-    "lat": 42.6753012,
-    "lng": -71.1265742,
-    "website": "http://denrockstore.com/",
-    "hours": {
-      "regular": {
-        "sun": {
-          "open": "10:00",
-          "close": "22:00"
-        },
-        "mon": {
-          "open": "09:00",
-          "close": "22:00"
-        },
-        "tue": {
-          "open": "09:00",
-          "close": "22:00"
-        },
-        "wed": {
-          "open": "09:00",
-          "close": "22:00"
-        },
-        "thu": {
-          "open": "09:00",
-          "close": "22:00"
-        },
-        "fri": {
-          "open": "09:00",
-          "close": "23:00"
-        },
-        "sat": {
-          "open": "09:00",
-          "close": "23:00"
-        }
-      },
-      "overrides": []
-    },
-    "lastUpdated": "2026-07-07T01:52:50.022Z"
-  },
-  {
     "id": "taste-of-the-vineyard",
     "name": "A Taste of The Vineyard",
     "category": "package stores",
