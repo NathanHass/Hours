@@ -136,6 +136,13 @@ html, body {
   display: block;
 }
 
+/* Empty-state message (e.g. nothing open right now) */
+.empty-msg {
+  padding: 20px 16px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
 /* Business list */
 #business-list {
   position: fixed;

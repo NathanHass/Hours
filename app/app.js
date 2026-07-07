@@ -271,6 +271,14 @@ function renderList() {
     }
   }
 
+  if (!list.querySelector(".biz-row")) {
+    const empty = document.createElement("li");
+    empty.className = "empty-msg";
+    empty.textContent =
+      statusFilter === "open" ? "Nothing open now." : "No matches.";
+    list.appendChild(empty);
+  }
+
   document.getElementById("clear-btn").classList.toggle("visible", hasFilters);
   updateTimestamp();
 }

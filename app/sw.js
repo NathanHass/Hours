@@ -1,4 +1,4 @@
-const CACHE = 'hours-20260707-oak-iron-brewery';
+const CACHE = 'hours-20260707-empty-state';
 const APP_SHELL = ["./", "./index.html", "./style.css", "./app.js", "./sw.js"];
 
 self.addEventListener("install", (e) => {
