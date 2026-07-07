@@ -304,5 +304,11 @@
     "name": "Tree House Brewing",
     "category": "breweries",
     "placeId": "ChIJ4WJ3V5Oh44kRn9iYpe2wE8c"
+  },
+  {
+    "id": "pita-thyme",
+    "name": "Pita Thyme",
+    "category": "restaurant",
+    "placeId": "ChIJI1HM3zEH44kRc1LQpn3dC7I"
   }
 ]
