@@ -1,4 +1,4 @@
-const CACHE = 'hours-20260707-url-state';
+const CACHE = 'hours-20260707-clear-tweaks';
 const APP_SHELL = ["./", "./index.html", "./style.css", "./app.js", "./sw.js"];
 
 self.addEventListener("install", (e) => {

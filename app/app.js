@@ -242,7 +242,6 @@ function renderList() {
 
   const matchesStatus = (biz) =>
     !statusFilter || getStatus(biz, now).isOpen === (statusFilter === "open");
-  const hasFilters = activeFilters.size > 0 || statusFilter !== null;
 
   if (activeFilters.size === 0) {
     // No category filter → keep the grouped, category-labeled view.
@@ -279,7 +278,10 @@ function renderList() {
     list.appendChild(empty);
   }
 
-  document.getElementById("clear-btn").classList.toggle("visible", hasFilters);
+  // Clear is only for category filters — Open Now alone doesn't show it
+  document
+    .getElementById("clear-btn")
+    .classList.toggle("visible", activeFilters.size > 0);
   updateTimestamp();
 }
 
@@ -351,8 +353,8 @@ document.getElementById("filter-bar").addEventListener("click", (e) => {
 });
 
 document.getElementById("clear-btn").addEventListener("click", () => {
+  // Clear only category filters; leave the Open Now status untouched
   activeFilters.clear();
-  statusFilter = null;
   syncFilterButtons();
   applyFilters();
 });

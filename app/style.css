@@ -77,7 +77,7 @@ html, body {
 #open-now-btn {
   flex-shrink: 0;
   align-self: center;
-  margin: 0 10px 0 16px;
+  margin: 0 10px;
 }
 
 #filter-scroll::-webkit-scrollbar {
